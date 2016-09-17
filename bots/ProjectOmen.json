@@ -49,7 +49,8 @@
     "strange",
     "unnerving",
     "noneuclidean",
-    "monotonous"
+    "monotonous",
+    "muffled"
   ],
   "lights": [
     "lights",
@@ -124,7 +125,7 @@
     "can keep #bad_thing# away",
     "will prevent delays",
     "will prevent cost cutting",
-    "pivotting to oblivion",
+    "will avoid pivotting to oblivion",
     "avoid the end of all things",
     "delay the apocalypse",
     "will keep the portal closed"
@@ -178,7 +179,14 @@
   "bad_thing_against_you": [
     "has joined #join_thing#",
     "is plotting against you",
-    "is haunted by its past"
+    "is haunted by #haunted#"
+  ],
+  "haunted": [
+    "its past",
+    "memories of a past existence",
+    "a book he shouldn't have opened",
+    "memories of #bad_adjective# planet",
+    "#noise_adjective# #noises#"
   ],
   "join_thing": [
     "#bad_adjective# #cult_type#",
@@ -224,7 +232,8 @@
     "an unspeakable",
     "a forgotten",
     "an old",
-    "a mysterious"
+    "a mysterious",
+    "a distant"
   ],
   "good_thing_to_do": [
     "unit tests",
