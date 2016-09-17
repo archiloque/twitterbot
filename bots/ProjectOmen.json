@@ -6,6 +6,7 @@
     "#time_moment#, #sign_content#."
   ],
   "time_moment": [
+    "During the night",
     "At dawn",
     "At dusk",
     "At #night_hour# o'clock",
@@ -24,10 +25,20 @@
   "sign_content": [
     "the #animal# howled",
     "the #it_roles# #animals_did_things#",
+    "the #it_roles# #people_change#",
     "the #animal# #animals_did_things#",
     "#celestial_body# #celestial_body_action#",
     "#noise_adjective# noises came from #strange_place#",
-    "#light_adjective# lights came from #strange_place#"
+    "#light_adjective# lights came from #strange_place#",
+    "your #seniority##it_role# dreamt of #strange_place#",
+    "your #seniority##it_role# dreamt of #cult_adjective# #cult_type#",
+    "your #seniority##it_role# read a book about #strange_place#"
+  ],
+  "people_change": [
+    "has become ambidextrous",
+    "has become an emacs enthusiast",
+    "has become an archlinux enthusiast",
+    "is spoking in riddles"
   ],
   "noise_adjective": [
     "strange",
@@ -45,22 +56,29 @@
     "the forest",
     "the old schrine",
     "your version control system",
-    "a desecrated church"
+    "a desecrated church",
+    "the forgotten city",
+    "the mysterious place",
+    "the old cemetery"
   ],
   "celestial_body": [
     "the Moon",
     "the stars",
     "Mars",
-    "Venus"
+    "Venus",
+    "a planet"
   ],
   "celestial_body_action": [
     "disapeared behind the clouds",
-    "blinked"
+    "blinked",
+    "cried"
   ],
   "animals_did_things": [
     "went quiet",
     "looked at the sky",
-    "whispered"
+    "whispered",
+    "yodled",
+    "cried"
   ],
   "time_expression": [
     "moment",
@@ -81,21 +99,49 @@
   ],
   "consequence": [
     "Only #good_thing_to_do# can keep #bad_thing# away.",
-    "Your #it_role# #bad_thing_against_you#.",
-    "#project_element# #project_consequence#."
+    "Your #seniority##it_role# #bad_thing_against_you#.",
+    "Your #project_element# #project_consequence#.",
+    "Your #project_change# #change_fate#."
+  ],
+  "project_change": [
+    "refactoring",
+    "rewriting",
+    "reschedule",
+    "priority change",
+    "redesign"
+  ],
+  "change_fate": [
+    "is doomed",
+    "is cursed",
+    "is noneuclidean",
+    "will bring chaos",
+    "will bring destruction"
   ],
   "project_element": [
-    "Your post-it color",
-    "Your desk orientation",
-    "Your code alignment",
-    "Your choice of framework",
-    "Your class naming",
-    "Your database structure",
-    "Your version control system",
-    "Your desktop background",
-    "Your screensaver",
-    "Your bug workflow",
-    "Your daily standup"
+    "post-it color",
+    "desk orientation",
+    "code alignment",
+    "choice of framework",
+    "class naming",
+    "database structure",
+    "version control system",
+    "desktop background",
+    "screensaver",
+    "bug workflow",
+    "daily standup",
+    "cron schedule",
+    "code editor",
+    "server names",
+    "iterations durations",
+    "Kaban board",
+    "dependency management",
+    "issue tracking tool",
+    "agile dashboards",
+    "application servers",
+    "SQL queries",
+    "commit messages",
+    "agile rituals",
+    "user stories"
   ],
   "project_consequence": [
     "weakens the frontiers between the planes",
@@ -114,7 +160,17 @@
     "cult",
     "cabal",
     "ISO group",
-    "certification program"
+    "certification program",
+    "brotherhood",
+    "sisterhood",
+    "friendship",
+    "alliance",
+    "pantheons",
+    "gods",
+    "meetup",
+    "mailing list",
+    "IRC channel",
+    "Slack channel"
   ],
   "cult_adjective": [
     "an unholy",
@@ -128,7 +184,10 @@
     "unit tests",
     "good code formatting",
     "peer reviews",
-    "code refactoring"
+    "code refactoring",
+    "yodling",
+    "breakdancing",
+    "moonwalking"
   ],
   "bad_thing": [
     "#old_ones#",
@@ -139,7 +198,33 @@
     "UML models",
     "TOGAF model",
     "Larry Ellison",
-    "security audits"
+    "security audits",
+    "#bugs_topics# #bugs#",
+    "ugly PPT templates",
+    "deadlines",
+    "bad animated gifs",
+    "inspirational posters",
+    "design patterns",
+    "SCRUM certifications",
+    "devops consultants",
+    "enterprise middlewares",
+    "holacracy",
+    "detailed specifications"
+  ],
+  "bugs_topics": [
+    "security",
+    "performance",
+    "data integrity",
+    "deployment",
+    "uptime",
+    "compatibility"
+  ],
+  "bugs": [
+    "issues",
+    "bugs",
+    "problems",
+    "regressions",
+    "bugs"
   ],
   "it_role": [
     "developer",
@@ -148,6 +233,12 @@
     "DBA",
     "QA",
     "agile coach"
+  ],
+  "seniority": [
+    "",
+    "junior ",
+    "senior ",
+    "intern "
   ],
   "it_roles": [
     "developers",
