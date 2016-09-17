@@ -31,14 +31,15 @@
     "#noise_adjective# noises came from #strange_place#",
     "#light_adjective# lights came from #strange_place#",
     "your #seniority##it_role# dreamt of #strange_place#",
-    "your #seniority##it_role# dreamt of #cult_adjective# #cult_type#",
+    "your #seniority##it_role# dreamt of #bad_adjective# #cult_type#",
     "your #seniority##it_role# read a book about #strange_place#"
   ],
   "people_change": [
     "has become ambidextrous",
     "has become an emacs enthusiast",
     "has become an archlinux enthusiast",
-    "is spoking in riddles"
+    "is speaking Enochian",
+    "is speaking in riddles"
   ],
   "noise_adjective": [
     "strange",
@@ -52,14 +53,14 @@
     "flickering"
   ],
   "strange_place": [
-    "the swamp",
-    "the forest",
-    "the old schrine",
+    "#bad_adjective# swamp",
+    "#bad_adjective# forest",
+    "#bad_adjective# schrine",
     "your version control system",
     "a desecrated church",
-    "the forgotten city",
-    "the mysterious place",
-    "the old cemetery"
+    "#bad_adjective# city",
+    "#bad_adjective# place",
+    "#bad_adjective# cemetery"
   ],
   "celestial_body": [
     "the Moon",
@@ -150,10 +151,14 @@
   ],
   "bad_thing_against_you": [
     "has joined #join_thing#",
-    "is plotting against you"
+    "is plotting against you",
+    "is haunted by its past"
   ],
   "join_thing": [
-    "#cult_adjective# #cult_type#",
+    "#bad_adjective# #cult_type#",
+    "#bad_adjective# #cult_type#",
+    "#bad_adjective# #cult_type#",
+    "#bad_adjective# #cult_type#",
     "the illuminati"
   ],
   "cult_type": [
@@ -172,13 +177,28 @@
     "IRC channel",
     "Slack channel"
   ],
-  "cult_adjective": [
+  "bad_adjective": [
     "an unholy",
     "a dark",
     "an apocalyptic",
     "a forbidden",
     "a nameless",
-    "an ancient"
+    "an ancient",
+    "an abnormal",
+    "an antediluvian",
+    "a blasphemous",
+    "a cyclopean",
+    "a decadent",
+    "a daemoniac",
+    "an eldritch",
+    "a fungous",
+    "an immemorial",
+    "an indescribable",
+    "an unmentionable",
+    "an unspeakable",
+    "a forgotten",
+    "an old",
+    "a mysterious"
   ],
   "good_thing_to_do": [
     "unit tests",
