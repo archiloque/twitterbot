@@ -116,19 +116,25 @@
     "coffee machines"
   ],
   "consequence": [
-    "Only #good_thing_to_do# #bad_thing_to_avoid#.",
+    "Only #good_thing_to_do# #modal# #bad_thing_to_avoid#.",
     "Your #seniority##it_role# #bad_thing_against_you#.",
     "Your #project_element# #project_consequence#.",
     "Your #project_change# #change_fate#."
   ],
   "bad_thing_to_avoid": [
-    "can keep #bad_thing# away",
-    "will prevent delays",
-    "will prevent cost cutting",
-    "will avoid pivotting to oblivion",
+    "keep #bad_thing# away",
+    "prevent delays",
+    "prevent cost cutting",
+    "avoid pivotting to oblivion",
     "avoid the end of all things",
     "delay the apocalypse",
-    "will keep the portal closed"
+    "keep the portal closed"
+  ],
+  "modal": [
+    "will",
+    "may",
+    "could",
+    "should"
   ],
   "project_change": [
     "refactoring",
@@ -141,8 +147,8 @@
     "is doomed",
     "is cursed",
     "is noneuclidean",
-    "will bring chaos",
-    "will bring destruction"
+    "#modal# bring chaos",
+    "#modal# bring destruction"
   ],
   "project_element": [
     "post-it color",
@@ -174,7 +180,7 @@
   "project_consequence": [
     "weakens the frontiers between the planes",
     "fasten the inevitable",
-    "will bring your doom"
+    "#modal# bring your doom"
   ],
   "bad_thing_against_you": [
     "has joined #join_thing#",
@@ -247,7 +253,23 @@
     "incrusting your servers with ornaments",
     "engraving your servers",
     "changing the colors of your post-it",
-    "calling Nicolas Cage"
+    "calling Nicolas Cage",
+    "#charged_object# of #good_people#",
+    "#charged_object# of #good_people#",
+    "#charged_object# of #good_people#"
+  ],
+  "charged_object": [
+    "a sigil of",
+    "a portrait of",
+    "a statue of",
+    "a shrine dedicated to",
+    "an altar dedicated to"
+  ],
+  "good_people": [
+    "John McCarthy",
+    "Nicolas Cage",
+    "Ada Lovelace",
+    "Grace Hopper"
   ],
   "bad_thing": [
     "#old_ones#",
