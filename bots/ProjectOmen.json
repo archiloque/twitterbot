@@ -3,7 +3,7 @@
     "#sign# #consequence#"
   ],
   "sign": [
-    "#time_moment# #sign_content#."
+    "#time_moment#, #sign_content#."
   ],
   "time_moment": [
     "At dawn",
@@ -23,8 +23,44 @@
   ],
   "sign_content": [
     "the #animal# howled",
-    "the #animal# went quiet",
-    "the #animal# looked at the sky"
+    "the #it_roles# #animals_did_things#",
+    "the #animal# #animals_did_things#",
+    "#celestial_body# #celestial_body_action#",
+    "#noise_adjective# noises came from #strange_place#",
+    "#light_adjective# lights came from #strange_place#"
+  ],
+  "noise_adjective": [
+    "strange",
+    "unnerving",
+    "noneuclidean"
+  ],
+  "light_adjective": [
+    "strange",
+    "dark",
+    "unholy",
+    "flickering"
+  ],
+  "strange_place": [
+    "the swamp",
+    "the forest",
+    "the old schrine",
+    "your version control system",
+    "a desecrated church"
+  ],
+  "celestial_body": [
+    "the Moon",
+    "the stars",
+    "Mars",
+    "Venus"
+  ],
+  "celestial_body_action": [
+    "disapeared behind the clouds",
+    "blinked"
+  ],
+  "animals_did_things": [
+    "went quiet",
+    "looked at the sky",
+    "whispered"
   ],
   "time_expression": [
     "moment",
@@ -54,23 +90,39 @@
     "Your code alignment",
     "Your choice of framework",
     "Your class naming",
-    "Your database structure"
+    "Your database structure",
+    "Your version control system",
+    "Your desktop background",
+    "Your screensaver",
+    "Your bug workflow",
+    "Your daily standup"
   ],
   "project_consequence": [
     "weakens the frontiers between the planes",
-    "fasten the inevitable"
+    "fasten the inevitable",
+    "will bring your doom"
   ],
   "bad_thing_against_you": [
-    "has joined a #cult_adjective# #cult_type#",
+    "has joined #join_thing#",
     "is plotting against you"
+  ],
+  "join_thing": [
+    "#cult_adjective# #cult_type#",
+    "the illuminati"
   ],
   "cult_type": [
     "cult",
-    "cabal"
+    "cabal",
+    "ISO group",
+    "certification program"
   ],
   "cult_adjective": [
-    "unholy",
-    "dark"
+    "an unholy",
+    "a dark",
+    "an apocalyptic",
+    "a forbidden",
+    "a nameless",
+    "an ancient"
   ],
   "good_thing_to_do": [
     "unit tests",
@@ -80,7 +132,14 @@
   ],
   "bad_thing": [
     "#old_ones#",
-    "project managers"
+    "project managers",
+    "CMM certification",
+    "meta-urbanists",
+    "IBM products",
+    "UML models",
+    "TOGAF model",
+    "Larry Ellison",
+    "security audits"
   ],
   "it_role": [
     "developer",
@@ -89,6 +148,14 @@
     "DBA",
     "QA",
     "agile coach"
+  ],
+  "it_roles": [
+    "developers",
+    "UXes",
+    "testers",
+    "DBAs",
+    "QAs",
+    "agile coaches"
   ],
   "old_ones": [
     "Abholos",
@@ -255,13 +322,13 @@
     "Thanaroa",
     "Tharapithia",
     "Thasaidon",
-    "The Blackness from the Stars",
-    "The Cloud-Thing",
-    "The Dweller in the Gulf",
-    "The Green God",
-    "The Hydra",
-    "The Nameless Mist",
-    "The Worm that Gnaws in the Night",
+    "the Blackness from the Stars",
+    "the Cloud-Thing",
+    "the Dweller in the Gulf",
+    "the Green God",
+    "the Hydra",
+    "the Nameless Mist",
+    "the Worm that Gnaws in the Night",
     "Thog",
     "Toth",
     "Tru'nembra",
