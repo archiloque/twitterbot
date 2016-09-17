@@ -23,10 +23,10 @@
     "5"
   ],
   "sign_content": [
-    "the #animal# howled",
+    "the #animals# howled",
     "the #it_roles# #animals_did_things#",
     "the #it_roles# #people_change#",
-    "the #animal# #animals_did_things#",
+    "the #animals# #animals_did_things#",
     "#celestial_body# #celestial_body_action#",
     "#noise_adjective# noises came from #strange_place#",
     "#light_adjective# lights came from #strange_place#",
@@ -55,12 +55,16 @@
   "strange_place": [
     "#bad_adjective# swamp",
     "#bad_adjective# forest",
-    "#bad_adjective# schrine",
+    "#bad_adjective# shrine",
     "your version control system",
     "a desecrated church",
     "#bad_adjective# city",
     "#bad_adjective# place",
-    "#bad_adjective# cemetery"
+    "#bad_adjective# cemetery",
+    "#bad_adjective# place",
+    "#bad_adjective# temple",
+    "your database",
+    "your network"
   ],
   "celestial_body": [
     "the Moon",
@@ -91,12 +95,13 @@
     "calmest",
     "unholy"
   ],
-  "animal": [
+  "animals": [
     "cats",
     "owls",
     "nighthawks",
     "horses",
-    "wolves"
+    "wolves",
+    "coffee machines"
   ],
   "consequence": [
     "Only #good_thing_to_do# can keep #bad_thing# away.",
@@ -142,7 +147,8 @@
     "SQL queries",
     "commit messages",
     "agile rituals",
-    "user stories"
+    "user stories",
+    "network topology"
   ],
   "project_consequence": [
     "weakens the frontiers between the planes",
