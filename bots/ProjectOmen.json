@@ -28,8 +28,8 @@
     "the #it_roles# #people_change#",
     "the #animals# #animals_did_things#",
     "#celestial_body# #celestial_body_action#",
-    "#noise_adjective# noises came from #strange_place#",
-    "#light_adjective# lights came from #strange_place#",
+    "#noise_adjective# #noises# came from #strange_place#",
+    "#light_adjective# #lights# came from #strange_place#",
     "your #seniority##it_role# dreamt of #strange_place#",
     "your #seniority##it_role# dreamt of #bad_adjective# #cult_type#",
     "your #seniority##it_role# read a book about #strange_place#"
@@ -41,10 +41,21 @@
     "is speaking Enochian",
     "is speaking in riddles"
   ],
+  "noises": [
+    "noises",
+    "chants"
+  ],
   "noise_adjective": [
     "strange",
     "unnerving",
-    "noneuclidean"
+    "noneuclidean",
+    "monotonous"
+  ],
+  "lights": [
+    "lights",
+    "glows",
+    "beams",
+    "shadows"
   ],
   "light_adjective": [
     "strange",
@@ -104,10 +115,19 @@
     "coffee machines"
   ],
   "consequence": [
-    "Only #good_thing_to_do# can keep #bad_thing# away.",
+    "Only #good_thing_to_do# #bad_thing_to_avoid#.",
     "Your #seniority##it_role# #bad_thing_against_you#.",
     "Your #project_element# #project_consequence#.",
     "Your #project_change# #change_fate#."
+  ],
+  "bad_thing_to_avoid": [
+    "can keep #bad_thing# away",
+    "will prevent delays",
+    "will prevent cost cutting",
+    "pivotting to oblivion",
+    "avoid the end of all things",
+    "delay the apocalypse",
+    "will keep the portal closed"
   ],
   "project_change": [
     "refactoring",
@@ -213,7 +233,12 @@
     "code refactoring",
     "yodling",
     "breakdancing",
-    "moonwalking"
+    "moonwalking",
+    "changing your desk orientation",
+    "incrusting your servers with ornaments",
+    "engraving your servers",
+    "changing the colors of your post-it",
+    "calling Nicolas Cage"
   ],
   "bad_thing": [
     "#old_ones#",
