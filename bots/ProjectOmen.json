@@ -95,7 +95,8 @@
     "Your desktop background",
     "Your screensaver",
     "Your bug workflow",
-    "Your daily standup"
+    "Your daily standup",
+    "Your roadmap"
   ],
   "project_consequence": [
     "weakens the frontiers between the planes",
@@ -114,7 +115,8 @@
     "cult",
     "cabal",
     "ISO group",
-    "certification program"
+    "certification program",
+    "consortium"
   ],
   "cult_adjective": [
     "an unholy",
@@ -128,7 +130,7 @@
     "unit tests",
     "good code formatting",
     "peer reviews",
-    "code refactoring"
+    "code refactoring",
   ],
   "bad_thing": [
     "#old_ones#",
@@ -139,7 +141,9 @@
     "UML models",
     "TOGAF model",
     "Larry Ellison",
-    "security audits"
+    "security audits",
+    "Steve Ballmer",
+    "technical debt",
   ],
   "it_role": [
     "developer",
@@ -147,7 +151,10 @@
     "tester",
     "DBA",
     "QA",
-    "agile coach"
+    "agile coach",
+    "sysops",
+    "devops",
+    "support"
   ],
   "it_roles": [
     "developers",
@@ -155,7 +162,10 @@
     "testers",
     "DBAs",
     "QAs",
-    "agile coaches"
+    "agile coaches",
+    "sysops",
+    "devops",
+    "supports"
   ],
   "old_ones": [
     "Abholos",
