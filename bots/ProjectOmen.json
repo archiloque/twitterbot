@@ -3,7 +3,7 @@
     "#sign# #consequence#"
   ],
   "sign": [
-    "#time_moment#, #sign_content#."
+    "#time_moment# #sign_content#."
   ],
   "time_moment": [
     "At dawn",
