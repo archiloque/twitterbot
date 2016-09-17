@@ -143,6 +143,7 @@ fragments_groups_to_id = {}
 
 # Now create the graph
 rw 'digraph tracery {'
+rw "\tgraph [rankdir=LR];"
 
 # Declare the group
 fragments_groups.keys.each do |fragment_group_name|
