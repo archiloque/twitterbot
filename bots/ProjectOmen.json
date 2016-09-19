@@ -175,7 +175,8 @@
     "commit messages",
     "agile rituals",
     "user stories",
-    "network topology"
+    "network topology",
+    "roadmap"
   ],
   "project_consequence": [
     "weakens the frontiers between the planes",
@@ -215,7 +216,8 @@
     "meetup",
     "mailing list",
     "IRC channel",
-    "Slack channel"
+    "Slack channel",
+    "consortium"
   ],
   "bad_adjective": [
     "an unholy",
@@ -291,7 +293,9 @@
     "devops consultants",
     "enterprise middlewares",
     "holacracy",
-    "detailed specifications"
+    "detailed specifications",
+    "Steve Ballmer",
+    "technical debt"
   ],
   "bugs_topics": [
     "security",
@@ -314,7 +318,8 @@
     "tester",
     "DBA",
     "QA",
-    "agile coach"
+    "agile coach",
+    "support"
   ],
   "seniority": [
     "",
@@ -328,7 +333,10 @@
     "testers",
     "DBAs",
     "QAs",
-    "agile coaches"
+    "agile coaches",
+    "sysops",
+    "devops",
+    "supports"
   ],
   "old_ones": [
     "Abholos",
