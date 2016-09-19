@@ -187,7 +187,8 @@
   "bad_thing_against_you": [
     "has joined #join_thing#",
     "is plotting against you",
-    "is haunted by #haunted#"
+    "is haunted by #haunted#",
+    "has been poached by #join_thing#"
   ],
   "haunted": [
     "its past",
@@ -277,7 +278,8 @@
     "Grace Hopper"
   ],
   "bad_thing": [
-    "#old_ones#",
+    "#old_one#",
+    "monster",
     "project managers",
     "CMM certification",
     "meta-urbanists",
@@ -342,7 +344,12 @@
     "devops",
     "supports"
   ],
-  "old_ones": [
+  "monster": [
+    "fire vampires",
+    "vampires",
+    "zombies"
+  ],
+  "old_one": [
     "Abholos",
     "Abhoth",
     "Aiueb Gnshal",
