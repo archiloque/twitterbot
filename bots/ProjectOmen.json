@@ -39,7 +39,8 @@
     "has become an emacs enthusiast",
     "has become an archlinux enthusiast",
     "is speaking Enochian",
-    "is speaking in riddles"
+    "is speaking in riddles",
+    "has become empowered by #bad_adjective# power"
   ],
   "noises": [
     "noises",
@@ -217,7 +218,9 @@
     "mailing list",
     "IRC channel",
     "Slack channel",
-    "consortium"
+    "consortium",
+    "feature team",
+    "component team"
   ],
   "bad_adjective": [
     "an unholy",
@@ -295,7 +298,8 @@
     "holacracy",
     "detailed specifications",
     "Steve Ballmer",
-    "technical debt"
+    "technical debt",
+    "delivery managers"
   ],
   "bugs_topics": [
     "security",
