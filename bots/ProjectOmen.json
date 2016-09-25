@@ -40,11 +40,16 @@
     "has become an archlinux enthusiast",
     "is speaking Enochian",
     "is speaking in riddles",
-    "has become empowered by #bad_adjective# power"
+    "has become empowered by #bad_adjective# power",
+    "is enjoying XML"
   ],
   "noises": [
     "noises",
-    "chants"
+    "chants",
+    "algorithms",
+    "user stories",
+    "detailed specifications",
+    "personas"
   ],
   "noise_adjective": [
     "strange",
@@ -124,18 +129,19 @@
   ],
   "bad_thing_to_avoid": [
     "keep #bad_thing# away",
-    "prevent delays",
-    "prevent cost cutting",
-    "avoid pivotting to oblivion",
-    "avoid the end of all things",
-    "delay the apocalypse",
+    "#prevent# #bad_thing# from eating the world",
+    "#prevent# #bad_thing# from destroying the world",
     "keep the portal closed"
+  ],
+  "prevent": [
+    "prevent",
+    "forbid",
+    "impede"
   ],
   "modal": [
     "will",
     "may",
-    "could",
-    "should"
+    "could"
   ],
   "project_change": [
     "refactoring",
@@ -221,7 +227,8 @@
     "Slack channel",
     "consortium",
     "feature team",
-    "component team"
+    "component team",
+    "user group"
   ],
   "bad_adjective": [
     "an unholy",
@@ -245,7 +252,8 @@
     "a forgotten",
     "an old",
     "a mysterious",
-    "a distant"
+    "a distant",
+    "a user-centric"
   ],
   "good_thing_to_do": [
     "unit tests",
@@ -262,20 +270,28 @@
     "calling #good_people#",
     "#charged_object# of #good_people#",
     "#charged_object# of #good_people#",
-    "#charged_object# of #good_people#"
+    "#charged_object# of #good_people#",
+    "side effects",
+    "functional programming",
+    "Haskell",
+    "Lisp",
+    "metaprogramming"
   ],
   "charged_object": [
     "a sigil of",
     "a portrait of",
     "a statue of",
     "a shrine dedicated to",
-    "an altar dedicated to"
+    "an altar dedicated to",
+    "a blessing of",
+    "a manifesto from"
   ],
   "good_people": [
     "John McCarthy",
     "Nicolas Cage",
     "Ada Lovelace",
-    "Grace Hopper"
+    "Grace Hopper",
+    "Gerald Weinberg"
   ],
   "bad_thing": [
     "#old_one#",
@@ -301,7 +317,15 @@
     "detailed specifications",
     "Steve Ballmer",
     "technical debt",
-    "delivery managers"
+    "delivery managers",
+    "hackatons",
+    "C++ templates",
+    "delays",
+    "costs cutting",
+    "pivotting",
+    "the end of all things",
+    "the apocalypse",
+    "manifestos"
   ],
   "bugs_topics": [
     "security",
