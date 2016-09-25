@@ -49,7 +49,8 @@
     "algorithms",
     "user stories",
     "detailed specifications",
-    "personas"
+    "personas",
+    "ssh keys"
   ],
   "noise_adjective": [
     "strange",
@@ -71,6 +72,7 @@
     "flickering"
   ],
   "strange_place": [
+    "#bad_adjective# ssh keys",
     "#bad_adjective# swamp",
     "#bad_adjective# forest",
     "#bad_adjective# shrine",
@@ -101,7 +103,11 @@
     "looked at the sky",
     "whispered",
     "yodled",
-    "cried"
+    "cried",
+    "howled",
+    "ululated",
+    "roared",
+    "hide"
   ],
   "time_expression": [
     "moment",
