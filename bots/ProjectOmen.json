@@ -176,7 +176,6 @@
     "Kaban board",
     "dependency management",
     "issue tracking tool",
-    "agile dashboards",
     "application servers",
     "SQL queries",
     "commit messages",
@@ -328,7 +327,9 @@
     "manifestos",
     "deep learning",
     "big data",
-    "the IoT revolution"
+    "the IoT revolution",
+    "agile dashboards",
+    "velocity measurement"
   ],
   "bugs_topics": [
     "security",
