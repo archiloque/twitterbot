@@ -1,9 +1,6 @@
 {
   "origin": [
-    "#sign# #consequence#"
-  ],
-  "sign": [
-    "#time_moment#, #sign_content#."
+    "#time_moment#, #sign_content#. #consequence#"
   ],
   "time_moment": [
     "During the night",
@@ -25,7 +22,7 @@
   "sign_content": [
     "the #animals# howled",
     "the #it_roles# #animals_did_things#",
-    "the #it_roles# #people_change#",
+    "a #it_role# #people_change#",
     "the #animals# #animals_did_things#",
     "#celestial_body# #celestial_body_action#",
     "#noise_adjective# #noises# came from #strange_place#",
@@ -83,8 +80,11 @@
     "#bad_adjective# cemetery",
     "#bad_adjective# place",
     "#bad_adjective# temple",
+    "#bad_adjective# twitter handle",
+    "#bad_adjective# tumblr",
     "your database",
-    "your network"
+    "your network",
+    "#bad_adjective# OpenSSL security patch"
   ],
   "celestial_body": [
     "the Moon",
@@ -193,7 +193,8 @@
   "project_consequence": [
     "weakens the frontiers between the planes",
     "fasten the inevitable",
-    "#modal# bring your doom"
+    "#modal# bring your doom",
+    "alter the reality"
   ],
   "bad_thing_against_you": [
     "has joined #join_thing#",
@@ -280,7 +281,8 @@
     "functional programming",
     "Haskell",
     "Lisp",
-    "metaprogramming"
+    "metaprogramming",
+    "learning to play the theremin"
   ],
   "charged_object": [
     "a sigil of",
@@ -300,7 +302,7 @@
   ],
   "bad_thing": [
     "#old_one#",
-    "monster",
+    "monsters",
     "project managers",
     "CMM certification",
     "meta-urbanists",
@@ -335,7 +337,9 @@
     "big data",
     "the IoT revolution",
     "agile dashboards",
-    "velocity measurement"
+    "velocity measurement",
+    "LinkedIn endorsements",
+    "OpenSSL security patches"
   ],
   "bugs_topics": [
     "security",
