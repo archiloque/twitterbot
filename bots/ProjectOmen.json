@@ -137,6 +137,7 @@
     "keep #bad_thing# away",
     "#prevent# #bad_thing# from eating the world",
     "#prevent# #bad_thing# from destroying the world",
+    "#prevent# #bad_thing# from being elected",
     "keep the portal closed"
   ],
   "prevent": [
@@ -161,7 +162,8 @@
     "is cursed",
     "is noneuclidean",
     "#modal# bring chaos",
-    "#modal# bring destruction"
+    "#modal# bring destruction",
+    "is not Agile™"
   ],
   "project_element": [
     "post-it color",
@@ -234,7 +236,8 @@
     "consortium",
     "feature team",
     "component team",
-    "user group"
+    "user group",
+    "w3c group"
   ],
   "bad_adjective": [
     "an unholy",
@@ -274,15 +277,18 @@
     "engraving your servers",
     "changing the colors of your post-it",
     "calling #good_people#",
-    "#charged_object# of #good_people#",
-    "#charged_object# of #good_people#",
-    "#charged_object# of #good_people#",
+    "#charged_object# #good_people#",
+    "#charged_object# #good_people#",
+    "#charged_object# #good_people#",
     "side effects",
     "functional programming",
     "Haskell",
     "Lisp",
     "metaprogramming",
-    "learning to play the theremin"
+    "learning to play the theremin",
+    "longer german words",
+    "secret handshakes",
+    "more emojis"
   ],
   "charged_object": [
     "a sigil of",
@@ -291,14 +297,20 @@
     "a shrine dedicated to",
     "an altar dedicated to",
     "a blessing of",
-    "a manifesto from"
+    "a manifesto from",
+    "a tweet from",
+    "a Tumblr dedicated to",
+    "a musical about"
   ],
   "good_people": [
     "John McCarthy",
     "Nicolas Cage",
     "Ada Lovelace",
     "Grace Hopper",
-    "Gerald Weinberg"
+    "Gerald Weinberg",
+    "an exorcist",
+    "the grugq",
+    "John Carmack"
   ],
   "bad_thing": [
     "#old_one#",
@@ -339,7 +351,9 @@
     "agile dashboards",
     "velocity measurement",
     "LinkedIn endorsements",
-    "OpenSSL security patches"
+    "OpenSSL security patches",
+    "Yaoi",
+    "cyberthing"
   ],
   "bugs_topics": [
     "security",
@@ -380,12 +394,14 @@
     "agile coaches",
     "sysops",
     "devops",
-    "supports"
+    "supports",
+    "exorcist"
   ],
   "monster": [
     "fire vampires",
     "vampires",
-    "zombies"
+    "zombies",
+    "leeches",
   ],
   "old_one": [
     "Abholos",
