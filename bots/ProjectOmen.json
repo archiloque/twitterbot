@@ -131,7 +131,12 @@
     "Only #good_thing_to_do# #modal# #bad_thing_to_avoid#.",
     "Your #seniority##it_role# #bad_thing_against_you#.",
     "Your #project_element# #project_consequence#.",
-    "Your #project_change# #change_fate#."
+    "Your #project_change# #change_fate#.",
+    "Some #monster# #modal# #prevent# your next #practice#."
+  ],
+  "practice": [
+    "stand-up meeting",
+    "code review"
   ],
   "bad_thing_to_avoid": [
     "keep #bad_thing# away",
