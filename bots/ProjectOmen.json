@@ -20,10 +20,10 @@
     "5"
   ],
   "sign_content": [
-    "the #animals# howled",
     "the #it_roles# #animals_did_things#",
     "a #it_role# #people_change#",
     "the #animals# #animals_did_things#",
+    "the #not_animals_but_near# #animals_did_things#",
     "#celestial_body# #celestial_body_action#",
     "#noise_adjective# #noises# came from #strange_place#",
     "#light_adjective# #lights# came from #strange_place#",
@@ -69,7 +69,10 @@
     "flickering"
   ],
   "strange_place": [
-    "#bad_adjective# ssh keys",
+    "#bad_adjective# router",
+    "#bad_adjective# key manager",
+    "#bad_adjective# git repository",
+    "#bad_adjective# ssh key",
     "#bad_adjective# swamp",
     "#bad_adjective# forest",
     "#bad_adjective# shrine",
@@ -124,12 +127,19 @@
     "owls",
     "nighthawks",
     "horses",
-    "wolves",
-    "coffee machines"
+    "wolves"
+  ],
+  "not_animals_but_near": [
+    "coffee machines",
+    "wikis",
+    "patters"
   ],
   "consequence": [
     "Only #good_thing_to_do# #modal# #bad_thing_to_avoid#.",
+    "Only #good_thing_to_do# #modal# #bad_thing_to_avoid#.",
     "Your #seniority##it_role# #bad_thing_against_you#.",
+    "Your #seniority##it_role# #bad_thing_against_you#.",
+    "Your #project_element# #project_consequence#.",
     "Your #project_element# #project_consequence#.",
     "Your #project_change# #change_fate#."
   ],
@@ -262,7 +272,8 @@
     "an old",
     "a mysterious",
     "a distant",
-    "a user-centric"
+    "a user-centric",
+    "a lovecraftian"
   ],
   "good_thing_to_do": [
     "unit tests",
@@ -276,7 +287,7 @@
     "incrusting your servers with ornaments",
     "engraving your servers",
     "changing the colors of your post-it",
-    "calling #good_people#",
+    "#good_people#",
     "#charged_object# #good_people#",
     "#charged_object# #good_people#",
     "#charged_object# #good_people#",
@@ -288,7 +299,8 @@
     "learning to play the theremin",
     "longer german words",
     "secret handshakes",
-    "more emojis"
+    "more emojis",
+    "🐱 gifs"
   ],
   "charged_object": [
     "a sigil of",
@@ -341,7 +353,7 @@
     "C++ templates",
     "delays",
     "costs cutting",
-    "pivotting",
+    "pivot",
     "the end of all things",
     "the apocalypse",
     "manifestos",
@@ -353,7 +365,11 @@
     "LinkedIn endorsements",
     "OpenSSL security patches",
     "Yaoi",
-    "cyberthing"
+    "cyberthing",
+    "team building activities",
+    "enterprise social networks",
+    "enterprise wiki",
+    "best practices"
   ],
   "bugs_topics": [
     "security",
@@ -401,7 +417,7 @@
     "fire vampires",
     "vampires",
     "zombies",
-    "leeches",
+    "leeches"
   ],
   "old_one": [
     "Abholos",
