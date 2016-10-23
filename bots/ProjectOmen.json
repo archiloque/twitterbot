@@ -300,7 +300,8 @@
     "longer german words",
     "secret handshakes",
     "more emojis",
-    "🐱 gifs"
+    "🐱 gifs",
+    "🧀"
   ],
   "charged_object": [
     "a sigil of",
@@ -326,6 +327,7 @@
   ],
   "bad_thing": [
     "#old_one#",
+    "#bad_people#",
     "monsters",
     "project managers",
     "CMM certification",
@@ -333,7 +335,6 @@
     "IBM products",
     "UML models",
     "TOGAF model",
-    "Larry Ellison",
     "security audits",
     "#bugs_topics# #bugs#",
     "ugly PPT templates",
@@ -346,7 +347,6 @@
     "enterprise middlewares",
     "holacracy",
     "detailed specifications",
-    "Steve Ballmer",
     "technical debt",
     "delivery managers",
     "hackatons",
@@ -418,6 +418,12 @@
     "vampires",
     "zombies",
     "leeches"
+  ],
+  "bad_people": [
+    "Steve Ballmer",
+    "Larry Ellison",
+    "Peter Thiel",
+    "Paul Graham"
   ],
   "old_one": [
     "Abholos",
