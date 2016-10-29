@@ -76,7 +76,7 @@
     "#bad_adjective# swamp",
     "#bad_adjective# forest",
     "#bad_adjective# shrine",
-    "your version control system",
+    "#bad_adjective# VCS",
     "a desecrated church",
     "#bad_adjective# city",
     "#bad_adjective# place",
@@ -85,7 +85,10 @@
     "#bad_adjective# temple",
     "#bad_adjective# twitter handle",
     "#bad_adjective# tumblr",
+    "#bad_adjective# datalab",
+    "#bad_adjective# database",
     "your database",
+    "#bad_adjective# network",
     "your network",
     "#bad_adjective# OpenSSL security patch"
   ],
@@ -176,7 +179,7 @@
     "is not Agile™"
   ],
   "project_element": [
-    "post-it color",
+    "post-it color choice",
     "desk orientation",
     "code alignment",
     "choice of framework",
