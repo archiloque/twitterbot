@@ -146,7 +146,8 @@
     "Your #seniority##it_role# #bad_thing_against_you#.",
     "Your #project_element# #project_consequence#.",
     "Your #project_element# #project_consequence#.",
-    "Your #project_change# #change_fate#."
+    "Your #project_change# #change_fate#.",
+    "Your #project_change# has awaken #old_one#."
   ],
   "bad_thing_to_avoid": [
     "keep #bad_thing# away",
