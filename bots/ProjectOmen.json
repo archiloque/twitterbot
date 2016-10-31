@@ -148,7 +148,7 @@
     "Your #project_element# #project_consequence#.",
     "Your #project_change# #change_fate#.",
     "Your #project_change# has awaken #old_one#.",
-    "Some #bad_thing# #modal# #prevent# you  #good_thing_to_do#."
+    "Only #bad_thing# #modal# #prevent# you from #good_thing_to_do#."
   ],
   "bad_thing_to_avoid": [
     "keep #bad_thing# away",
