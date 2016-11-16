@@ -137,7 +137,7 @@
   "not_animals_but_near": [
     "coffee machines",
     "wikis",
-    "patters"
+    "design patterns"
   ],
   "consequence": [
     "Only #good_thing_to_do# #modal# #bad_thing_to_avoid#.",
@@ -160,7 +160,8 @@
   "prevent": [
     "prevent",
     "forbid",
-    "impede"
+    "impede",
+    "stop"
   ],
   "modal": [
     "will",
@@ -172,7 +173,15 @@
     "rewriting",
     "reschedule",
     "priority change",
-    "redesign"
+    "redesign",
+    "new graphic identity",
+    "new js framework",
+    "npm version",
+    "linux kernel version",
+    "linux distribution",
+    "PPT template",
+    "choice of memes",
+    "tumblr name"
   ],
   "change_fate": [
     "is doomed",
@@ -310,7 +319,9 @@
     "🐱 gifs",
     "🧀",
     "balloon animals",
-    "3rd normal form"
+    "3rd normal form",
+    "blanquette de veau",
+    "waffles"
   ],
   "charged_object": [
     "a sigil of",
@@ -382,7 +393,8 @@
     "enterprise wiki",
     "best practices",
     "balloon animals",
-    "5th normal form"
+    "5th normal form",
+    "Klout scores"
   ],
   "bugs_topics": [
     "security",
