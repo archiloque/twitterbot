@@ -12,6 +12,9 @@
     "#hero_masculin_maj# qui voulait #cadeau_complet#",
     "#hero_masculin_maj# qui vola #cadeau_complet#",
     "#hero_masculin_maj# #truc_general_masc#",
+    "#famille_masc# #hero_masculin_part# a disparu",
+    "#famille_fem# #hero_masculin_part# a disparue",
+
 
     "#hero_feminin_maj# qui voulait devenir #metier_fem#",
     "#hero_feminin_maj# qui voulait habiter #gentil_lieu_complet#",
@@ -24,58 +27,127 @@
     "#hero_feminin_maj# et #mechant_lieu_feminin#",
     "#hero_feminin_maj# qui voulait #cadeau_complet#",
     "#hero_feminin_maj# qui vola #cadeau_complet#",
-    "#hero_feminin_maj# #truc_general_fem#"
+    "#hero_feminin_maj# #truc_general_fem#",
+    "#famille_masc# #hero_feminin_part# a disparu",
+    "#famille_fem# #hero_feminin_part# a disparue"
+
   ],
+  "famille": {
+    "masc": [
+      "Le papa",
+      "Le grand-père",
+      "Le voisin",
+      "Le cousin"
+    ],
+    "fem": [
+      "La maman",
+      "La grand-mère",
+      "La voisine",
+      "La cousine"
+    ]
+  },
   "cadeau_complet": [
     "#cadeau_masc# #ajectif_cadeau_apres_masc#",
     "#cadeau_fem# #ajectif_cadeau_apres_fem#"
   ],
+  "hero_masculin_part": [
+    "#pronompart_gentil_adjectif_avant_masc# #metier_gentil_masc# #gentil_adjectif_apres_masc#",
+
+    "#pronompart_gentil_adjectif_avant_masc# #metier_gentil_masc#",
+    "#pronompart_metier_gentil_masc# #gentil_adjectif_apres_masc#",
+    "#pronompart_gentil_adjectif_avant_masc# #metier_gentil_masc#",
+    "#pronompart_metier_gentil_masc# #gentil_adjectif_apres_masc#",
+
+    "#pronompart_metier_gentil_masc#"
+  ],
+  "hero_feminin_part": [
+    "#pronompart_gentil_adjectif_avant_fem# #metier_gentil_fem# #gentil_adjectif_apres_fem#",
+
+    "#pronompart_gentil_adjectif_avant_fem# #metier_gentil_fem#",
+    "#pronompart_metier_gentil_fem# #gentil_adjectif_apres_fem#",
+    "#pronompart_gentil_adjectif_avant_fem# #metier_gentil_fem#",
+    "#pronompart_metier_gentil_fem# #gentil_adjectif_apres_fem#",
+
+    "#pronompart_metier_gentil_fem#"
+  ],
   "hero_masculin_maj": [
     "#Pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc# #gentil_adjectif_apres_masc#",
+
     "#Pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc#",
     "#Pronomdef_metier_gentil_masc# #gentil_adjectif_apres_masc#",
+    "#Pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc#",
+    "#Pronomdef_metier_gentil_masc# #gentil_adjectif_apres_masc#",
+
     "#Pronomdef_metier_gentil_masc#"
   ],
   "hero_feminin_maj": [
     "#Pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem# #gentil_adjectif_apres_fem#",
+
     "#Pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem#",
     "#Pronomdef_metier_gentil_fem# #gentil_adjectif_apres_fem#",
+    "#Pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem#",
+    "#Pronomdef_metier_gentil_fem# #gentil_adjectif_apres_fem#",
+
     "#Pronomdef_metier_gentil_fem#"
   ],
   "hero_masculin": [
     "#pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc# #gentil_adjectif_apres_masc#",
+
     "#pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc#",
     "#pronomdef_metier_gentil_masc# #gentil_adjectif_apres_masc#",
+    "#pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc#",
+    "#pronomdef_metier_gentil_masc# #gentil_adjectif_apres_masc#",
+
     "#pronomdef_metier_gentil_masc#"
   ],
   "hero_feminin": [
     "#pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem# #gentil_adjectif_apres_fem#",
+
     "#pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem#",
     "#pronomdef_metier_gentil_fem# #gentil_adjectif_apres_fem#",
+    "#pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem#",
+    "#pronomdef_metier_gentil_fem# #gentil_adjectif_apres_fem#",
+
     "#pronomdef_metier_gentil_fem#"
   ],
   "mechant_lieu_masculin": [
     "#pronomdef_mechant_lieu_masc#",
+
     "#pronomdef_adjectif_mechant_lieu_avant_masc# #mechant_lieu_masc#",
     "#pronomdef_mechant_lieu_masc# #adjectif_mechant_lieu_apres_masc#",
+    "#pronomdef_adjectif_mechant_lieu_avant_masc# #mechant_lieu_masc#",
+    "#pronomdef_mechant_lieu_masc# #adjectif_mechant_lieu_apres_masc#",
+
     "#pronomdef_adjectif_mechant_lieu_avant_masc# #mechant_lieu_masc# #adjectif_mechant_lieu_apres_masc#"
   ],
   "mechant_lieu_feminin": [
     "#pronomdef_mechant_lieu_fem#",
+
     "#pronomdef_adjectif_mechant_lieu_avant_fem# #mechant_lieu_fem#",
     "#pronomdef_mechant_lieu_fem# #adjectif_mechant_lieu_apres_fem#",
+    "#pronomdef_adjectif_mechant_lieu_avant_fem# #mechant_lieu_fem#",
+    "#pronomdef_mechant_lieu_fem# #adjectif_mechant_lieu_apres_fem#",
+
     "#pronomdef_adjectif_mechant_lieu_avant_fem# #mechant_lieu_fem# #adjectif_mechant_lieu_apres_fem#"
   ],
   "mechant_masculin": [
     "#pronomdef_metier_mechant_masc#",
+
     "#pronomdef_mechant_adjectif_avant_masc# #metier_mechant_masc#",
     "#pronomdef_metier_mechant_masc# #mechant_adjectif_apres_masc#",
+    "#pronomdef_mechant_adjectif_avant_masc# #metier_mechant_masc#",
+    "#pronomdef_metier_mechant_masc# #mechant_adjectif_apres_masc#",
+
     "#pronomdef_mechant_adjectif_avant_masc# #metier_mechant_masc# #mechant_adjectif_apres_masc#"
   ],
   "mechant_feminin": [
     "#pronomdef_metier_mechant_fem#",
+
     "#pronomdef_mechant_adjectif_avant_fem# #metier_mechant_fem#",
     "#pronomdef_metier_mechant_fem# #mechant_adjectif_apres_fem#",
+    "#pronomdef_mechant_adjectif_avant_fem# #metier_mechant_fem#",
+    "#pronomdef_metier_mechant_fem# #mechant_adjectif_apres_fem#",
+
     "#pronomdef_mechant_adjectif_avant_fem# #metier_mechant_fem# #mechant_adjectif_apres_fem#"
   ],
 
@@ -115,7 +187,8 @@
       "députée",
       "directrice de cabinet",
       "sénatrice",
-      "préfète"
+      "préfète",
+      "dessinatrice"
     ],
     "masc": [
       "magicien",
@@ -127,7 +200,8 @@
       "député",
       "directeur de cabinet",
       "sénateur",
-      "préfet"
+      "préfet",
+      "dessinateur"
     ]
   },
   "gentil_adjectif_avant": {
@@ -176,17 +250,24 @@
       "terrible",
       "innomable",
       "fantomatique",
-      "indicible"
+      "indicible",
+      "sévère",
+      "sadique",
+      "perfide",
+      "maléfique",
+      "horrible"
     ],
     "masc": [
       "méchant",
       "monstrueux",
-      "répugnant"
+      "répugnant",
+      "malveillant"
     ],
     "fem": [
       "méchante",
       "monstrueuse",
-      "répugnante"
+      "répugnante",
+      "malveillante"
     ]
   },
   "mechant_adjectif_apres": {
@@ -195,28 +276,20 @@
       "réactionnaire",
       "nihiliste",
       "islamo-gauchiste",
-      "centriste"
+      "centriste",
+      "ambidextre",
+      "nationaliste"
     ],
     "masc": [
-      "aigri"
+      "aigri",
+      "rabougri"
     ],
     "fem": [
-      "aigrie"
+      "aigrie",
+      "rabougrie"
     ]
   },
   "metier_gentil": {
-    "masc": [
-      "#animal_gentil_masc#",
-      "👦",
-      "🤴"
-    ],
-    "fem": [
-      "#animal_gentil_fem#",
-      "👧",
-      "👸"
-    ]
-  },
-  "animal_gentil": {
     "masc": [
       "🦊",
       "🐈",
@@ -226,7 +299,12 @@
       "🐼",
       "🦋",
       "👻",
-      "🐊"
+      "🐊",
+      "ourson",
+      "dinosaure",
+      "crocosaure",
+      "👦",
+      "🤴"
     ],
     "fem": [
       "loutre",
@@ -241,7 +319,42 @@
       "chatte",
       "hirondelle",
       "belette",
-      "🐢"
+      "🐢",
+      "🐛",
+      "👧",
+      "👸"
+    ]
+  },
+  "animal_gentil": {
+    "masc": [
+      "🦊",
+      "🐈",
+      "🐺",
+      "🐰",
+      "🐨",
+      "🐼",
+      "🦋",
+      "👻",
+      "🐊",
+      "ourson",
+      "dinosaure",
+      "crocosaure"
+    ],
+    "fem": [
+      "loutre",
+      "musaraigne",
+      "étoile de mer",
+      "🦄",
+      "🐞",
+      "🐜",
+      "🐭",
+      "🐝",
+      "ponette",
+      "chatte",
+      "hirondelle",
+      "belette",
+      "🐢",
+      "🐛"
     ]
   },
   "adjectif_mechant_lieu_avant": {
@@ -276,17 +389,20 @@
       "cimetière",
       "puis",
       "lac",
-      "hôtel de ville"
+      "hôtel de ville",
+      "abime"
     ],
     "fem": [
       "prison",
       "planète",
       "forêt",
-      "abime",
       "obscurité",
       "salle municipale",
       "grotte",
-      "armoire"
+      "armoire",
+      "cathédrale",
+      "église",
+      "chapelle"
     ]
   },
   "gentil_lieu_autre": [
@@ -294,7 +410,9 @@
     "sur la 🌝",
     "dans les étoiles",
     "dans une armoire",
-    "sous terre"
+    "sous terre",
+    "en province",
+    "à Angoulême"
   ],
   "gentil_lieu": {
     "masc": [
@@ -302,7 +420,8 @@
       "🌋",
       "🏜",
       "⛵",
-      "🐋"
+      "🐋",
+      "☃"
     ],
     "fem": [
       "⛰️",
@@ -328,7 +447,9 @@
   },
   "metier_mechant": {
     "*": [
-      "publicitaire"
+      "publicitaire",
+      "community manager",
+      "responsable communication"
     ],
     "masc": [
       "🐺",
@@ -339,7 +460,8 @@
       "🐉",
       "👻",
       "🐊",
-      "sénateur"
+      "sénateur",
+      "zombie"
     ],
     "fem": [
       "sorcière",
@@ -389,26 +511,35 @@
   },
   "truc_general": {
     "*": [
-      "n'a pas sommeil",
+      "qui n'a pas sommeil",
       "à l'école",
-      "a fait pipi dans sa culotte",
-      "a voté Mélanchon",
+      "qui a fait pipi dans sa culotte",
+      "qui a voté Mélanchon",
       "est de mauvaise humeur",
-      "a raté l'avion",
-      "est pour le travail le dimanche",
-      "traine sur Twitter",
-      "veut manger des frites",
+      "qui a raté l'avion",
+      "qui est pour le travail le dimanche",
+      "qui traine sur Twitter",
+      "qui veut manger des frites",
       "qui a mangé sa grand-mère",
-      "veut apprendre le web design",
-      "a perdu son téléphone",
-      "a épuisé son forfait Internet",
-      "qui trolle sur Internet"
+      "qui veut apprendre le web-design",
+      "qui a perdu son téléphone",
+      "qui a épuisé son forfait Internet",
+      "qui trolle sur Internet",
+      "qui aime les gif animées",
+      "qui a trop regardé la TV",
+      "qui veut monter sa startup",
+      "qui veut lever du capital-risque",
+      "qui veut organiser une messe noire",
+      "qui a vendu son âme",
+      "qui a lancé une OPA" ,
+      "qui veut passer l'aggrégation",
+      "qui veut entrer dans la fonction publique"
     ],
     "masc": [
-
+      "qui a été harcelé sur facebook"
     ],
     "fem": [
-
+      "qui a été harcelée sur facebook"
     ]
   }
 }

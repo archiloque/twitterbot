@@ -12,6 +12,8 @@
     "#hero_masculin_maj# qui voulait #cadeau_complet#",
     "#hero_masculin_maj# qui vola #cadeau_complet#",
     "#hero_masculin_maj# #truc_general_masc#",
+    "#famille_masc# #hero_masculin_part# a disparu",
+    "#famille_fem# #hero_masculin_part# a disparue",
     "#hero_feminin_maj# qui voulait devenir #metier_fem#",
     "#hero_feminin_maj# qui voulait habiter #gentil_lieu_complet#",
     "#hero_feminin_maj# qui habitait #gentil_lieu_complet#",
@@ -23,49 +25,35 @@
     "#hero_feminin_maj# et #mechant_lieu_feminin#",
     "#hero_feminin_maj# qui voulait #cadeau_complet#",
     "#hero_feminin_maj# qui vola #cadeau_complet#",
-    "#hero_feminin_maj# #truc_general_fem#"
+    "#hero_feminin_maj# #truc_general_fem#",
+    "#famille_masc# #hero_feminin_part# a disparu",
+    "#famille_fem# #hero_feminin_part# a disparue"
   ],
-  "truc_general_fem": [
-    "n'a pas sommeil",
-    "à l'école",
-    "a fait pipi dans sa culotte",
-    "a voté Mélanchon",
-    "est de mauvaise humeur",
-    "a raté l'avion",
-    "est pour le travail le dimanche",
-    "traine sur Twitter",
-    "veut manger des frites",
-    "qui a mangé sa grand-mère",
-    "veut apprendre le web design",
-    "a perdu son téléphone",
-    "a épuisé son forfait Internet",
-    "qui trolle sur Internet"
+  "hero_feminin_part": [
+    "#pronompart_gentil_adjectif_avant_fem# #metier_gentil_fem# #gentil_adjectif_apres_fem#",
+    "#pronompart_gentil_adjectif_avant_fem# #metier_gentil_fem#",
+    "#pronompart_metier_gentil_fem# #gentil_adjectif_apres_fem#",
+    "#pronompart_gentil_adjectif_avant_fem# #metier_gentil_fem#",
+    "#pronompart_metier_gentil_fem# #gentil_adjectif_apres_fem#",
+    "#pronompart_metier_gentil_fem#"
   ],
-  "hero_feminin_maj": [
-    "#Pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem# #gentil_adjectif_apres_fem#",
-    "#Pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem#",
-    "#Pronomdef_metier_gentil_fem# #gentil_adjectif_apres_fem#",
-    "#Pronomdef_metier_gentil_fem#"
-  ],
-  "Pronomdef_metier_gentil_fem": [
-    "La #animal_gentil_fem#",
-    "La 👧",
-    "La 👸"
-  ],
-  "animal_gentil_fem": [
-    "loutre",
-    "musaraigne",
-    "étoile de mer",
-    "🦄",
-    "🐞",
-    "🐜",
-    "🐭",
-    "🐝",
-    "ponette",
-    "chatte",
-    "hirondelle",
-    "belette",
-    "🐢"
+  "pronompart_metier_gentil_fem": [
+    "de la loutre",
+    "de la musaraigne",
+    "de l'étoile de mer",
+    "de la 🦄",
+    "de la 🐞",
+    "de la 🐜",
+    "de la 🐭",
+    "de la 🐝",
+    "de la ponette",
+    "de la chatte",
+    "de l'hirondelle",
+    "de la belette",
+    "de la 🐢",
+    "de la 🐛",
+    "de la 👧",
+    "de la 👸"
   ],
   "gentil_adjectif_apres_fem": [
     "rousse",
@@ -79,9 +67,95 @@
     "nihiliste"
   ],
   "metier_gentil_fem": [
-    "#animal_gentil_fem#",
+    "loutre",
+    "musaraigne",
+    "étoile de mer",
+    "🦄",
+    "🐞",
+    "🐜",
+    "🐭",
+    "🐝",
+    "ponette",
+    "chatte",
+    "hirondelle",
+    "belette",
+    "🐢",
+    "🐛",
     "👧",
     "👸"
+  ],
+  "pronompart_gentil_adjectif_avant_fem": [
+    "de la gentille",
+    "de la petite",
+    "de la jolie",
+    "de la douce",
+    "de l'incroyable",
+    "de la formidable",
+    "de l'adorable"
+  ],
+  "famille_fem": [
+    "La maman",
+    "La grand-mère",
+    "La voisine",
+    "La cousine"
+  ],
+  "famille_masc": [
+    "Le papa",
+    "Le grand-père",
+    "Le voisin",
+    "Le cousin"
+  ],
+  "truc_general_fem": [
+    "qui a été harcelée sur facebook",
+    "qui n'a pas sommeil",
+    "à l'école",
+    "qui a fait pipi dans sa culotte",
+    "qui a voté Mélanchon",
+    "est de mauvaise humeur",
+    "qui a raté l'avion",
+    "qui est pour le travail le dimanche",
+    "qui traine sur Twitter",
+    "qui veut manger des frites",
+    "qui a mangé sa grand-mère",
+    "qui veut apprendre le web-design",
+    "qui a perdu son téléphone",
+    "qui a épuisé son forfait Internet",
+    "qui trolle sur Internet",
+    "qui aime les gif animées",
+    "qui a trop regardé la TV",
+    "qui veut monter sa startup",
+    "qui veut lever du capital-risque",
+    "qui veut organiser une messe noire",
+    "qui a vendu son âme",
+    "qui a lancé une OPA",
+    "qui veut passer l'aggrégation",
+    "qui veut entrer dans la fonction publique"
+  ],
+  "hero_feminin_maj": [
+    "#Pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem# #gentil_adjectif_apres_fem#",
+    "#Pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem#",
+    "#Pronomdef_metier_gentil_fem# #gentil_adjectif_apres_fem#",
+    "#Pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem#",
+    "#Pronomdef_metier_gentil_fem# #gentil_adjectif_apres_fem#",
+    "#Pronomdef_metier_gentil_fem#"
+  ],
+  "Pronomdef_metier_gentil_fem": [
+    "La loutre",
+    "La musaraigne",
+    "L'étoile de mer",
+    "La 🦄",
+    "La 🐞",
+    "La 🐜",
+    "La 🐭",
+    "La 🐝",
+    "La ponette",
+    "La chatte",
+    "L'hirondelle",
+    "La belette",
+    "La 🐢",
+    "La 🐛",
+    "La 👧",
+    "La 👸"
   ],
   "Pronomdef_gentil_adjectif_avant_fem": [
     "La gentille",
@@ -124,7 +198,8 @@
     "une chatte",
     "une hirondelle",
     "une belette",
-    "une 🐢"
+    "une 🐢",
+    "une 🐛"
   ],
   "ajectif_cadeau_apres_masc": [
     "brillant",
@@ -157,10 +232,15 @@
     "un 🐼",
     "un 🦋",
     "un 👻",
-    "un 🐊"
+    "un 🐊",
+    "un ourson",
+    "un dinosaure",
+    "un crocosaure"
   ],
   "mechant_lieu_feminin": [
     "#pronomdef_mechant_lieu_fem#",
+    "#pronomdef_adjectif_mechant_lieu_avant_fem# #mechant_lieu_fem#",
+    "#pronomdef_mechant_lieu_fem# #adjectif_mechant_lieu_apres_fem#",
     "#pronomdef_adjectif_mechant_lieu_avant_fem# #mechant_lieu_fem#",
     "#pronomdef_mechant_lieu_fem# #adjectif_mechant_lieu_apres_fem#",
     "#pronomdef_adjectif_mechant_lieu_avant_fem# #mechant_lieu_fem# #adjectif_mechant_lieu_apres_fem#"
@@ -176,11 +256,13 @@
     "prison",
     "planète",
     "forêt",
-    "abime",
     "obscurité",
     "salle municipale",
     "grotte",
-    "armoire"
+    "armoire",
+    "cathédrale",
+    "église",
+    "chapelle"
   ],
   "pronomdef_adjectif_mechant_lieu_avant_fem": [
     "la vieille"
@@ -189,14 +271,18 @@
     "la prison",
     "la planète",
     "la forêt",
-    "l'abime",
     "l'obscurité",
     "la salle municipale",
     "la grotte",
-    "l'armoire"
+    "l'armoire",
+    "la cathédrale",
+    "l'église",
+    "la chapelle"
   ],
   "mechant_lieu_masculin": [
     "#pronomdef_mechant_lieu_masc#",
+    "#pronomdef_adjectif_mechant_lieu_avant_masc# #mechant_lieu_masc#",
+    "#pronomdef_mechant_lieu_masc# #adjectif_mechant_lieu_apres_masc#",
     "#pronomdef_adjectif_mechant_lieu_avant_masc# #mechant_lieu_masc#",
     "#pronomdef_mechant_lieu_masc# #adjectif_mechant_lieu_apres_masc#",
     "#pronomdef_adjectif_mechant_lieu_avant_masc# #mechant_lieu_masc# #adjectif_mechant_lieu_apres_masc#"
@@ -214,7 +300,8 @@
     "cimetière",
     "puis",
     "lac",
-    "hôtel de ville"
+    "hôtel de ville",
+    "abime"
   ],
   "pronomdef_adjectif_mechant_lieu_avant_masc": [
     "le vieux"
@@ -225,21 +312,27 @@
     "le cimetière",
     "le puis",
     "le lac",
-    "le hôtel de ville"
+    "l'hôtel de ville",
+    "l'abime"
   ],
   "mechant_feminin": [
     "#pronomdef_metier_mechant_fem#",
+    "#pronomdef_mechant_adjectif_avant_fem# #metier_mechant_fem#",
+    "#pronomdef_metier_mechant_fem# #mechant_adjectif_apres_fem#",
     "#pronomdef_mechant_adjectif_avant_fem# #metier_mechant_fem#",
     "#pronomdef_metier_mechant_fem# #mechant_adjectif_apres_fem#",
     "#pronomdef_mechant_adjectif_avant_fem# #metier_mechant_fem# #mechant_adjectif_apres_fem#"
   ],
   "mechant_adjectif_apres_fem": [
     "aigrie",
+    "rabougrie",
     "raciste",
     "réactionnaire",
     "nihiliste",
     "islamo-gauchiste",
-    "centriste"
+    "centriste",
+    "ambidextre",
+    "nationaliste"
   ],
   "metier_mechant_fem": [
     "sorcière",
@@ -247,16 +340,24 @@
     "🌪",
     "☄",
     "ghoule",
-    "publicitaire"
+    "publicitaire",
+    "community manager",
+    "responsable communication"
   ],
   "pronomdef_mechant_adjectif_avant_fem": [
     "la méchante",
     "la monstrueuse",
     "la répugnante",
+    "la malveillante",
     "la terrible",
     "l'innomable",
     "la fantomatique",
-    "l'indicible"
+    "l'indicible",
+    "la sévère",
+    "la sadique",
+    "la perfide",
+    "la maléfique",
+    "l'horrible"
   ],
   "pronomdef_metier_mechant_fem": [
     "la sorcière",
@@ -264,21 +365,28 @@
     "la 🌪",
     "la ☄",
     "la ghoule",
-    "la publicitaire"
+    "la publicitaire",
+    "la community manager",
+    "la responsable communication"
   ],
   "mechant_masculin": [
     "#pronomdef_metier_mechant_masc#",
+    "#pronomdef_mechant_adjectif_avant_masc# #metier_mechant_masc#",
+    "#pronomdef_metier_mechant_masc# #mechant_adjectif_apres_masc#",
     "#pronomdef_mechant_adjectif_avant_masc# #metier_mechant_masc#",
     "#pronomdef_metier_mechant_masc# #mechant_adjectif_apres_masc#",
     "#pronomdef_mechant_adjectif_avant_masc# #metier_mechant_masc# #mechant_adjectif_apres_masc#"
   ],
   "mechant_adjectif_apres_masc": [
     "aigri",
+    "rabougri",
     "raciste",
     "réactionnaire",
     "nihiliste",
     "islamo-gauchiste",
-    "centriste"
+    "centriste",
+    "ambidextre",
+    "nationaliste"
   ],
   "metier_mechant_masc": [
     "🐺",
@@ -290,16 +398,25 @@
     "👻",
     "🐊",
     "sénateur",
-    "publicitaire"
+    "zombie",
+    "publicitaire",
+    "community manager",
+    "responsable communication"
   ],
   "pronomdef_mechant_adjectif_avant_masc": [
     "le méchant",
     "le monstrueux",
     "le répugnant",
+    "le malveillant",
     "le terrible",
     "l'innomable",
     "le fantomatique",
-    "l'indicible"
+    "l'indicible",
+    "le sévère",
+    "le sadique",
+    "le perfide",
+    "le maléfique",
+    "l'horrible"
   ],
   "pronomdef_metier_mechant_masc": [
     "le 🐺",
@@ -311,16 +428,34 @@
     "le 👻",
     "le 🐊",
     "le sénateur",
-    "le publicitaire"
+    "le zombie",
+    "le publicitaire",
+    "le community manager",
+    "le responsable communication"
   ],
   "hero_feminin": [
     "#pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem# #gentil_adjectif_apres_fem#",
     "#pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem#",
     "#pronomdef_metier_gentil_fem# #gentil_adjectif_apres_fem#",
+    "#pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem#",
+    "#pronomdef_metier_gentil_fem# #gentil_adjectif_apres_fem#",
     "#pronomdef_metier_gentil_fem#"
   ],
   "pronomdef_metier_gentil_fem": [
-    "la #animal_gentil_fem#",
+    "la loutre",
+    "la musaraigne",
+    "l'étoile de mer",
+    "la 🦄",
+    "la 🐞",
+    "la 🐜",
+    "la 🐭",
+    "la 🐝",
+    "la ponette",
+    "la chatte",
+    "l'hirondelle",
+    "la belette",
+    "la 🐢",
+    "la 🐛",
     "la 👧",
     "la 👸"
   ],
@@ -337,23 +472,25 @@
     "#pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc# #gentil_adjectif_apres_masc#",
     "#pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc#",
     "#pronomdef_metier_gentil_masc# #gentil_adjectif_apres_masc#",
+    "#pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc#",
+    "#pronomdef_metier_gentil_masc# #gentil_adjectif_apres_masc#",
     "#pronomdef_metier_gentil_masc#"
   ],
   "pronomdef_metier_gentil_masc": [
-    "le #animal_gentil_masc#",
+    "le 🦊",
+    "le 🐈",
+    "le 🐺",
+    "le 🐰",
+    "le 🐨",
+    "le 🐼",
+    "le 🦋",
+    "le 👻",
+    "le 🐊",
+    "l'ourson",
+    "le dinosaure",
+    "le crocosaure",
     "le 👦",
     "le 🤴"
-  ],
-  "animal_gentil_masc": [
-    "🦊",
-    "🐈",
-    "🐺",
-    "🐰",
-    "🐨",
-    "🐼",
-    "🦋",
-    "👻",
-    "🐊"
   ],
   "gentil_adjectif_apres_masc": [
     "roux",
@@ -367,7 +504,18 @@
     "nihiliste"
   ],
   "metier_gentil_masc": [
-    "#animal_gentil_masc#",
+    "🦊",
+    "🐈",
+    "🐺",
+    "🐰",
+    "🐨",
+    "🐼",
+    "🦋",
+    "👻",
+    "🐊",
+    "ourson",
+    "dinosaure",
+    "crocosaure",
     "👦",
     "🤴"
   ],
@@ -404,7 +552,8 @@
     "le 🌋",
     "le 🏜",
     "le ⛵",
-    "le 🐋"
+    "le 🐋",
+    "le ☃"
   ],
   "gentil_lieu_fem": [
     "⛰️",
@@ -425,7 +574,8 @@
     "🌋",
     "🏜",
     "⛵",
-    "🐋"
+    "🐋",
+    "☃"
   ],
   "pronomdef_adjectif_gentil_lieu_masc": [
     "le grand",
@@ -445,7 +595,8 @@
     "un 🌋",
     "un 🏜",
     "un ⛵",
-    "un 🐋"
+    "un 🐋",
+    "un ☃"
   ],
   "pronomindef_adjectif_gentil_lieu_fem": [
     "une grande",
@@ -463,7 +614,9 @@
     "sur la 🌝",
     "dans les étoiles",
     "dans une armoire",
-    "sous terre"
+    "sous terre",
+    "en province",
+    "à Angoulême"
   ],
   "metier_fem": [
     "magicienne",
@@ -477,6 +630,7 @@
     "directrice de cabinet",
     "sénatrice",
     "préfète",
+    "dessinatrice",
     "astronaute",
     "célèbre",
     "riche",
@@ -488,30 +642,86 @@
     "pilote",
     "ministre"
   ],
+  "hero_masculin_part": [
+    "#pronompart_gentil_adjectif_avant_masc# #metier_gentil_masc# #gentil_adjectif_apres_masc#",
+    "#pronompart_gentil_adjectif_avant_masc# #metier_gentil_masc#",
+    "#pronompart_metier_gentil_masc# #gentil_adjectif_apres_masc#",
+    "#pronompart_gentil_adjectif_avant_masc# #metier_gentil_masc#",
+    "#pronompart_metier_gentil_masc# #gentil_adjectif_apres_masc#",
+    "#pronompart_metier_gentil_masc#"
+  ],
+  "pronompart_metier_gentil_masc": [
+    "du 🦊",
+    "du 🐈",
+    "du 🐺",
+    "du 🐰",
+    "du 🐨",
+    "du 🐼",
+    "du 🦋",
+    "du 👻",
+    "du 🐊",
+    "de l'ourson",
+    "du dinosaure",
+    "du crocosaure",
+    "du 👦",
+    "du 🤴"
+  ],
+  "pronompart_gentil_adjectif_avant_masc": [
+    "du gentil",
+    "du petit",
+    "du joli",
+    "du doux",
+    "de l'incroyable",
+    "du formidable",
+    "de l'adorable"
+  ],
   "truc_general_masc": [
-    "n'a pas sommeil",
+    "qui a été harcelé sur facebook",
+    "qui n'a pas sommeil",
     "à l'école",
-    "a fait pipi dans sa culotte",
-    "a voté Mélanchon",
+    "qui a fait pipi dans sa culotte",
+    "qui a voté Mélanchon",
     "est de mauvaise humeur",
-    "a raté l'avion",
-    "est pour le travail le dimanche",
-    "traine sur Twitter",
-    "veut manger des frites",
+    "qui a raté l'avion",
+    "qui est pour le travail le dimanche",
+    "qui traine sur Twitter",
+    "qui veut manger des frites",
     "qui a mangé sa grand-mère",
-    "veut apprendre le web design",
-    "a perdu son téléphone",
-    "a épuisé son forfait Internet",
-    "qui trolle sur Internet"
+    "qui veut apprendre le web-design",
+    "qui a perdu son téléphone",
+    "qui a épuisé son forfait Internet",
+    "qui trolle sur Internet",
+    "qui aime les gif animées",
+    "qui a trop regardé la TV",
+    "qui veut monter sa startup",
+    "qui veut lever du capital-risque",
+    "qui veut organiser une messe noire",
+    "qui a vendu son âme",
+    "qui a lancé une OPA",
+    "qui veut passer l'aggrégation",
+    "qui veut entrer dans la fonction publique"
   ],
   "hero_masculin_maj": [
     "#Pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc# #gentil_adjectif_apres_masc#",
     "#Pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc#",
     "#Pronomdef_metier_gentil_masc# #gentil_adjectif_apres_masc#",
+    "#Pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc#",
+    "#Pronomdef_metier_gentil_masc# #gentil_adjectif_apres_masc#",
     "#Pronomdef_metier_gentil_masc#"
   ],
   "Pronomdef_metier_gentil_masc": [
-    "Le #animal_gentil_masc#",
+    "Le 🦊",
+    "Le 🐈",
+    "Le 🐺",
+    "Le 🐰",
+    "Le 🐨",
+    "Le 🐼",
+    "Le 🦋",
+    "Le 👻",
+    "Le 🐊",
+    "L'ourson",
+    "Le dinosaure",
+    "Le crocosaure",
     "Le 👦",
     "Le 🤴"
   ],
@@ -535,6 +745,7 @@
     "directeur de cabinet",
     "sénateur",
     "préfet",
+    "dessinateur",
     "astronaute",
     "célèbre",
     "riche",

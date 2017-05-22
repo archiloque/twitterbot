@@ -57,13 +57,23 @@ end
 
 PRONOM_DEF_PREFIX_NORMAL = 'pronomdef'
 PRONOM_DEF_PREFIX_UP = 'Pronomdef'
+
 PRONOM_INDEF_PREFIX_NORMAL = 'pronomindef'
 PRONOM_INDEF_PREFIX_UP = 'Pronomindef'
+
+PRONOM_PART = 'pronompart'
+
 MASC_SUFFIX = 'masc'
 FEM_SUFFIX = 'fem'
 ALL_KIND = '*'
-VOVELS = ['a', 'e', 'i', 'o', 'u', 'é', 'è', 'ê']
-PRONOMS = [PRONOM_DEF_PREFIX_NORMAL, PRONOM_DEF_PREFIX_UP, PRONOM_INDEF_PREFIX_NORMAL, PRONOM_INDEF_PREFIX_UP]
+VOVELS = ['a', 'e', 'i', 'o', 'u', 'é', 'è', 'ê', 'h']
+PRONOMS = [
+  PRONOM_DEF_PREFIX_NORMAL,
+  PRONOM_DEF_PREFIX_UP,
+  PRONOM_INDEF_PREFIX_NORMAL,
+  PRONOM_INDEF_PREFIX_UP,
+  PRONOM_PART
+]
 
 def fetch_group_content(group_name)
   found_pronom = PRONOMS.find{|pronom| group_name.start_with?(pronom)}
@@ -115,6 +125,15 @@ def fetch_group_content(group_name)
           elsif found_pronom == PRONOM_INDEF_PREFIX_UP
             return group_candidate.collect do |item|
               "#{(gender == MASC_SUFFIX) ? 'Un' : 'Une'} #{item}"
+            end
+          elsif found_pronom == PRONOM_PART
+            return group_candidate.collect do |item|
+              found_vovel = VOVELS.find{|v| item.start_with?(v)}
+              if found_vovel
+                "de l'#{item}"
+              else
+                "#{(gender == MASC_SUFFIX) ? 'du' : 'de la'} #{item}"
+              end
             end
           else
             raise "Unknown pronom [#{found_pronom}]"
