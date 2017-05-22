@@ -43,7 +43,7 @@
     "is leveraging",
     "is mandatory to leverage",
     "is instrumental for",
-    "throught"
+    "through"
   ],
   "transition_plural": [
     "enable",
@@ -54,7 +54,7 @@
     "are leveraging",
     "are mandatory to leverage",
     "are instrumental for",
-    "throught"
+    "through"
   ],
   "company": [
     "Google",
@@ -125,7 +125,13 @@
     "rapid",
     "adaptive",
     "sad",
-    "cyclopean"
+    "cyclopean",
+    "synergic",
+    "iguanid",
+    "amorphous",
+    "oviparous",
+    "\\#incremental",
+    "fluffy"
   ],
   "thing": [
     "#thing_singular#",
@@ -180,7 +186,15 @@
     "\\#data-mining",
     "\\#blockchain",
     "\\#IoT",
-    "\\#craftmanship"
+    "\\#craftmanship",
+    "\\#thoughtleadership",
+    "\\#cybersecurity",
+    "\\#mobilility",
+    "🧀",
+    "quantum computing",
+    "\\#WYSIWIG",
+    "\\#HATEOAS",
+    "\\#state_machines"
   ],
   "thing_plural": [
     "messages",
@@ -201,6 +215,11 @@
     "\\#metrics",
     "\\#microservices",
     "\\#metamodels",
-    "\\#containers"
+    "\\#containers",
+    "\\#synergies",
+    "\\#early_adopters",
+    "animated gifs",
+    "enterprise social networks",
+    "enterprise wikis"
   ]
 }

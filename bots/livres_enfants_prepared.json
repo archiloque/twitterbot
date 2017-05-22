@@ -1,0 +1,366 @@
+{
+  "origin": [
+    "#hero_masculin_maj# qui voulait devenir #metier_masc#",
+    "#hero_masculin_maj# qui voulait habiter #gentil_lieu_complet#",
+    "#hero_masculin_maj# qui habitait #gentil_lieu_complet#",
+    "#hero_masculin_maj# et #hero_masculin#",
+    "#hero_masculin_maj# et #hero_feminin#",
+    "#hero_masculin_maj# et #mechant_masculin#",
+    "#hero_masculin_maj# et #mechant_feminin#",
+    "#hero_masculin_maj# et #mechant_lieu_masculin#",
+    "#hero_masculin_maj# et #mechant_lieu_feminin#",
+    "#hero_masculin_maj# qui voulait #cadeau_masc#",
+    "#hero_masculin_maj# qui voulait #cadeau_fem#",
+    "#hero_feminin_maj# qui voulait devenir #metier_fem#",
+    "#hero_feminin_maj# qui voulait habiter #gentil_lieu_complet#",
+    "#hero_feminin_maj# qui habitait #gentil_lieu_complet#",
+    "#hero_feminin_maj# et #hero_masculin#",
+    "#hero_feminin_maj# et #hero_feminin#",
+    "#hero_feminin_maj# et #mechant_masculin#",
+    "#hero_feminin_maj# et #mechant_feminin#",
+    "#hero_feminin_maj# et #mechant_lieu_masculin#",
+    "#hero_feminin_maj# et #mechant_lieu_feminin#",
+    "#hero_feminin_maj# qui voulait #cadeau_masc#",
+    "#hero_feminin_maj# qui voulait #cadeau_fem#"
+  ],
+  "cadeau_fem": [
+    "une 🎸",
+    "#pronomindef_animal_gentil_fem#"
+  ],
+  "pronomindef_animal_gentil_fem": [
+    "une loutre",
+    "une musaraigne",
+    "l'étoile de mer",
+    "une 🦄",
+    "une 🐞",
+    "une 🐜",
+    "une 🐭"
+  ],
+  "hero_feminin_maj": [
+    "#Pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem# #gentil_adjectif_apres_fem#",
+    "#Pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem#",
+    "#Pronomdef_metier_gentil_fem# #gentil_adjectif_apres_fem#",
+    "#Pronomdef_metier_gentil_fem#"
+  ],
+  "Pronomdef_metier_gentil_fem": [
+    "La #animal_gentil_fem#",
+    "La 👧",
+    "La 👸"
+  ],
+  "animal_gentil_fem": [
+    "loutre",
+    "musaraigne",
+    "étoile de mer",
+    "🦄",
+    "🐞",
+    "🐜",
+    "🐭"
+  ],
+  "gentil_adjectif_apres_fem": [
+    "rousse",
+    "courageuse",
+    "têtue",
+    "maladroite"
+  ],
+  "metier_gentil_fem": [
+    "#animal_gentil_fem#",
+    "👧",
+    "👸"
+  ],
+  "Pronomdef_gentil_adjectif_avant_fem": [
+    "La gentille",
+    "La petite",
+    "L'incroyable"
+  ],
+  "cadeau_masc": [
+    "un 🎷",
+    "un 🎁",
+    "un légo",
+    "un grille-pain",
+    "un 🎻",
+    "un 🥁",
+    "#pronomindef_animal_gentil_masc#"
+  ],
+  "pronomindef_animal_gentil_masc": [
+    "un 🦊",
+    "un 🐈",
+    "un 🐺",
+    "un 🐰",
+    "un 🐨",
+    "un 🐼",
+    "un 🦋",
+    "un 👻"
+  ],
+  "mechant_lieu_feminin": [
+    "#pronomdef_mechant_lieu_fem#",
+    "#pronomdef_mechant_lieu_fem# #adjectif_mechant_lieu_fem#"
+  ],
+  "adjectif_mechant_lieu_fem": [
+    "hantée",
+    "vieille",
+    "ricanante",
+    "innomable",
+    "indescriptible",
+    "indicible"
+  ],
+  "pronomdef_mechant_lieu_fem": [
+    "la prison",
+    "la planète",
+    "la forêt",
+    "l'abime",
+    "l'obscurité"
+  ],
+  "mechant_lieu_masculin": [
+    "#pronomdef_mechant_lieu_masc#",
+    "#pronomdef_mechant_lieu_masc# #adjectif_mechant_lieu_masc#"
+  ],
+  "adjectif_mechant_lieu_masc": [
+    "hanté",
+    "vieux",
+    "ricanant",
+    "innomable",
+    "indescriptible",
+    "indicible"
+  ],
+  "pronomdef_mechant_lieu_masc": [
+    "le désert",
+    "le manoir",
+    "le cimetière"
+  ],
+  "mechant_feminin": [
+    "#pronomdef_metier_mechant_fem#",
+    "#pronomdef_mechant_adjectif_avant_fem# #metier_mechant_fem#",
+    "#pronomdef_metier_mechant_fem# #mechant_adjectif_apres_fem#",
+    "#pronomdef_mechant_adjectif_avant_fem# #metier_mechant_fem# #mechant_adjectif_apres_fem#"
+  ],
+  "mechant_adjectif_apres_fem": [
+    "aigrie",
+    "raciste",
+    "réactionnaire"
+  ],
+  "metier_mechant_fem": [
+    "sorcière",
+    "institutrice",
+    "🌪",
+    "☄",
+    "ghoule"
+  ],
+  "pronomdef_mechant_adjectif_avant_fem": [
+    "la méchante",
+    "la monstrueuse",
+    "la répugnante",
+    "la terrible",
+    "l'innomable",
+    "la fantomatique",
+    "l'indicible"
+  ],
+  "pronomdef_metier_mechant_fem": [
+    "la sorcière",
+    "l'institutrice",
+    "la 🌪",
+    "la ☄",
+    "la ghoule"
+  ],
+  "mechant_masculin": [
+    "#pronomdef_metier_mechant_masc#",
+    "#pronomdef_mechant_adjectif_avant_masc# #metier_mechant_masc#",
+    "#pronomdef_metier_mechant_masc# #mechant_adjectif_apres_masc#",
+    "#pronomdef_mechant_adjectif_avant_masc# #metier_mechant_masc# #mechant_adjectif_apres_masc#"
+  ],
+  "mechant_adjectif_apres_masc": [
+    "aigri",
+    "raciste",
+    "réactionnaire"
+  ],
+  "metier_mechant_masc": [
+    "🐺",
+    "roi",
+    "premier ministre",
+    "ministre de l'intérieur",
+    "instituteur",
+    "🐉",
+    "👻"
+  ],
+  "pronomdef_mechant_adjectif_avant_masc": [
+    "le méchant",
+    "le monstrueux",
+    "le répugnant",
+    "le terrible",
+    "l'innomable",
+    "le fantomatique",
+    "l'indicible"
+  ],
+  "pronomdef_metier_mechant_masc": [
+    "le 🐺",
+    "le roi",
+    "le premier ministre",
+    "le ministre de l'intérieur",
+    "l'instituteur",
+    "le 🐉",
+    "le 👻"
+  ],
+  "hero_feminin": [
+    "#pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem# #gentil_adjectif_apres_fem#",
+    "#pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem#",
+    "#pronomdef_metier_gentil_fem# #gentil_adjectif_apres_fem#",
+    "#pronomdef_metier_gentil_fem#"
+  ],
+  "pronomdef_metier_gentil_fem": [
+    "la #animal_gentil_fem#",
+    "la 👧",
+    "la 👸"
+  ],
+  "pronomdef_gentil_adjectif_avant_fem": [
+    "la gentille",
+    "la petite",
+    "l'incroyable"
+  ],
+  "hero_masculin": [
+    "#pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc# #gentil_adjectif_apres_masc#",
+    "#pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc#",
+    "#pronomdef_metier_gentil_masc# #gentil_adjectif_apres_masc#",
+    "#pronomdef_metier_gentil_masc#"
+  ],
+  "pronomdef_metier_gentil_masc": [
+    "le #animal_gentil_masc#",
+    "le 👦",
+    "le 🤴"
+  ],
+  "animal_gentil_masc": [
+    "🦊",
+    "🐈",
+    "🐺",
+    "🐰",
+    "🐨",
+    "🐼",
+    "🦋",
+    "👻"
+  ],
+  "gentil_adjectif_apres_masc": [
+    "roux",
+    "courageux",
+    "têtu",
+    "maladroit"
+  ],
+  "metier_gentil_masc": [
+    "#animal_gentil_masc#",
+    "👦",
+    "🤴"
+  ],
+  "pronomdef_gentil_adjectif_avant_masc": [
+    "le gentil",
+    "le petit",
+    "l'incroyable"
+  ],
+  "gentil_lieu_complet": [
+    "#gentil_lieu_autre#",
+    "#pronomindef_adjectif_gentil_lieu_masc# #gentil_lieu_masc#",
+    "#pronomindef_adjectif_gentil_lieu_fem# #gentil_lieu_fem#",
+    "#pronomindef_gentil_lieu_masc#",
+    "#pronomindef_gentil_lieu_fem#",
+    "#pronomdef_adjectif_gentil_lieu_masc# #gentil_lieu_masc#",
+    "#pronomdef_adjectif_gentil_lieu_fem# #gentil_lieu_fem#",
+    "#pronomdef_gentil_lieu_masc#",
+    "#pronomdef_gentil_lieu_fem#"
+  ],
+  "pronomdef_gentil_lieu_fem": [
+    "la ⛰️",
+    "la 🏔️",
+    "la forêt",
+    "la ⛺",
+    "la 🚀",
+    "la ☄"
+  ],
+  "pronomdef_gentil_lieu_masc": [
+    "l'igloo",
+    "le 🌋",
+    "le 🏜",
+    "le ⛵",
+    "le 🐋"
+  ],
+  "gentil_lieu_fem": [
+    "⛰️",
+    "🏔️",
+    "forêt",
+    "⛺",
+    "🚀",
+    "☄"
+  ],
+  "pronomdef_adjectif_gentil_lieu_fem": [
+    "la grande",
+    "la petite",
+    "la lointaine",
+    "la vieille"
+  ],
+  "gentil_lieu_masc": [
+    "igloo",
+    "🌋",
+    "🏜",
+    "⛵",
+    "🐋"
+  ],
+  "pronomdef_adjectif_gentil_lieu_masc": [
+    "le grand",
+    "le petit",
+    "le lointain"
+  ],
+  "pronomindef_gentil_lieu_fem": [
+    "une ⛰️",
+    "une 🏔️",
+    "une forêt",
+    "une ⛺",
+    "une 🚀",
+    "une ☄"
+  ],
+  "pronomindef_gentil_lieu_masc": [
+    "l'igloo",
+    "un 🌋",
+    "un 🏜",
+    "un ⛵",
+    "un 🐋"
+  ],
+  "pronomindef_adjectif_gentil_lieu_fem": [
+    "une grande",
+    "une petite",
+    "une lointaine",
+    "une vieille"
+  ],
+  "pronomindef_adjectif_gentil_lieu_masc": [
+    "un grand",
+    "un petit",
+    "un lointain"
+  ],
+  "gentil_lieu_autre": [
+    "sous la mer",
+    "sur la 🌝",
+    "dans les étoiles",
+    "dans une armoire",
+    "sous terre"
+  ],
+  "metier_fem": [
+    "magicienne",
+    "astronaute",
+    "présidente"
+  ],
+  "hero_masculin_maj": [
+    "#Pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc# #gentil_adjectif_apres_masc#",
+    "#Pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc#",
+    "#Pronomdef_metier_gentil_masc# #gentil_adjectif_apres_masc#",
+    "#Pronomdef_metier_gentil_masc#"
+  ],
+  "Pronomdef_metier_gentil_masc": [
+    "Le #animal_gentil_masc#",
+    "Le 👦",
+    "Le 🤴"
+  ],
+  "Pronomdef_gentil_adjectif_avant_masc": [
+    "Le gentil",
+    "Le petit",
+    "L'incroyable"
+  ],
+  "metier_masc": [
+    "magicien",
+    "astronaute",
+    "président"
+  ]
+}
