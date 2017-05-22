@@ -1,36 +1,31 @@
 {
   "origin": [
-    "#hero_masculin_maj# qui voulait devenir #metier_masc#",
-    "#hero_masculin_maj# qui voulait habiter #gentil_lieu_complet#",
-    "#hero_masculin_maj# qui habitait #gentil_lieu_complet#",
-    "#hero_masculin_maj# et #hero_masculin#",
-    "#hero_masculin_maj# et #hero_feminin#",
-    "#hero_masculin_maj# et #mechant_masculin#",
-    "#hero_masculin_maj# et #mechant_feminin#",
-    "#hero_masculin_maj# et #mechant_lieu_masculin#",
-    "#hero_masculin_maj# et #mechant_lieu_feminin#",
-    "#hero_masculin_maj# qui voulait #cadeau_complet#",
-    "#hero_masculin_maj# qui vola #cadeau_complet#",
-    "#hero_masculin_maj# #truc_general_masc#",
-    "#famille_masc# #hero_masculin_part# a disparu",
+    "#hero_maj# qui voulait habiter #gentil_lieu_complet#",
+    "#hero_maj# qui habitait #gentil_lieu_complet#",
+    "#hero_maj# et #hero#",
+    "#hero_maj# qui se maria avec #hero#",
+
+    "#hero_maj# et #mechant_complet#",
+    "#hero_maj# et #mechant_lieu_complet#",
+
+    "#hero_maj# qui voulait #cadeau_complet#",
+    "#hero_maj# qui vola #cadeau_complet#",
+    "#hero_maj# qui a cassé #cadeau_complet_possessif#",
+
+    "#famille_masc# #hero_feminin_part# a disparu",
     "#famille_fem# #hero_masculin_part# a disparue",
 
+    "#hero_masculin_maj# qui voulait devenir #metier_masc#",
+    "#hero_masculin_maj# #truc_general_masc#",
+    "#hero_masculin_maj# s'est faché avec #hero#",
 
     "#hero_feminin_maj# qui voulait devenir #metier_fem#",
-    "#hero_feminin_maj# qui voulait habiter #gentil_lieu_complet#",
-    "#hero_feminin_maj# qui habitait #gentil_lieu_complet#",
-    "#hero_feminin_maj# et #hero_masculin#",
-    "#hero_feminin_maj# et #hero_feminin#",
-    "#hero_feminin_maj# et #mechant_masculin#",
-    "#hero_feminin_maj# et #mechant_feminin#",
-    "#hero_feminin_maj# et #mechant_lieu_masculin#",
-    "#hero_feminin_maj# et #mechant_lieu_feminin#",
-    "#hero_feminin_maj# qui voulait #cadeau_complet#",
-    "#hero_feminin_maj# qui vola #cadeau_complet#",
     "#hero_feminin_maj# #truc_general_fem#",
-    "#famille_masc# #hero_feminin_part# a disparu",
-    "#famille_fem# #hero_feminin_part# a disparue"
-
+    "#hero_feminin_maj# s'est fachée avec #hero#"
+  ],
+  "hero_maj": [
+    "#hero_masculin_maj#",
+    "#hero_feminin_maj#"
   ],
   "famille": {
     "masc": [
@@ -49,6 +44,10 @@
   "cadeau_complet": [
     "#cadeau_masc# #ajectif_cadeau_apres_masc#",
     "#cadeau_fem# #ajectif_cadeau_apres_fem#"
+  ],
+  "cadeau_complet_possessif": [
+    "#cadeau_possessif_masc# #ajectif_cadeau_apres_masc#",
+    "#cadeau_possessif_fem# #ajectif_cadeau_apres_fem#"
   ],
   "hero_masculin_part": [
     "#pronompart_gentil_adjectif_avant_masc# #metier_gentil_masc# #gentil_adjectif_apres_masc#",
@@ -90,6 +89,10 @@
 
     "#Pronomdef_metier_gentil_fem#"
   ],
+  "hero": [
+    "#hero_masculin#",
+    "#hero_feminin#"
+  ],
   "hero_masculin": [
     "#pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc# #gentil_adjectif_apres_masc#",
 
@@ -110,7 +113,11 @@
 
     "#pronomdef_metier_gentil_fem#"
   ],
-  "mechant_lieu_masculin": [
+  "mechant_lieu_complet": [
+    "#mechant_lieu_complet_masculin#",
+    "#mechant_lieu_complet_feminin#"
+  ],
+  "mechant_lieu_complet_masculin": [
     "#pronomdef_mechant_lieu_masc#",
 
     "#pronomdef_adjectif_mechant_lieu_avant_masc# #mechant_lieu_masc#",
@@ -120,7 +127,7 @@
 
     "#pronomdef_adjectif_mechant_lieu_avant_masc# #mechant_lieu_masc# #adjectif_mechant_lieu_apres_masc#"
   ],
-  "mechant_lieu_feminin": [
+  "mechant_lieu_complet_feminin": [
     "#pronomdef_mechant_lieu_fem#",
 
     "#pronomdef_adjectif_mechant_lieu_avant_fem# #mechant_lieu_fem#",
@@ -130,7 +137,11 @@
 
     "#pronomdef_adjectif_mechant_lieu_avant_fem# #mechant_lieu_fem# #adjectif_mechant_lieu_apres_fem#"
   ],
-  "mechant_masculin": [
+  "mechant_complet": [
+    "#mechant_complet_masculin#",
+    "#mechant_complet_feminin#"
+  ],
+  "mechant_complet_masculin": [
     "#pronomdef_metier_mechant_masc#",
 
     "#pronomdef_mechant_adjectif_avant_masc# #metier_mechant_masc#",
@@ -140,7 +151,7 @@
 
     "#pronomdef_mechant_adjectif_avant_masc# #metier_mechant_masc# #mechant_adjectif_apres_masc#"
   ],
-  "mechant_feminin": [
+  "mechant_complet_feminin": [
     "#pronomdef_metier_mechant_fem#",
 
     "#pronomdef_mechant_adjectif_avant_fem# #metier_mechant_fem#",
@@ -214,13 +225,15 @@
       "gentil",
       "petit",
       "joli",
-      "doux"
+      "doux",
+      "courageux"
     ],
     "fem": [
       "gentille",
       "petite",
       "jolie",
-      "douce"
+      "douce",
+      "courageuse"
     ]
   },
   "gentil_adjectif_apres": {
@@ -232,14 +245,12 @@
     ],
     "masc": [
       "roux",
-      "courageux",
       "têtu",
       "maladroit",
       "paresseux"
     ],
     "fem": [
       "rousse",
-      "courageuse",
       "têtue",
       "maladroite",
       "paresseuse"
@@ -486,6 +497,21 @@
     "fem": [
       "une 🎸",
       "#pronomindef_animal_gentil_fem#"
+    ]
+  },
+  "cadeau_possessif": {
+    "masc": [
+      "son 🎷",
+      "son 🎁",
+      "son légo",
+      "son grille-pain",
+      "son 🎻",
+      "son 🥁",
+      "usonn ✈️",
+      "son gaufrier"
+    ],
+    "fem": [
+      "sa 🎸"
     ]
   },
   "ajectif_cadeau_apres": {
