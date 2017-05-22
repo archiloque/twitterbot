@@ -272,13 +272,15 @@
       "méchant",
       "monstrueux",
       "répugnant",
-      "malveillant"
+      "malveillant",
+      "maudit"
     ],
     "fem": [
       "méchante",
       "monstrueuse",
       "répugnante",
-      "malveillante"
+      "malveillante",
+      "maudit"
     ]
   },
   "mechant_adjectif_apres": {
@@ -460,7 +462,8 @@
     "*": [
       "publicitaire",
       "community manager",
-      "responsable communication"
+      "responsable communication",
+      "lobbyiste"
     ],
     "masc": [
       "🐺",
@@ -472,14 +475,16 @@
       "👻",
       "🐊",
       "sénateur",
-      "zombie"
+      "zombie",
+      "consultant"
     ],
     "fem": [
       "sorcière",
       "institutrice",
       "🌪",
       "☄",
-      "ghoule"
+      "ghoule",
+      "consultante"
     ]
   },
   "cadeau": {
@@ -492,11 +497,16 @@
       "un 🥁",
       "un ✈️",
       "un gaufrier",
+      "un tazzer",
       "#pronomindef_animal_gentil_masc#"
     ],
     "fem": [
       "une 🎸",
-      "#pronomindef_animal_gentil_fem#"
+      "une mandoline",
+      "une peluche",
+      "#pronomindef_animal_gentil_fem#",
+      "une 🍕",
+      "une écharpe"
     ]
   },
   "cadeau_possessif": {
@@ -508,10 +518,15 @@
       "son 🎻",
       "son 🥁",
       "usonn ✈️",
-      "son gaufrier"
+      "son gaufrier",
+      "son tazzer"
     ],
     "fem": [
-      "sa 🎸"
+      "sa 🎸",
+      "sa mandoline",
+      "sa peluche",
+      "sa 🍕",
+      "son écharpe"
     ]
   },
   "ajectif_cadeau_apres": {
@@ -520,19 +535,21 @@
       "orange",
       "jaune",
       "rose",
-      "majestueux"
+      "gonflable"
     ],
     "masc": [
       "brillant",
       "vert",
       "bleu",
-      "doré"
+      "doré",
+      "majestueux"
     ],
     "fem": [
       "brillante",
       "verte",
       "bleue",
-      "dorée"
+      "dorée",
+      "majestueuse"
     ]
   },
   "truc_general": {
@@ -545,21 +562,26 @@
       "qui a raté l'avion",
       "qui est pour le travail le dimanche",
       "qui traine sur Twitter",
-      "qui veut manger des frites",
+      "qui voulait manger des frites",
       "qui a mangé sa grand-mère",
-      "qui veut apprendre le web-design",
+      "qui voulait apprendre le web-design",
       "qui a perdu son téléphone",
       "qui a épuisé son forfait Internet",
       "qui trolle sur Internet",
       "qui aime les gif animées",
       "qui a trop regardé la TV",
-      "qui veut monter sa startup",
-      "qui veut lever du capital-risque",
-      "qui veut organiser une messe noire",
+      "qui voulait monter sa startup",
+      "qui voulait lever du capital-risque",
+      "qui voulait organiser une messe noire",
       "qui a vendu son âme",
       "qui a lancé une OPA" ,
-      "qui veut passer l'aggrégation",
-      "qui veut entrer dans la fonction publique"
+      "qui voulait passer l'aggrégation",
+      "qui voulait entrer dans la fonction publique",
+      "qui voulait se marier",
+      "qui voulait échapper au fisc",
+      "qui a oublié de déclarer son site à la CNIL",
+      "qui voulait faire de la musique",
+      "qui voulait entrer dans les services secrets"
     ],
     "masc": [
       "qui a été harcelé sur facebook"

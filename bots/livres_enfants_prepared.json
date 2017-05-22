@@ -192,21 +192,26 @@
     "qui a raté l'avion",
     "qui est pour le travail le dimanche",
     "qui traine sur Twitter",
-    "qui veut manger des frites",
+    "qui voulait manger des frites",
     "qui a mangé sa grand-mère",
-    "qui veut apprendre le web-design",
+    "qui voulait apprendre le web-design",
     "qui a perdu son téléphone",
     "qui a épuisé son forfait Internet",
     "qui trolle sur Internet",
     "qui aime les gif animées",
     "qui a trop regardé la TV",
-    "qui veut monter sa startup",
-    "qui veut lever du capital-risque",
-    "qui veut organiser une messe noire",
+    "qui voulait monter sa startup",
+    "qui voulait lever du capital-risque",
+    "qui voulait organiser une messe noire",
     "qui a vendu son âme",
     "qui a lancé une OPA",
-    "qui veut passer l'aggrégation",
-    "qui veut entrer dans la fonction publique"
+    "qui voulait passer l'aggrégation",
+    "qui voulait entrer dans la fonction publique",
+    "qui voulait se marier",
+    "qui voulait échapper au fisc",
+    "qui a oublié de déclarer son site à la CNIL",
+    "qui voulait faire de la musique",
+    "qui voulait entrer dans les services secrets"
   ],
   "metier_fem": [
     "magicienne",
@@ -276,21 +281,26 @@
     "qui a raté l'avion",
     "qui est pour le travail le dimanche",
     "qui traine sur Twitter",
-    "qui veut manger des frites",
+    "qui voulait manger des frites",
     "qui a mangé sa grand-mère",
-    "qui veut apprendre le web-design",
+    "qui voulait apprendre le web-design",
     "qui a perdu son téléphone",
     "qui a épuisé son forfait Internet",
     "qui trolle sur Internet",
     "qui aime les gif animées",
     "qui a trop regardé la TV",
-    "qui veut monter sa startup",
-    "qui veut lever du capital-risque",
-    "qui veut organiser une messe noire",
+    "qui voulait monter sa startup",
+    "qui voulait lever du capital-risque",
+    "qui voulait organiser une messe noire",
     "qui a vendu son âme",
     "qui a lancé une OPA",
-    "qui veut passer l'aggrégation",
-    "qui veut entrer dans la fonction publique"
+    "qui voulait passer l'aggrégation",
+    "qui voulait entrer dans la fonction publique",
+    "qui voulait se marier",
+    "qui voulait échapper au fisc",
+    "qui a oublié de déclarer son site à la CNIL",
+    "qui voulait faire de la musique",
+    "qui voulait entrer dans les services secrets"
   ],
   "metier_masc": [
     "magicien",
@@ -406,25 +416,31 @@
     "verte",
     "bleue",
     "dorée",
+    "majestueuse",
     "rouge",
     "orange",
     "jaune",
     "rose",
-    "majestueux"
+    "gonflable"
   ],
   "cadeau_possessif_fem": [
-    "sa 🎸"
+    "sa 🎸",
+    "sa mandoline",
+    "sa peluche",
+    "sa 🍕",
+    "son écharpe"
   ],
   "ajectif_cadeau_apres_masc": [
     "brillant",
     "vert",
     "bleu",
     "doré",
+    "majestueux",
     "rouge",
     "orange",
     "jaune",
     "rose",
-    "majestueux"
+    "gonflable"
   ],
   "cadeau_possessif_masc": [
     "son 🎷",
@@ -434,7 +450,8 @@
     "son 🎻",
     "son 🥁",
     "usonn ✈️",
-    "son gaufrier"
+    "son gaufrier",
+    "son tazzer"
   ],
   "hero_maj": [
     "#hero_masculin_maj#",
@@ -446,7 +463,11 @@
   ],
   "cadeau_fem": [
     "une 🎸",
-    "#pronomindef_animal_gentil_fem#"
+    "une mandoline",
+    "une peluche",
+    "#pronomindef_animal_gentil_fem#",
+    "une 🍕",
+    "une écharpe"
   ],
   "pronomindef_animal_gentil_fem": [
     "une loutre",
@@ -473,6 +494,7 @@
     "un 🥁",
     "un ✈️",
     "un gaufrier",
+    "un tazzer",
     "#pronomindef_animal_gentil_masc#"
   ],
   "pronomindef_animal_gentil_masc": [
@@ -600,15 +622,18 @@
     "🌪",
     "☄",
     "ghoule",
+    "consultante",
     "publicitaire",
     "community manager",
-    "responsable communication"
+    "responsable communication",
+    "lobbyiste"
   ],
   "pronomdef_mechant_adjectif_avant_fem": [
     "la méchante",
     "la monstrueuse",
     "la répugnante",
     "la malveillante",
+    "la maudit",
     "la terrible",
     "l'innomable",
     "la fantomatique",
@@ -625,9 +650,11 @@
     "la 🌪",
     "la ☄",
     "la ghoule",
+    "la consultante",
     "la publicitaire",
     "la community manager",
-    "la responsable communication"
+    "la responsable communication",
+    "la lobbyiste"
   ],
   "mechant_complet_masculin": [
     "#pronomdef_metier_mechant_masc#",
@@ -659,15 +686,18 @@
     "🐊",
     "sénateur",
     "zombie",
+    "consultant",
     "publicitaire",
     "community manager",
-    "responsable communication"
+    "responsable communication",
+    "lobbyiste"
   ],
   "pronomdef_mechant_adjectif_avant_masc": [
     "le méchant",
     "le monstrueux",
     "le répugnant",
     "le malveillant",
+    "le maudit",
     "le terrible",
     "l'innomable",
     "le fantomatique",
@@ -689,9 +719,11 @@
     "le 🐊",
     "le sénateur",
     "le zombie",
+    "le consultant",
     "le publicitaire",
     "le community manager",
-    "le responsable communication"
+    "le responsable communication",
+    "le lobbyiste"
   ],
   "gentil_lieu_complet": [
     "#gentil_lieu_autre#",
