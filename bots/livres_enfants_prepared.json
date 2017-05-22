@@ -66,7 +66,10 @@
     "courageuse",
     "têtue",
     "maladroite",
-    "paresseuse"
+    "paresseuse",
+    "intrépide",
+    "farouche",
+    "espiègle"
   ],
   "metier_gentil_fem": [
     "#animal_gentil_fem#",
@@ -76,7 +79,11 @@
   "Pronomdef_gentil_adjectif_avant_fem": [
     "La gentille",
     "La petite",
-    "L'incroyable"
+    "La jolie",
+    "La douce",
+    "L'incroyable",
+    "La formidable",
+    "L'adorable"
   ],
   "cadeau_complet": [
     "#cadeau_masc# #ajectif_cadeau_apres_masc#",
@@ -84,8 +91,11 @@
   ],
   "ajectif_cadeau_apres_fem": [
     "brillante",
+    "verte",
+    "bleue",
     "rouge",
-    "vert"
+    "orange",
+    "jaune"
   ],
   "cadeau_fem": [
     "une 🎸",
@@ -102,8 +112,11 @@
   ],
   "ajectif_cadeau_apres_masc": [
     "brillant",
+    "vert",
+    "bleu",
     "rouge",
-    "vert"
+    "orange",
+    "jaune"
   ],
   "cadeau_masc": [
     "un 🎷",
@@ -144,7 +157,10 @@
     "planète",
     "forêt",
     "abime",
-    "obscurité"
+    "obscurité",
+    "salle municipale",
+    "grotte",
+    "armoire"
   ],
   "pronomdef_adjectif_mechant_lieu_avant_fem": [
     "la vieille"
@@ -154,7 +170,10 @@
     "la planète",
     "la forêt",
     "l'abime",
-    "l'obscurité"
+    "l'obscurité",
+    "la salle municipale",
+    "la grotte",
+    "l'armoire"
   ],
   "mechant_lieu_masculin": [
     "#pronomdef_mechant_lieu_masc#",
@@ -172,7 +191,10 @@
   "mechant_lieu_masc": [
     "désert",
     "manoir",
-    "cimetière"
+    "cimetière",
+    "puis",
+    "lac",
+    "hôtel de ville"
   ],
   "pronomdef_adjectif_mechant_lieu_avant_masc": [
     "le vieux"
@@ -180,7 +202,10 @@
   "pronomdef_mechant_lieu_masc": [
     "le désert",
     "le manoir",
-    "le cimetière"
+    "le cimetière",
+    "le puis",
+    "le lac",
+    "le hôtel de ville"
   ],
   "mechant_feminin": [
     "#pronomdef_metier_mechant_fem#",
@@ -272,7 +297,11 @@
   "pronomdef_gentil_adjectif_avant_fem": [
     "la gentille",
     "la petite",
-    "l'incroyable"
+    "la jolie",
+    "la douce",
+    "l'incroyable",
+    "la formidable",
+    "l'adorable"
   ],
   "hero_masculin": [
     "#pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc# #gentil_adjectif_apres_masc#",
@@ -301,7 +330,10 @@
     "courageux",
     "têtu",
     "maladroit",
-    "paresseux"
+    "paresseux",
+    "intrépide",
+    "farouche",
+    "espiègle"
   ],
   "metier_gentil_masc": [
     "#animal_gentil_masc#",
@@ -311,7 +343,11 @@
   "pronomdef_gentil_adjectif_avant_masc": [
     "le gentil",
     "le petit",
-    "l'incroyable"
+    "le joli",
+    "le doux",
+    "l'incroyable",
+    "le formidable",
+    "l'adorable"
   ],
   "gentil_lieu_complet": [
     "#gentil_lieu_autre#",
@@ -433,7 +469,11 @@
   "Pronomdef_gentil_adjectif_avant_masc": [
     "Le gentil",
     "Le petit",
-    "L'incroyable"
+    "Le joli",
+    "Le doux",
+    "L'incroyable",
+    "Le formidable",
+    "L'adorable"
   ],
   "metier_masc": [
     "magicien",

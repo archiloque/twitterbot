@@ -132,18 +132,29 @@
   },
   "gentil_adjectif_avant": {
     "*": [
-      "incroyable"
+      "incroyable",
+      "formidable",
+      "adorable"
     ],
     "masc": [
       "gentil",
-      "petit"
+      "petit",
+      "joli",
+      "doux"
     ],
     "fem": [
       "gentille",
-      "petite"
+      "petite",
+      "jolie",
+      "douce"
     ]
   },
   "gentil_adjectif_apres": {
+    "*": [
+      "intrépide",
+      "farouche",
+      "espiègle"
+    ],
     "masc": [
       "roux",
       "courageux",
@@ -264,14 +275,20 @@
     "masc": [
       "désert",
       "manoir",
-      "cimetière"
+      "cimetière",
+      "puis",
+      "lac",
+      "hôtel de ville"
     ],
     "fem": [
       "prison",
       "planète",
       "forêt",
       "abime",
-      "obscurité"
+      "obscurité",
+      "salle municipale",
+      "grotte",
+      "armoire"
     ]
   },
   "gentil_lieu_autre": [
@@ -350,13 +367,18 @@
   "ajectif_cadeau_apres": {
     "*": [
       "rouge",
-      "vert"
+      "orange",
+      "jaune"
     ],
     "masc": [
-      "brillant"
+      "brillant",
+      "vert",
+      "bleu"
     ],
     "fem": [
-      "brillante"
+      "brillante",
+      "verte",
+      "bleue"
     ]
   },
   "truc_general": {
