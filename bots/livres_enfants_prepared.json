@@ -9,8 +9,9 @@
     "#hero_masculin_maj# et #mechant_feminin#",
     "#hero_masculin_maj# et #mechant_lieu_masculin#",
     "#hero_masculin_maj# et #mechant_lieu_feminin#",
-    "#hero_masculin_maj# qui voulait #cadeau_masc#",
-    "#hero_masculin_maj# qui voulait #cadeau_fem#",
+    "#hero_masculin_maj# qui voulait #cadeau_complet#",
+    "#hero_masculin_maj# qui vola #cadeau_complet#",
+    "#hero_masculin_maj# #truc_general_masc#",
     "#hero_feminin_maj# qui voulait devenir #metier_fem#",
     "#hero_feminin_maj# qui voulait habiter #gentil_lieu_complet#",
     "#hero_feminin_maj# qui habitait #gentil_lieu_complet#",
@@ -20,21 +21,25 @@
     "#hero_feminin_maj# et #mechant_feminin#",
     "#hero_feminin_maj# et #mechant_lieu_masculin#",
     "#hero_feminin_maj# et #mechant_lieu_feminin#",
-    "#hero_feminin_maj# qui voulait #cadeau_masc#",
-    "#hero_feminin_maj# qui voulait #cadeau_fem#"
+    "#hero_feminin_maj# qui voulait #cadeau_complet#",
+    "#hero_feminin_maj# qui vola #cadeau_complet#",
+    "#hero_feminin_maj# #truc_general_fem#"
   ],
-  "cadeau_fem": [
-    "une 🎸",
-    "#pronomindef_animal_gentil_fem#"
-  ],
-  "pronomindef_animal_gentil_fem": [
-    "une loutre",
-    "une musaraigne",
-    "l'étoile de mer",
-    "une 🦄",
-    "une 🐞",
-    "une 🐜",
-    "une 🐭"
+  "truc_general_fem": [
+    "n'a pas sommeil",
+    "à l'école",
+    "a fait pipi dans sa culotte",
+    "a voté Mélanchon",
+    "est de mauvaise humeur",
+    "a raté l'avion",
+    "est pour le travail le dimanche",
+    "traine sur Twitter",
+    "veut manger des frites",
+    "qui a mangé sa grand-mère",
+    "veut apprendre le web design",
+    "a perdu son téléphone",
+    "a épuisé son forfait Internet",
+    "qui trolle sur Internet"
   ],
   "hero_feminin_maj": [
     "#Pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem# #gentil_adjectif_apres_fem#",
@@ -60,7 +65,8 @@
     "rousse",
     "courageuse",
     "têtue",
-    "maladroite"
+    "maladroite",
+    "paresseuse"
   ],
   "metier_gentil_fem": [
     "#animal_gentil_fem#",
@@ -72,6 +78,33 @@
     "La petite",
     "L'incroyable"
   ],
+  "cadeau_complet": [
+    "#cadeau_masc# #ajectif_cadeau_apres_masc#",
+    "#cadeau_fem# #ajectif_cadeau_apres_fem#"
+  ],
+  "ajectif_cadeau_apres_fem": [
+    "brillante",
+    "rouge",
+    "vert"
+  ],
+  "cadeau_fem": [
+    "une 🎸",
+    "#pronomindef_animal_gentil_fem#"
+  ],
+  "pronomindef_animal_gentil_fem": [
+    "une loutre",
+    "une musaraigne",
+    "une étoile de mer",
+    "une 🦄",
+    "une 🐞",
+    "une 🐜",
+    "une 🐭"
+  ],
+  "ajectif_cadeau_apres_masc": [
+    "brillant",
+    "rouge",
+    "vert"
+  ],
   "cadeau_masc": [
     "un 🎷",
     "un 🎁",
@@ -79,6 +112,7 @@
     "un grille-pain",
     "un 🎻",
     "un 🥁",
+    "un gaufrier",
     "#pronomindef_animal_gentil_masc#"
   ],
   "pronomindef_animal_gentil_masc": [
@@ -89,19 +123,31 @@
     "un 🐨",
     "un 🐼",
     "un 🦋",
-    "un 👻"
+    "un 👻",
+    "un 🐊"
   ],
   "mechant_lieu_feminin": [
     "#pronomdef_mechant_lieu_fem#",
-    "#pronomdef_mechant_lieu_fem# #adjectif_mechant_lieu_fem#"
+    "#pronomdef_adjectif_mechant_lieu_avant_fem# #mechant_lieu_fem#",
+    "#pronomdef_mechant_lieu_fem# #adjectif_mechant_lieu_apres_fem#",
+    "#pronomdef_adjectif_mechant_lieu_avant_fem# #mechant_lieu_fem# #adjectif_mechant_lieu_apres_fem#"
   ],
-  "adjectif_mechant_lieu_fem": [
+  "adjectif_mechant_lieu_apres_fem": [
     "hantée",
-    "vieille",
     "ricanante",
     "innomable",
     "indescriptible",
     "indicible"
+  ],
+  "mechant_lieu_fem": [
+    "prison",
+    "planète",
+    "forêt",
+    "abime",
+    "obscurité"
+  ],
+  "pronomdef_adjectif_mechant_lieu_avant_fem": [
+    "la vieille"
   ],
   "pronomdef_mechant_lieu_fem": [
     "la prison",
@@ -112,15 +158,24 @@
   ],
   "mechant_lieu_masculin": [
     "#pronomdef_mechant_lieu_masc#",
-    "#pronomdef_mechant_lieu_masc# #adjectif_mechant_lieu_masc#"
+    "#pronomdef_adjectif_mechant_lieu_avant_masc# #mechant_lieu_masc#",
+    "#pronomdef_mechant_lieu_masc# #adjectif_mechant_lieu_apres_masc#",
+    "#pronomdef_adjectif_mechant_lieu_avant_masc# #mechant_lieu_masc# #adjectif_mechant_lieu_apres_masc#"
   ],
-  "adjectif_mechant_lieu_masc": [
+  "adjectif_mechant_lieu_apres_masc": [
     "hanté",
-    "vieux",
     "ricanant",
     "innomable",
     "indescriptible",
     "indicible"
+  ],
+  "mechant_lieu_masc": [
+    "désert",
+    "manoir",
+    "cimetière"
+  ],
+  "pronomdef_adjectif_mechant_lieu_avant_masc": [
+    "le vieux"
   ],
   "pronomdef_mechant_lieu_masc": [
     "le désert",
@@ -179,7 +234,9 @@
     "ministre de l'intérieur",
     "instituteur",
     "🐉",
-    "👻"
+    "👻",
+    "🐊",
+    "sénateur"
   ],
   "pronomdef_mechant_adjectif_avant_masc": [
     "le méchant",
@@ -197,7 +254,9 @@
     "le ministre de l'intérieur",
     "l'instituteur",
     "le 🐉",
-    "le 👻"
+    "le 👻",
+    "le 🐊",
+    "le sénateur"
   ],
   "hero_feminin": [
     "#pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem# #gentil_adjectif_apres_fem#",
@@ -234,13 +293,15 @@
     "🐨",
     "🐼",
     "🦋",
-    "👻"
+    "👻",
+    "🐊"
   ],
   "gentil_adjectif_apres_masc": [
     "roux",
     "courageux",
     "têtu",
-    "maladroit"
+    "maladroit",
+    "paresseux"
   ],
   "metier_gentil_masc": [
     "#animal_gentil_masc#",
@@ -313,7 +374,7 @@
     "une ☄"
   ],
   "pronomindef_gentil_lieu_masc": [
-    "l'igloo",
+    "un igloo",
     "un 🌋",
     "un 🏜",
     "un ⛵",
@@ -341,6 +402,22 @@
     "magicienne",
     "astronaute",
     "présidente"
+  ],
+  "truc_general_masc": [
+    "n'a pas sommeil",
+    "à l'école",
+    "a fait pipi dans sa culotte",
+    "a voté Mélanchon",
+    "est de mauvaise humeur",
+    "a raté l'avion",
+    "est pour le travail le dimanche",
+    "traine sur Twitter",
+    "veut manger des frites",
+    "qui a mangé sa grand-mère",
+    "veut apprendre le web design",
+    "a perdu son téléphone",
+    "a épuisé son forfait Internet",
+    "qui trolle sur Internet"
   ],
   "hero_masculin_maj": [
     "#Pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc# #gentil_adjectif_apres_masc#",

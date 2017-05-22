@@ -9,8 +9,9 @@
     "#hero_masculin_maj# et #mechant_feminin#",
     "#hero_masculin_maj# et #mechant_lieu_masculin#",
     "#hero_masculin_maj# et #mechant_lieu_feminin#",
-    "#hero_masculin_maj# qui voulait #cadeau_masc#",
-    "#hero_masculin_maj# qui voulait #cadeau_fem#",
+    "#hero_masculin_maj# qui voulait #cadeau_complet#",
+    "#hero_masculin_maj# qui vola #cadeau_complet#",
+    "#hero_masculin_maj# #truc_general_masc#",
 
     "#hero_feminin_maj# qui voulait devenir #metier_fem#",
     "#hero_feminin_maj# qui voulait habiter #gentil_lieu_complet#",
@@ -21,8 +22,13 @@
     "#hero_feminin_maj# et #mechant_feminin#",
     "#hero_feminin_maj# et #mechant_lieu_masculin#",
     "#hero_feminin_maj# et #mechant_lieu_feminin#",
-    "#hero_feminin_maj# qui voulait #cadeau_masc#",
-    "#hero_feminin_maj# qui voulait #cadeau_fem#"
+    "#hero_feminin_maj# qui voulait #cadeau_complet#",
+    "#hero_feminin_maj# qui vola #cadeau_complet#",
+    "#hero_feminin_maj# #truc_general_fem#"
+  ],
+  "cadeau_complet": [
+    "#cadeau_masc# #ajectif_cadeau_apres_masc#",
+    "#cadeau_fem# #ajectif_cadeau_apres_fem#"
   ],
   "hero_masculin_maj": [
     "#Pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc# #gentil_adjectif_apres_masc#",
@@ -50,11 +56,15 @@
   ],
   "mechant_lieu_masculin": [
     "#pronomdef_mechant_lieu_masc#",
-    "#pronomdef_mechant_lieu_masc# #adjectif_mechant_lieu_masc#"
+    "#pronomdef_adjectif_mechant_lieu_avant_masc# #mechant_lieu_masc#",
+    "#pronomdef_mechant_lieu_masc# #adjectif_mechant_lieu_apres_masc#",
+    "#pronomdef_adjectif_mechant_lieu_avant_masc# #mechant_lieu_masc# #adjectif_mechant_lieu_apres_masc#"
   ],
   "mechant_lieu_feminin": [
     "#pronomdef_mechant_lieu_fem#",
-    "#pronomdef_mechant_lieu_fem# #adjectif_mechant_lieu_fem#"
+    "#pronomdef_adjectif_mechant_lieu_avant_fem# #mechant_lieu_fem#",
+    "#pronomdef_mechant_lieu_fem# #adjectif_mechant_lieu_apres_fem#",
+    "#pronomdef_adjectif_mechant_lieu_avant_fem# #mechant_lieu_fem# #adjectif_mechant_lieu_apres_fem#"
   ],
   "mechant_masculin": [
     "#pronomdef_metier_mechant_masc#",
@@ -85,16 +95,39 @@
     "*": [
       "astronaute",
       "célèbre",
-      "riche"
+      "riche",
+      "cinéaste",
+      "poète",
+      "journaliste",
+      "alcoolique",
+      "alpiniste",
+      "pilote",
+      "ministre"
     ],
     "fem": [
       "magicienne",
-      "présidente"
+      "présidente",
+      "avocate",
+      "Patti Smith",
+      "chanteuse",
+      "patissière",
+      "chocolatière",
+      "députée",
+      "directrice de cabinet",
+      "sénatrice",
+      "préfète"
     ],
     "masc": [
       "magicien",
       "président",
-      "grand"
+      "grand",
+      "chateur",
+      "patissier",
+      "chocolatier",
+      "député",
+      "directeur de cabinet",
+      "sénateur",
+      "préfet"
     ]
   },
   "gentil_adjectif_avant": {
@@ -115,13 +148,15 @@
       "roux",
       "courageux",
       "têtu",
-      "maladroit"
+      "maladroit",
+      "paresseux"
     ],
     "fem": [
       "rousse",
       "courageuse",
       "têtue",
-      "maladroite"
+      "maladroite",
+      "paresseuse"
     ]
   },
   "mechant_adjectif_avant": {
@@ -175,7 +210,8 @@
       "🐨",
       "🐼",
       "🦋",
-      "👻"
+      "👻",
+      "🐊"
     ],
     "fem": [
       "loutre",
@@ -199,7 +235,17 @@
       "présidente"
     ]
   },
-  "adjectif_mechant_lieu": {
+  "adjectif_mechant_lieu_avant": {
+    "*": [
+    ],
+    "masc": [
+      "vieux"
+    ],
+    "fem": [
+      "vieille"
+    ]
+  },
+  "adjectif_mechant_lieu_apres": {
     "*": [
       "innomable",
       "indescriptible",
@@ -207,12 +253,10 @@
     ],
     "masc": [
       "hanté",
-      "vieux",
       "ricanant"
     ],
     "fem": [
       "hantée",
-      "vieille",
       "ricanante"
     ]
   },
@@ -275,7 +319,9 @@
       "ministre de l'intérieur",
       "instituteur",
       "🐉",
-      "👻"
+      "👻",
+      "🐊",
+      "sénateur"
     ],
     "fem": [
       "sorcière",
@@ -293,11 +339,48 @@
       "un grille-pain",
       "un 🎻",
       "un 🥁",
+      "un gaufrier",
       "#pronomindef_animal_gentil_masc#"
     ],
     "fem": [
       "une 🎸",
       "#pronomindef_animal_gentil_fem#"
+    ]
+  },
+  "ajectif_cadeau_apres": {
+    "*": [
+      "rouge",
+      "vert"
+    ],
+    "masc": [
+      "brillant"
+    ],
+    "fem": [
+      "brillante"
+    ]
+  },
+  "truc_general": {
+    "*": [
+      "n'a pas sommeil",
+      "à l'école",
+      "a fait pipi dans sa culotte",
+      "a voté Mélanchon",
+      "est de mauvaise humeur",
+      "a raté l'avion",
+      "est pour le travail le dimanche",
+      "traine sur Twitter",
+      "veut manger des frites",
+      "qui a mangé sa grand-mère",
+      "veut apprendre le web design",
+      "a perdu son téléphone",
+      "a épuisé son forfait Internet",
+      "qui trolle sur Internet"
+    ],
+    "masc": [
+
+    ],
+    "fem": [
+
     ]
   }
 }

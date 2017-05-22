@@ -110,21 +110,11 @@ def fetch_group_content(group_name)
             end
           elsif found_pronom == PRONOM_INDEF_PREFIX_NORMAL
             return group_candidate.collect do |item|
-              found_vovel = VOVELS.find{|v| item.start_with?(v)}
-              if found_vovel
-                "l'#{item}"
-              else
-                "#{(gender == MASC_SUFFIX) ? 'un' : 'une'} #{item}"
-              end
+              "#{(gender == MASC_SUFFIX) ? 'un' : 'une'} #{item}"
             end
           elsif found_pronom == PRONOM_INDEF_PREFIX_UP
             return group_candidate.collect do |item|
-              found_vovel = VOVELS.find{|v| item.start_with?(v)}
-              if found_vovel
-                "L'#{item}"
-              else
-                "#{(gender == MASC_SUFFIX) ? 'Un' : 'Une'} #{item}"
-              end
+              "#{(gender == MASC_SUFFIX) ? 'Un' : 'Une'} #{item}"
             end
           else
             raise "Unknown pronom [#{found_pronom}]"
