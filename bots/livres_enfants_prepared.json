@@ -59,7 +59,13 @@
     "🦄",
     "🐞",
     "🐜",
-    "🐭"
+    "🐭",
+    "🐝",
+    "ponette",
+    "chatte",
+    "hirondelle",
+    "belette",
+    "🐢"
   ],
   "gentil_adjectif_apres_fem": [
     "rousse",
@@ -69,7 +75,8 @@
     "paresseuse",
     "intrépide",
     "farouche",
-    "espiègle"
+    "espiègle",
+    "nihiliste"
   ],
   "metier_gentil_fem": [
     "#animal_gentil_fem#",
@@ -93,9 +100,12 @@
     "brillante",
     "verte",
     "bleue",
+    "dorée",
     "rouge",
     "orange",
-    "jaune"
+    "jaune",
+    "rose",
+    "majestueux"
   ],
   "cadeau_fem": [
     "une 🎸",
@@ -108,15 +118,24 @@
     "une 🦄",
     "une 🐞",
     "une 🐜",
-    "une 🐭"
+    "une 🐭",
+    "une 🐝",
+    "une ponette",
+    "une chatte",
+    "une hirondelle",
+    "une belette",
+    "une 🐢"
   ],
   "ajectif_cadeau_apres_masc": [
     "brillant",
     "vert",
     "bleu",
+    "doré",
     "rouge",
     "orange",
-    "jaune"
+    "jaune",
+    "rose",
+    "majestueux"
   ],
   "cadeau_masc": [
     "un 🎷",
@@ -125,6 +144,7 @@
     "un grille-pain",
     "un 🎻",
     "un 🥁",
+    "un ✈️",
     "un gaufrier",
     "#pronomindef_animal_gentil_masc#"
   ],
@@ -216,14 +236,18 @@
   "mechant_adjectif_apres_fem": [
     "aigrie",
     "raciste",
-    "réactionnaire"
+    "réactionnaire",
+    "nihiliste",
+    "islamo-gauchiste",
+    "centriste"
   ],
   "metier_mechant_fem": [
     "sorcière",
     "institutrice",
     "🌪",
     "☄",
-    "ghoule"
+    "ghoule",
+    "publicitaire"
   ],
   "pronomdef_mechant_adjectif_avant_fem": [
     "la méchante",
@@ -239,7 +263,8 @@
     "l'institutrice",
     "la 🌪",
     "la ☄",
-    "la ghoule"
+    "la ghoule",
+    "la publicitaire"
   ],
   "mechant_masculin": [
     "#pronomdef_metier_mechant_masc#",
@@ -250,7 +275,10 @@
   "mechant_adjectif_apres_masc": [
     "aigri",
     "raciste",
-    "réactionnaire"
+    "réactionnaire",
+    "nihiliste",
+    "islamo-gauchiste",
+    "centriste"
   ],
   "metier_mechant_masc": [
     "🐺",
@@ -261,7 +289,8 @@
     "🐉",
     "👻",
     "🐊",
-    "sénateur"
+    "sénateur",
+    "publicitaire"
   ],
   "pronomdef_mechant_adjectif_avant_masc": [
     "le méchant",
@@ -281,7 +310,8 @@
     "le 🐉",
     "le 👻",
     "le 🐊",
-    "le sénateur"
+    "le sénateur",
+    "le publicitaire"
   ],
   "hero_feminin": [
     "#pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem# #gentil_adjectif_apres_fem#",
@@ -333,7 +363,8 @@
     "paresseux",
     "intrépide",
     "farouche",
-    "espiègle"
+    "espiègle",
+    "nihiliste"
   ],
   "metier_gentil_masc": [
     "#animal_gentil_masc#",
@@ -436,8 +467,26 @@
   ],
   "metier_fem": [
     "magicienne",
+    "présidente",
+    "avocate",
+    "Patti Smith",
+    "chanteuse",
+    "patissière",
+    "chocolatière",
+    "députée",
+    "directrice de cabinet",
+    "sénatrice",
+    "préfète",
     "astronaute",
-    "présidente"
+    "célèbre",
+    "riche",
+    "cinéaste",
+    "poète",
+    "journaliste",
+    "alcoolique",
+    "alpiniste",
+    "pilote",
+    "ministre"
   ],
   "truc_general_masc": [
     "n'a pas sommeil",
@@ -477,7 +526,24 @@
   ],
   "metier_masc": [
     "magicien",
+    "président",
+    "grand",
+    "chateur",
+    "patissier",
+    "chocolatier",
+    "député",
+    "directeur de cabinet",
+    "sénateur",
+    "préfet",
     "astronaute",
-    "président"
+    "célèbre",
+    "riche",
+    "cinéaste",
+    "poète",
+    "journaliste",
+    "alcoolique",
+    "alpiniste",
+    "pilote",
+    "ministre"
   ]
 }

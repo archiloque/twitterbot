@@ -153,7 +153,8 @@
     "*": [
       "intrépide",
       "farouche",
-      "espiègle"
+      "espiègle",
+      "nihiliste"
     ],
     "masc": [
       "roux",
@@ -191,7 +192,10 @@
   "mechant_adjectif_apres": {
     "*": [
       "raciste",
-      "réactionnaire"
+      "réactionnaire",
+      "nihiliste",
+      "islamo-gauchiste",
+      "centriste"
     ],
     "masc": [
       "aigri"
@@ -231,19 +235,13 @@
       "🦄",
       "🐞",
       "🐜",
-      "🐭"
-    ]
-  },
-  "metier": {
-    "masc": [
-      "magicien",
-      "astronaute",
-      "président"
-    ],
-    "fem": [
-      "magicienne",
-      "astronaute",
-      "présidente"
+      "🐭",
+      "🐝",
+      "ponette",
+      "chatte",
+      "hirondelle",
+      "belette",
+      "🐢"
     ]
   },
   "adjectif_mechant_lieu_avant": {
@@ -329,6 +327,9 @@
     ]
   },
   "metier_mechant": {
+    "*": [
+      "publicitaire"
+    ],
     "masc": [
       "🐺",
       "roi",
@@ -356,6 +357,7 @@
       "un grille-pain",
       "un 🎻",
       "un 🥁",
+      "un ✈️",
       "un gaufrier",
       "#pronomindef_animal_gentil_masc#"
     ],
@@ -368,17 +370,21 @@
     "*": [
       "rouge",
       "orange",
-      "jaune"
+      "jaune",
+      "rose",
+      "majestueux"
     ],
     "masc": [
       "brillant",
       "vert",
-      "bleu"
+      "bleu",
+      "doré"
     ],
     "fem": [
       "brillante",
       "verte",
-      "bleue"
+      "bleue",
+      "dorée"
     ]
   },
   "truc_general": {
