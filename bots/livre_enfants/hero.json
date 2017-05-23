@@ -87,13 +87,15 @@
       "roux",
       "têtu",
       "maladroit",
-      "paresseux"
+      "paresseux",
+      "facrceur"
     ],
     "fem": [
       "rousse",
       "têtue",
       "maladroite",
-      "paresseuse"
+      "paresseuse",
+      "facrceuse"
     ]
   },
   "type_hero": {
@@ -112,7 +114,9 @@
       "crocosaure",
       "👦",
       "🤴",
-      "vampire"
+      "vampire",
+      "🤖",
+      "mille-pattes"
     ],
     "fem": [
       "loutre",
@@ -122,7 +126,7 @@
       "🐞",
       "🐜",
       "🐭",
-      "🐝",
+      "abeille",
       "ponette",
       "chatte",
       "hirondelle",

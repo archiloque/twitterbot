@@ -25,16 +25,23 @@
       "formidable",
       "sage"
     ],
-    "masc": [],
-    "fem": []
+    "masc": [
+      "farceur"
+    ],
+    "fem": [
+      "farceuse"
+    ]
   },
   "gentil_adjectif_apres": {
-    "*": [],
+    "*": [
+      "qui disparaissait"
+    ],
     "masc": [
       "génial",
       "maladroit",
       "paresseux",
-      "caché"
+      "caché",
+      "chantant"
     ],
     "fem": [
       "géniale",
@@ -44,6 +51,9 @@
     ]
   },
   "metier_gentil": {
+    "*": [
+      "sociologue"
+    ],
     "masc": [
       "magicien",
       "extra-terrestre",

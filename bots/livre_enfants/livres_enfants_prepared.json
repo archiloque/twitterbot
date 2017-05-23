@@ -6,10 +6,14 @@
     "#hero_maj# qui se maria avec #hero_complet#",
     "#hero_maj# et #mechant_complet#",
     "#hero_maj# et #gentil_complet#",
+    "#hero_maj# et #gentil_complet_masculin# #truc_general_masc#",
+    "#hero_maj# et #gentil_complet_masculin# qui voulait devenir #metier_hero_fem#",
+    "#hero_maj# et #gentil_complet_feminin# #truc_general_fem#",
+    "#hero_maj# et #gentil_complet_feminin# qui voulait devenir #metier_hero_masc#",
     "#hero_maj# et #mechant_lieu_complet#",
     "#hero_maj# qui voulait #cadeau_complet#",
     "#hero_maj# qui vola #cadeau_complet#",
-    "#hero_maj# qui a cassé #cadeau_complet_possessif#",
+    "#hero_maj# qui avait cassé #cadeau_complet_possessif#",
     "#famille_masc# #hero_feminin_part# a disparu",
     "#famille_fem# #hero_masculin_part# a disparue",
     "#hero_masculin_maj# qui voulait devenir #metier_hero_masc#",
@@ -39,7 +43,7 @@
     "la 🐞",
     "la 🐜",
     "la 🐭",
-    "la 🐝",
+    "l'abeille",
     "la ponette",
     "la chatte",
     "l'hirondelle",
@@ -54,6 +58,7 @@
     "têtue",
     "maladroite",
     "paresseuse",
+    "facrceuse",
     "intrépide",
     "farouche",
     "espiègle",
@@ -67,7 +72,7 @@
     "🐞",
     "🐜",
     "🐭",
-    "🐝",
+    "abeille",
     "ponette",
     "chatte",
     "hirondelle",
@@ -110,13 +115,16 @@
     "le crocosaure",
     "le 👦",
     "le 🤴",
-    "le vampire"
+    "le vampire",
+    "le 🤖",
+    "le mille-pattes"
   ],
   "hero_adjectif_apres_masc": [
     "roux",
     "têtu",
     "maladroit",
     "paresseux",
+    "facrceur",
     "intrépide",
     "farouche",
     "espiègle",
@@ -137,7 +145,9 @@
     "crocosaure",
     "👦",
     "🤴",
-    "vampire"
+    "vampire",
+    "🤖",
+    "mille-pattes"
   ],
   "pronomdef_hero_adjectif_avant_masc": [
     "le gentil",
@@ -165,7 +175,7 @@
     "La 🐞",
     "La 🐜",
     "La 🐭",
-    "La 🐝",
+    "L'abeille",
     "La ponette",
     "La chatte",
     "L'hirondelle",
@@ -187,34 +197,37 @@
   ],
   "truc_general_fem": [
     "qui a été harcelée sur facebook",
-    "qui n'a pas sommeil",
+    "qui n'avait pas sommeil",
     "à l'école",
-    "qui a fait pipi dans sa culotte",
-    "qui a voté Mélanchon",
-    "est de mauvaise humeur",
-    "qui a raté l'avion",
-    "qui est pour le travail le dimanche",
-    "qui traine sur Twitter",
+    "qui avait fait pipi dans sa culotte",
+    "qui avait voté Mélanchon",
+    "qui était de mauvaise humeur",
+    "qui avait raté l'avion",
+    "qui était pour le travail le dimanche",
+    "qui trainait sur Twitter",
     "qui voulait manger des frites",
-    "qui a mangé sa grand-mère",
+    "qui avait mangé sa grand-mère",
     "qui voulait apprendre le web-design",
-    "qui a perdu son téléphone",
-    "qui a épuisé son forfait Internet",
-    "qui trolle sur Internet",
-    "qui aime les gif animées",
-    "qui a trop regardé la TV",
+    "qui avait perdu son téléphone",
+    "qui avait épuisé son forfait Internet",
+    "qui trollait sur Internet",
+    "qui aimait les gif animées",
+    "qui avait trop regardé la TV",
     "qui voulait monter sa startup",
     "qui voulait lever du capital-risque",
     "qui voulait organiser une messe noire",
-    "qui a vendu son âme",
-    "qui a lancé une OPA",
+    "qui avait vendu son âme",
+    "qui avait lancé une OPA",
     "qui voulait passer l'aggrégation",
     "qui voulait entrer dans la fonction publique",
     "qui voulait se marier",
     "qui voulait échapper au fisc",
-    "qui a oublié de déclarer son site à la CNIL",
+    "qui avait oublié de déclarer son site à la CNIL",
     "qui voulait faire de la musique",
-    "qui voulait entrer dans les services secrets"
+    "qui voulait entrer dans les services secrets",
+    "qui voulait renverser le gouvernement",
+    "qui voulait rejoindre les Illuminati",
+    "qui fomentait un coup d'État"
   ],
   "metier_hero_fem": [
     "magicienne",
@@ -263,7 +276,9 @@
     "Le crocosaure",
     "Le 👦",
     "Le 🤴",
-    "Le vampire"
+    "Le vampire",
+    "Le 🤖",
+    "Le mille-pattes"
   ],
   "Pronomdef_hero_adjectif_avant_masc": [
     "Le gentil",
@@ -277,34 +292,37 @@
   ],
   "truc_general_masc": [
     "qui a été harcelé sur facebook",
-    "qui n'a pas sommeil",
+    "qui n'avait pas sommeil",
     "à l'école",
-    "qui a fait pipi dans sa culotte",
-    "qui a voté Mélanchon",
-    "est de mauvaise humeur",
-    "qui a raté l'avion",
-    "qui est pour le travail le dimanche",
-    "qui traine sur Twitter",
+    "qui avait fait pipi dans sa culotte",
+    "qui avait voté Mélanchon",
+    "qui était de mauvaise humeur",
+    "qui avait raté l'avion",
+    "qui était pour le travail le dimanche",
+    "qui trainait sur Twitter",
     "qui voulait manger des frites",
-    "qui a mangé sa grand-mère",
+    "qui avait mangé sa grand-mère",
     "qui voulait apprendre le web-design",
-    "qui a perdu son téléphone",
-    "qui a épuisé son forfait Internet",
-    "qui trolle sur Internet",
-    "qui aime les gif animées",
-    "qui a trop regardé la TV",
+    "qui avait perdu son téléphone",
+    "qui avait épuisé son forfait Internet",
+    "qui trollait sur Internet",
+    "qui aimait les gif animées",
+    "qui avait trop regardé la TV",
     "qui voulait monter sa startup",
     "qui voulait lever du capital-risque",
     "qui voulait organiser une messe noire",
-    "qui a vendu son âme",
-    "qui a lancé une OPA",
+    "qui avait vendu son âme",
+    "qui avait lancé une OPA",
     "qui voulait passer l'aggrégation",
     "qui voulait entrer dans la fonction publique",
     "qui voulait se marier",
     "qui voulait échapper au fisc",
-    "qui a oublié de déclarer son site à la CNIL",
+    "qui avait oublié de déclarer son site à la CNIL",
     "qui voulait faire de la musique",
-    "qui voulait entrer dans les services secrets"
+    "qui voulait entrer dans les services secrets",
+    "qui voulait renverser le gouvernement",
+    "qui voulait rejoindre les Illuminati",
+    "qui fomentait un coup d'État"
   ],
   "metier_hero_masc": [
     "magicien",
@@ -352,7 +370,9 @@
     "du crocosaure",
     "du 👦",
     "du 🤴",
-    "du vampire"
+    "du vampire",
+    "du 🤖",
+    "du mille-pattes"
   ],
   "pronompart_hero_adjectif_avant_masc": [
     "du gentil",
@@ -386,7 +406,7 @@
     "de la 🐞",
     "de la 🐜",
     "de la 🐭",
-    "de la 🐝",
+    "de l'abeille",
     "de la ponette",
     "de la chatte",
     "de l'hirondelle",
@@ -414,7 +434,11 @@
   ],
   "cadeau_complet_possessif": [
     "#cadeau_possessif_masc# #ajectif_cadeau_apres_masc#",
-    "#cadeau_possessif_fem# #ajectif_cadeau_apres_fem#"
+    "#cadeau_possessif_fem# #ajectif_cadeau_apres_fem#",
+    "#cadeau_possessif_autre#"
+  ],
+  "cadeau_possessif_autre": [
+    "ses 🕶"
   ],
   "ajectif_cadeau_apres_fem": [
     "brillante",
@@ -422,11 +446,13 @@
     "bleue",
     "dorée",
     "majestueuse",
+    "clignotante",
     "rouge",
     "orange",
     "jaune",
     "rose",
-    "gonflable"
+    "gonflable",
+    "qui disparaissait"
   ],
   "cadeau_possessif_fem": [
     "sa 🎸",
@@ -441,11 +467,13 @@
     "bleu",
     "doré",
     "majestueux",
+    "clignotant",
     "rouge",
     "orange",
     "jaune",
     "rose",
-    "gonflable"
+    "gonflable",
+    "qui disparaissait"
   ],
   "cadeau_possessif_masc": [
     "son 🎷",
@@ -515,7 +543,8 @@
     "un ourson",
     "un dinosaure",
     "un crocosaure",
-    "un vampire"
+    "un vampire",
+    "un 🤖"
   ],
   "mechant_lieu_complet": [
     "#mechant_lieu_complet_masculin#",
@@ -599,10 +628,6 @@
     "l'hôtel de ville",
     "l'abime"
   ],
-  "gentil_complet": [
-    "#gentil_complet_masculin#",
-    "#gentil_complet_feminin#"
-  ],
   "gentil_complet_feminin": [
     "#pronomdef_metier_gentil_fem#",
     "#pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem#",
@@ -615,11 +640,13 @@
     "géniale",
     "maladroite",
     "paresseuse",
-    "cachée"
+    "cachée",
+    "qui disparaissait"
   ],
   "metier_gentil_fem": [
     "magicienne",
-    "#animal_gentil_fem#"
+    "#animal_gentil_fem#",
+    "sociologue"
   ],
   "animal_gentil_fem": [
     "loutre",
@@ -638,13 +665,15 @@
     "🐛"
   ],
   "pronomdef_gentil_adjectif_avant_fem": [
+    "la farceuse",
     "l'incroyable",
     "la formidable",
     "la sage"
   ],
   "pronomdef_metier_gentil_fem": [
     "la magicienne",
-    "la #animal_gentil_fem#"
+    "la #animal_gentil_fem#",
+    "la sociologue"
   ],
   "gentil_complet_masculin": [
     "#pronomdef_metier_gentil_masc#",
@@ -658,13 +687,16 @@
     "génial",
     "maladroit",
     "paresseux",
-    "caché"
+    "caché",
+    "chantant",
+    "qui disparaissait"
   ],
   "metier_gentil_masc": [
     "magicien",
     "extra-terrestre",
     "géant",
-    "#animal_gentil_masc#"
+    "#animal_gentil_masc#",
+    "sociologue"
   ],
   "animal_gentil_masc": [
     "🦊",
@@ -679,9 +711,11 @@
     "ourson",
     "dinosaure",
     "crocosaure",
-    "vampire"
+    "vampire",
+    "🤖"
   ],
   "pronomdef_gentil_adjectif_avant_masc": [
+    "le farceur",
     "l'incroyable",
     "le formidable",
     "le sage"
@@ -690,7 +724,12 @@
     "le magicien",
     "l'extra-terrestre",
     "le géant",
-    "le #animal_gentil_masc#"
+    "le #animal_gentil_masc#",
+    "le sociologue"
+  ],
+  "gentil_complet": [
+    "#gentil_complet_masculin#",
+    "#gentil_complet_feminin#"
   ],
   "mechant_complet": [
     "#mechant_complet_masculin#",
@@ -722,10 +761,14 @@
     "☄",
     "ghoule",
     "consultante",
+    "réalité augmentée",
     "publicitaire",
     "community manager",
     "responsable communication",
-    "lobbyiste"
+    "lobbyiste",
+    "cultiste",
+    "sataniste",
+    "mécène"
   ],
   "pronomdef_mechant_adjectif_avant_fem": [
     "la méchante",
@@ -750,10 +793,14 @@
     "la ☄",
     "la ghoule",
     "la consultante",
+    "la réalité augmentée",
     "la publicitaire",
     "la community manager",
     "la responsable communication",
-    "la lobbyiste"
+    "la lobbyiste",
+    "la cultiste",
+    "la sataniste",
+    "la mécène"
   ],
   "mechant_complet_masculin": [
     "#pronomdef_metier_mechant_masc#",
@@ -786,10 +833,15 @@
     "sénateur",
     "zombie",
     "consultant",
+    "coach",
+    "crédit immobilier",
     "publicitaire",
     "community manager",
     "responsable communication",
-    "lobbyiste"
+    "lobbyiste",
+    "cultiste",
+    "sataniste",
+    "mécène"
   ],
   "pronomdef_mechant_adjectif_avant_masc": [
     "le méchant",
@@ -819,10 +871,15 @@
     "le sénateur",
     "le zombie",
     "le consultant",
+    "le coach",
+    "le crédit immobilier",
     "le publicitaire",
     "le community manager",
     "le responsable communication",
-    "le lobbyiste"
+    "le lobbyiste",
+    "le cultiste",
+    "le sataniste",
+    "le mécène"
   ],
   "gentil_lieu_complet": [
     "#gentil_lieu_autre#",
@@ -912,6 +969,9 @@
     "dans une armoire",
     "sous terre",
     "en province",
-    "à Angoulême"
+    "à Angoulême",
+    "sur une île",
+    "dans un brocoli",
+    "dans un moulin à vent"
   ]
 }

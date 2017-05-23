@@ -70,7 +70,10 @@
       "publicitaire",
       "community manager",
       "responsable communication",
-      "lobbyiste"
+      "lobbyiste",
+      "cultiste",
+      "sataniste",
+      "mécène"
     ],
     "masc": [
       "🐺",
@@ -83,7 +86,9 @@
       "🐊",
       "sénateur",
       "zombie",
-      "consultant"
+      "consultant",
+      "coach",
+      "crédit immobilier"
     ],
     "fem": [
       "sorcière",
@@ -91,7 +96,8 @@
       "🌪",
       "☄",
       "ghoule",
-      "consultante"
+      "consultante",
+      "réalité augmentée"
     ]
   }
 }
