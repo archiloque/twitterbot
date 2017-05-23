@@ -19,33 +19,41 @@
     "#hero_maj# et #gentil_complet_masculin# #truc_general_masc#",
     "#hero_maj# et #gentil_complet_masculin# qui voulait devenir #metier_hero_fem#",
     "#hero_maj# et #gentil_complet_feminin# #truc_general_fem#",
-    "#hero_maj# et #gentil_complet_feminin# qui voulait devenir #metier_hero_masc#",
+    "#hero_maj# et #gentil_complet_feminin# qui voulait devenir #metier_hero_fem#",
 
     "#hero_maj# et #mechant_lieu_complet#",
+
     "#hero_maj# qui voulait #cadeau_complet#",
     "#hero_maj# qui vola #cadeau_complet#",
     "#hero_maj# qui avait cassé #cadeau_complet_possessif#",
-    "#famille_masc# #hero_feminin_part# a disparu",
-    "#famille_fem# #hero_masculin_part# a disparue",
+
+    "#disparu_masc# #hero_part# a disparu",
+    "#disparu_fem# #hero_part# a disparue",
+
     "#hero_masculin_maj# qui voulait devenir #metier_hero_masc#",
-    "#hero_masculin_maj# #truc_general_masc#",
-    "#hero_masculin_maj# s'est faché avec #hero_complet#",
     "#hero_feminin_maj# qui voulait devenir #metier_hero_fem#",
+
+    "#hero_masculin_maj# #truc_general_masc#",
     "#hero_feminin_maj# #truc_general_fem#",
-    "#hero_feminin_maj# s'est fachée avec #hero_complet#"
+
+    "#hero_maj# s'est faché avec #hero_complet#"
   ],
-  "famille": {
+  "disparu": {
     "masc": [
       "Le papa",
       "Le grand-père",
       "Le voisin",
-      "Le cousin"
+      "Le cousin",
+      "Le 🐈",
+      "Le chien",
+      "Le 🐰"
     ],
     "fem": [
       "La maman",
       "La grand-mère",
       "La voisine",
-      "La cousine"
+      "La cousine",
+      "La chienne"
     ]
   },
   "animal_gentil": {
@@ -114,7 +122,9 @@
       "qui voulait entrer dans les services secrets",
       "qui voulait renverser le gouvernement",
       "qui voulait rejoindre les Illuminati",
-      "qui fomentait un coup d'État"
+      "qui fomentait un coup d'État",
+      "qui voulait diriger le monde",
+      "qui aimait faire la sieste"
     ],
     "masc": [
       "qui a été harcelé sur facebook"

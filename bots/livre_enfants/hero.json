@@ -1,4 +1,8 @@
 {
+  "hero_part": [
+    "#hero_masculin_part#",
+    "#hero_feminin_part#"
+  ],
   "hero_masculin_part": [
     "#pronompart_hero_adjectif_avant_masc# #type_hero_masc# #hero_adjectif_apres_masc#",
     "#pronompart_hero_adjectif_avant_masc# #type_hero_masc#",
@@ -99,6 +103,9 @@
     ]
   },
   "type_hero": {
+    "*": [
+      "vampire"
+    ],
     "masc": [
       "🦊",
       "🐈",
@@ -114,7 +121,6 @@
       "crocosaure",
       "👦",
       "🤴",
-      "vampire",
       "🤖",
       "mille-pattes"
     ],

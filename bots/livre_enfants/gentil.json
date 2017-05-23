@@ -34,7 +34,6 @@
   },
   "gentil_adjectif_apres": {
     "*": [
-      "qui disparaissait"
     ],
     "masc": [
       "génial",
@@ -52,7 +51,8 @@
   },
   "metier_gentil": {
     "*": [
-      "sociologue"
+      "sociologue",
+      "vampire"
     ],
     "masc": [
       "magicien",
