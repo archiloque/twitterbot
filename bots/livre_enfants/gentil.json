@@ -1,0 +1,58 @@
+{
+  "gentil_complet": [
+    "#gentil_complet_masculin#",
+    "#gentil_complet_feminin#"
+  ],
+  "gentil_complet_masculin": [
+    "#pronomdef_metier_gentil_masc#",
+    "#pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc#",
+    "#pronomdef_metier_gentil_masc# #gentil_adjectif_apres_masc#",
+    "#pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc#",
+    "#pronomdef_metier_gentil_masc# #gentil_adjectif_apres_masc#",
+    "#pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc# #gentil_adjectif_apres_masc#"
+  ],
+  "gentil_complet_feminin": [
+    "#pronomdef_metier_gentil_fem#",
+    "#pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem#",
+    "#pronomdef_metier_gentil_fem# #gentil_adjectif_apres_fem#",
+    "#pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem#",
+    "#pronomdef_metier_gentil_fem# #gentil_adjectif_apres_fem#",
+    "#pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem# #gentil_adjectif_apres_fem#"
+  ],
+  "gentil_adjectif_avant": {
+    "*": [
+      "incroyable",
+      "formidable",
+      "sage"
+    ],
+    "masc": [],
+    "fem": []
+  },
+  "gentil_adjectif_apres": {
+    "*": [],
+    "masc": [
+      "génial",
+      "maladroit",
+      "paresseux",
+      "caché"
+    ],
+    "fem": [
+      "géniale",
+      "maladroite",
+      "paresseuse",
+      "cachée"
+    ]
+  },
+  "metier_gentil": {
+    "masc": [
+      "magicien",
+      "extra-terrestre",
+      "géant",
+      "#animal_gentil_masc#"
+    ],
+    "fem": [
+      "magicienne",
+      "#animal_gentil_fem#"
+    ]
+  }
+}

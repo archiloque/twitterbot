@@ -1,0 +1,75 @@
+{
+  "cadeau_complet": [
+    "#cadeau_masc# #ajectif_cadeau_apres_masc#",
+    "#cadeau_fem# #ajectif_cadeau_apres_fem#"
+  ],
+  "cadeau_complet_possessif": [
+    "#cadeau_possessif_masc# #ajectif_cadeau_apres_masc#",
+    "#cadeau_possessif_fem# #ajectif_cadeau_apres_fem#"
+  ],
+  "cadeau": {
+    "masc": [
+      "un 🎷",
+      "un 🎁",
+      "un légo",
+      "un grille-pain",
+      "un 🎻",
+      "un 🥁",
+      "un ✈️",
+      "un gaufrier",
+      "un tazzer",
+      "#pronomindef_animal_gentil_masc#"
+    ],
+    "fem": [
+      "une 🎸",
+      "une mandoline",
+      "une peluche",
+      "#pronomindef_animal_gentil_fem#",
+      "une 🍕",
+      "une écharpe"
+    ]
+  },
+  "cadeau_possessif": {
+    "masc": [
+      "son 🎷",
+      "son 🎁",
+      "son légo",
+      "son grille-pain",
+      "son 🎻",
+      "son 🥁",
+      "usonn ✈️",
+      "son gaufrier",
+      "son tazzer"
+    ],
+    "fem": [
+      "sa 🎸",
+      "sa mandoline",
+      "sa peluche",
+      "sa 🍕",
+      "son écharpe"
+    ]
+  },
+  "ajectif_cadeau_apres": {
+    "*": [
+      "rouge",
+      "orange",
+      "jaune",
+      "rose",
+      "gonflable"
+    ],
+    "masc": [
+      "brillant",
+      "vert",
+      "bleu",
+      "doré",
+      "majestueux"
+    ],
+    "fem": [
+      "brillante",
+      "verte",
+      "bleue",
+      "dorée",
+      "majestueuse"
+    ]
+  }
+}

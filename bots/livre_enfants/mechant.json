@@ -1,0 +1,97 @@
+{
+  "mechant_complet": [
+    "#mechant_complet_masculin#",
+    "#mechant_complet_feminin#"
+  ],
+  "mechant_complet_masculin": [
+    "#pronomdef_metier_mechant_masc#",
+    "#pronomdef_mechant_adjectif_avant_masc# #metier_mechant_masc#",
+    "#pronomdef_metier_mechant_masc# #mechant_adjectif_apres_masc#",
+    "#pronomdef_mechant_adjectif_avant_masc# #metier_mechant_masc#",
+    "#pronomdef_metier_mechant_masc# #mechant_adjectif_apres_masc#",
+    "#pronomdef_mechant_adjectif_avant_masc# #metier_mechant_masc# #mechant_adjectif_apres_masc#"
+  ],
+  "mechant_complet_feminin": [
+    "#pronomdef_metier_mechant_fem#",
+    "#pronomdef_mechant_adjectif_avant_fem# #metier_mechant_fem#",
+    "#pronomdef_metier_mechant_fem# #mechant_adjectif_apres_fem#",
+    "#pronomdef_mechant_adjectif_avant_fem# #metier_mechant_fem#",
+    "#pronomdef_metier_mechant_fem# #mechant_adjectif_apres_fem#",
+    "#pronomdef_mechant_adjectif_avant_fem# #metier_mechant_fem# #mechant_adjectif_apres_fem#"
+  ],
+  "mechant_adjectif_avant": {
+    "*": [
+      "terrible",
+      "innomable",
+      "fantomatique",
+      "indicible",
+      "sévère",
+      "sadique",
+      "perfide",
+      "maléfique",
+      "horrible"
+    ],
+    "masc": [
+      "méchant",
+      "monstrueux",
+      "répugnant",
+      "malveillant",
+      "maudit"
+    ],
+    "fem": [
+      "méchante",
+      "monstrueuse",
+      "répugnante",
+      "malveillante",
+      "maudit"
+    ]
+  },
+  "mechant_adjectif_apres": {
+    "*": [
+      "raciste",
+      "réactionnaire",
+      "nihiliste",
+      "islamo-gauchiste",
+      "centriste",
+      "ambidextre",
+      "nationaliste"
+    ],
+    "masc": [
+      "aigri",
+      "rabougri"
+    ],
+    "fem": [
+      "aigrie",
+      "rabougrie"
+    ]
+  },
+  "metier_mechant": {
+    "*": [
+      "publicitaire",
+      "community manager",
+      "responsable communication",
+      "lobbyiste"
+    ],
+    "masc": [
+      "🐺",
+      "roi",
+      "premier ministre",
+      "ministre de l'intérieur",
+      "instituteur",
+      "🐉",
+      "👻",
+      "🐊",
+      "sénateur",
+      "zombie",
+      "consultant"
+    ],
+    "fem": [
+      "sorcière",
+      "institutrice",
+      "🌪",
+      "☄",
+      "ghoule",
+      "consultante"
+    ]
+  }
+}

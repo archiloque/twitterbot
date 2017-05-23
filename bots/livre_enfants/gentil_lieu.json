@@ -1,0 +1,53 @@
+{
+  "gentil_lieu_complet": [
+    "#gentil_lieu_autre#",
+    "#pronomindef_adjectif_gentil_lieu_masc# #gentil_lieu_masc#",
+    "#pronomindef_adjectif_gentil_lieu_fem# #gentil_lieu_fem#",
+    "#pronomindef_gentil_lieu_masc#",
+    "#pronomindef_gentil_lieu_fem#",
+    "#pronomdef_adjectif_gentil_lieu_masc# #gentil_lieu_masc#",
+    "#pronomdef_adjectif_gentil_lieu_fem# #gentil_lieu_fem#",
+    "#pronomdef_gentil_lieu_masc#",
+    "#pronomdef_gentil_lieu_fem#"
+  ],
+  "gentil_lieu_autre": [
+    "sous la mer",
+    "sur la 🌝",
+    "dans les étoiles",
+    "dans une armoire",
+    "sous terre",
+    "en province",
+    "à Angoulême"
+  ],
+  "gentil_lieu": {
+    "masc": [
+      "igloo",
+      "🌋",
+      "🏜",
+      "⛵",
+      "🐋",
+      "☃"
+    ],
+    "fem": [
+      "⛰️",
+      "🏔️",
+      "forêt",
+      "⛺",
+      "🚀",
+      "☄"
+    ]
+  },
+  "adjectif_gentil_lieu": {
+    "masc": [
+      "grand",
+      "petit",
+      "lointain"
+    ],
+    "fem": [
+      "grande",
+      "petite",
+      "lointaine",
+      "vieille"
+    ]
+  }
+}

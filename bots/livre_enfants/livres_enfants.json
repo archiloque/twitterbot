@@ -1,0 +1,116 @@
+{
+  "#include": [
+    "hero.json",
+    "metier_hero.json",
+    "mechant_lieu.json",
+    "gentil_lieu.json",
+    "cadeau.json",
+    "mechant.json",
+    "gentil.json"
+  ],
+  "origin": [
+    "#hero_maj# qui voulait habiter #gentil_lieu_complet#",
+    "#hero_maj# qui habitait #gentil_lieu_complet#",
+    "#hero_maj# et #hero_complet#",
+    "#hero_maj# qui se maria avec #hero_complet#",
+    "#hero_maj# et #mechant_complet#",
+    "#hero_maj# et #gentil_complet#",
+    "#hero_maj# et #mechant_lieu_complet#",
+    "#hero_maj# qui voulait #cadeau_complet#",
+    "#hero_maj# qui vola #cadeau_complet#",
+    "#hero_maj# qui a cassé #cadeau_complet_possessif#",
+    "#famille_masc# #hero_feminin_part# a disparu",
+    "#famille_fem# #hero_masculin_part# a disparue",
+    "#hero_masculin_maj# qui voulait devenir #metier_hero_masc#",
+    "#hero_masculin_maj# #truc_general_masc#",
+    "#hero_masculin_maj# s'est faché avec #hero_complet#",
+    "#hero_feminin_maj# qui voulait devenir #metier_hero_fem#",
+    "#hero_feminin_maj# #truc_general_fem#",
+    "#hero_feminin_maj# s'est fachée avec #hero_complet#"
+  ],
+  "famille": {
+    "masc": [
+      "Le papa",
+      "Le grand-père",
+      "Le voisin",
+      "Le cousin"
+    ],
+    "fem": [
+      "La maman",
+      "La grand-mère",
+      "La voisine",
+      "La cousine"
+    ]
+  },
+  "animal_gentil": {
+    "masc": [
+      "🦊",
+      "🐈",
+      "🐺",
+      "🐰",
+      "🐨",
+      "🐼",
+      "🦋",
+      "👻",
+      "🐊",
+      "ourson",
+      "dinosaure",
+      "crocosaure",
+      "vampire"
+    ],
+    "fem": [
+      "loutre",
+      "musaraigne",
+      "étoile de mer",
+      "🦄",
+      "🐞",
+      "🐜",
+      "🐭",
+      "🐝",
+      "ponette",
+      "chatte",
+      "hirondelle",
+      "belette",
+      "🐢",
+      "🐛"
+    ]
+  },
+  "truc_general": {
+    "*": [
+      "qui n'a pas sommeil",
+      "à l'école",
+      "qui a fait pipi dans sa culotte",
+      "qui a voté Mélanchon",
+      "est de mauvaise humeur",
+      "qui a raté l'avion",
+      "qui est pour le travail le dimanche",
+      "qui traine sur Twitter",
+      "qui voulait manger des frites",
+      "qui a mangé sa grand-mère",
+      "qui voulait apprendre le web-design",
+      "qui a perdu son téléphone",
+      "qui a épuisé son forfait Internet",
+      "qui trolle sur Internet",
+      "qui aime les gif animées",
+      "qui a trop regardé la TV",
+      "qui voulait monter sa startup",
+      "qui voulait lever du capital-risque",
+      "qui voulait organiser une messe noire",
+      "qui a vendu son âme",
+      "qui a lancé une OPA",
+      "qui voulait passer l'aggrégation",
+      "qui voulait entrer dans la fonction publique",
+      "qui voulait se marier",
+      "qui voulait échapper au fisc",
+      "qui a oublié de déclarer son site à la CNIL",
+      "qui voulait faire de la musique",
+      "qui voulait entrer dans les services secrets"
+    ],
+    "masc": [
+      "qui a été harcelé sur facebook"
+    ],
+    "fem": [
+      "qui a été harcelée sur facebook"
+    ]
+  }
+}

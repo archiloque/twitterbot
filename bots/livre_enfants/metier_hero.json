@@ -1,0 +1,43 @@
+{
+  "metier_hero": {
+    "*": [
+      "astronaute",
+      "célèbre",
+      "riche",
+      "cinéaste",
+      "poète",
+      "journaliste",
+      "alcoolique",
+      "alpiniste",
+      "pilote",
+      "ministre"
+    ],
+    "fem": [
+      "magicienne",
+      "présidente",
+      "avocate",
+      "Patti Smith",
+      "chanteuse",
+      "patissière",
+      "chocolatière",
+      "députée",
+      "directrice de cabinet",
+      "sénatrice",
+      "préfète",
+      "dessinatrice"
+    ],
+    "masc": [
+      "magicien",
+      "président",
+      "grand",
+      "chateur",
+      "patissier",
+      "chocolatier",
+      "député",
+      "directeur de cabinet",
+      "sénateur",
+      "préfet",
+      "dessinateur"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "mechant_lieu_complet": [
+    "#mechant_lieu_complet_masculin#",
+    "#mechant_lieu_complet_feminin#"
+  ],
+  "mechant_lieu_complet_masculin": [
+    "#pronomdef_mechant_lieu_masc#",
+    "#pronomdef_adjectif_mechant_lieu_avant_masc# #mechant_lieu_masc#",
+    "#pronomdef_mechant_lieu_masc# #adjectif_mechant_lieu_apres_masc#",
+    "#pronomdef_adjectif_mechant_lieu_avant_masc# #mechant_lieu_masc#",
+    "#pronomdef_mechant_lieu_masc# #adjectif_mechant_lieu_apres_masc#",
+    "#pronomdef_adjectif_mechant_lieu_avant_masc# #mechant_lieu_masc# #adjectif_mechant_lieu_apres_masc#"
+  ],
+  "mechant_lieu_complet_feminin": [
+    "#pronomdef_mechant_lieu_fem#",
+    "#pronomdef_adjectif_mechant_lieu_avant_fem# #mechant_lieu_fem#",
+    "#pronomdef_mechant_lieu_fem# #adjectif_mechant_lieu_apres_fem#",
+    "#pronomdef_adjectif_mechant_lieu_avant_fem# #mechant_lieu_fem#",
+    "#pronomdef_mechant_lieu_fem# #adjectif_mechant_lieu_apres_fem#",
+    "#pronomdef_adjectif_mechant_lieu_avant_fem# #mechant_lieu_fem# #adjectif_mechant_lieu_apres_fem#"
+  ],
+  "adjectif_mechant_lieu_avant": {
+    "*": [],
+    "masc": [
+      "vieux"
+    ],
+    "fem": [
+      "vieille"
+    ]
+  },
+  "adjectif_mechant_lieu_apres": {
+    "*": [
+      "innomable",
+      "indescriptible",
+      "indicible"
+    ],
+    "masc": [
+      "hanté",
+      "ricanant"
+    ],
+    "fem": [
+      "hantée",
+      "ricanante"
+    ]
+  },
+  "mechant_lieu": {
+    "masc": [
+      "désert",
+      "manoir",
+      "cimetière",
+      "puis",
+      "lac",
+      "hôtel de ville",
+      "abime"
+    ],
+    "fem": [
+      "prison",
+      "planète",
+      "forêt",
+      "obscurité",
+      "salle municipale",
+      "grotte",
+      "armoire",
+      "cathédrale",
+      "église",
+      "chapelle"
+    ]
+  }
+}

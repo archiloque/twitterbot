@@ -175,14 +175,33 @@ def process_group(group_name)
   RESULT[group_name] = group_result
 end
 
+def read_file(file_name)
+  STDOUT << "Reading [#{file_name}]\n"
+  file_content = IO.read(file_name)
+  JSON.parse(file_content)
+end
+
 if ARGV.length != 1
   raise 'Need file path as argument'
 end
 
+INCLUDE_DIRECTIVE = '#include'
 FILE_PATH = ARGV[0]
-STDERR << "Reading [#{FILE_PATH}]\n"
-file_content = IO.read(FILE_PATH)
-PARSED_FILE = JSON.parse(file_content)
+PARSED_FILE = read_file(FILE_PATH)
+if PARSED_FILE.key?(INCLUDE_DIRECTIVE)
+  PARSED_FILE[INCLUDE_DIRECTIVE].each do |include|
+    complete_file_name = File.join(File.dirname(FILE_PATH), include)
+    included_content = read_file(complete_file_name)
+    included_content.each_pair do |key, value|
+      if PARSED_FILE.key?(key)
+        raise "Existing key [#{key}] found in [#{complete_file_name}]"
+      else
+        PARSED_FILE[key] = value
+      end
+    end
+  end
+  PARSED_FILE.delete INCLUDE_DIRECTIVE
+end
 
 RESULT = {}
 TO_PARSE = ['origin']

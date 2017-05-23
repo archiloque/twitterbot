@@ -2,35 +2,36 @@
   "origin": [
     "#hero_maj# qui voulait habiter #gentil_lieu_complet#",
     "#hero_maj# qui habitait #gentil_lieu_complet#",
-    "#hero_maj# et #hero#",
-    "#hero_maj# qui se maria avec #hero#",
+    "#hero_maj# et #hero_complet#",
+    "#hero_maj# qui se maria avec #hero_complet#",
     "#hero_maj# et #mechant_complet#",
+    "#hero_maj# et #gentil_complet#",
     "#hero_maj# et #mechant_lieu_complet#",
     "#hero_maj# qui voulait #cadeau_complet#",
     "#hero_maj# qui vola #cadeau_complet#",
     "#hero_maj# qui a cassé #cadeau_complet_possessif#",
     "#famille_masc# #hero_feminin_part# a disparu",
     "#famille_fem# #hero_masculin_part# a disparue",
-    "#hero_masculin_maj# qui voulait devenir #metier_masc#",
+    "#hero_masculin_maj# qui voulait devenir #metier_hero_masc#",
     "#hero_masculin_maj# #truc_general_masc#",
-    "#hero_masculin_maj# s'est faché avec #hero#",
-    "#hero_feminin_maj# qui voulait devenir #metier_fem#",
+    "#hero_masculin_maj# s'est faché avec #hero_complet#",
+    "#hero_feminin_maj# qui voulait devenir #metier_hero_fem#",
     "#hero_feminin_maj# #truc_general_fem#",
-    "#hero_feminin_maj# s'est fachée avec #hero#"
+    "#hero_feminin_maj# s'est fachée avec #hero_complet#"
   ],
-  "hero": [
-    "#hero_masculin#",
-    "#hero_feminin#"
+  "hero_complet": [
+    "#hero_complet_masculin#",
+    "#hero_complet_feminin#"
   ],
-  "hero_feminin": [
-    "#pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem# #gentil_adjectif_apres_fem#",
-    "#pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem#",
-    "#pronomdef_metier_gentil_fem# #gentil_adjectif_apres_fem#",
-    "#pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem#",
-    "#pronomdef_metier_gentil_fem# #gentil_adjectif_apres_fem#",
-    "#pronomdef_metier_gentil_fem#"
+  "hero_complet_feminin": [
+    "#pronomdef_hero_adjectif_avant_fem# #type_hero_fem# #hero_adjectif_apres_fem#",
+    "#pronomdef_hero_adjectif_avant_fem# #type_hero_fem#",
+    "#pronomdef_type_hero_fem# #hero_adjectif_apres_fem#",
+    "#pronomdef_hero_adjectif_avant_fem# #type_hero_fem#",
+    "#pronomdef_type_hero_fem# #hero_adjectif_apres_fem#",
+    "#pronomdef_type_hero_fem#"
   ],
-  "pronomdef_metier_gentil_fem": [
+  "pronomdef_type_hero_fem": [
     "la loutre",
     "la musaraigne",
     "l'étoile de mer",
@@ -48,7 +49,7 @@
     "la 👧",
     "la 👸"
   ],
-  "gentil_adjectif_apres_fem": [
+  "hero_adjectif_apres_fem": [
     "rousse",
     "têtue",
     "maladroite",
@@ -58,7 +59,7 @@
     "espiègle",
     "nihiliste"
   ],
-  "metier_gentil_fem": [
+  "type_hero_fem": [
     "loutre",
     "musaraigne",
     "étoile de mer",
@@ -76,7 +77,7 @@
     "👧",
     "👸"
   ],
-  "pronomdef_gentil_adjectif_avant_fem": [
+  "pronomdef_hero_adjectif_avant_fem": [
     "la gentille",
     "la petite",
     "la jolie",
@@ -86,15 +87,15 @@
     "la formidable",
     "l'adorable"
   ],
-  "hero_masculin": [
-    "#pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc# #gentil_adjectif_apres_masc#",
-    "#pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc#",
-    "#pronomdef_metier_gentil_masc# #gentil_adjectif_apres_masc#",
-    "#pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc#",
-    "#pronomdef_metier_gentil_masc# #gentil_adjectif_apres_masc#",
-    "#pronomdef_metier_gentil_masc#"
+  "hero_complet_masculin": [
+    "#pronomdef_hero_adjectif_avant_masc# #type_hero_masc# #hero_adjectif_apres_masc#",
+    "#pronomdef_hero_adjectif_avant_masc# #type_hero_masc#",
+    "#pronomdef_type_hero_masc# #hero_adjectif_apres_masc#",
+    "#pronomdef_hero_adjectif_avant_masc# #type_hero_masc#",
+    "#pronomdef_type_hero_masc# #hero_adjectif_apres_masc#",
+    "#pronomdef_type_hero_masc#"
   ],
-  "pronomdef_metier_gentil_masc": [
+  "pronomdef_type_hero_masc": [
     "le 🦊",
     "le 🐈",
     "le 🐺",
@@ -108,9 +109,10 @@
     "le dinosaure",
     "le crocosaure",
     "le 👦",
-    "le 🤴"
+    "le 🤴",
+    "le vampire"
   ],
-  "gentil_adjectif_apres_masc": [
+  "hero_adjectif_apres_masc": [
     "roux",
     "têtu",
     "maladroit",
@@ -120,7 +122,7 @@
     "espiègle",
     "nihiliste"
   ],
-  "metier_gentil_masc": [
+  "type_hero_masc": [
     "🦊",
     "🐈",
     "🐺",
@@ -134,9 +136,10 @@
     "dinosaure",
     "crocosaure",
     "👦",
-    "🤴"
+    "🤴",
+    "vampire"
   ],
-  "pronomdef_gentil_adjectif_avant_masc": [
+  "pronomdef_hero_adjectif_avant_masc": [
     "le gentil",
     "le petit",
     "le joli",
@@ -147,14 +150,14 @@
     "l'adorable"
   ],
   "hero_feminin_maj": [
-    "#Pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem# #gentil_adjectif_apres_fem#",
-    "#Pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem#",
-    "#Pronomdef_metier_gentil_fem# #gentil_adjectif_apres_fem#",
-    "#Pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem#",
-    "#Pronomdef_metier_gentil_fem# #gentil_adjectif_apres_fem#",
-    "#Pronomdef_metier_gentil_fem#"
+    "#Pronomdef_hero_adjectif_avant_fem# #type_hero_fem# #hero_adjectif_apres_fem#",
+    "#Pronomdef_hero_adjectif_avant_fem# #type_hero_fem#",
+    "#Pronomdef_type_hero_fem# #hero_adjectif_apres_fem#",
+    "#Pronomdef_hero_adjectif_avant_fem# #type_hero_fem#",
+    "#Pronomdef_type_hero_fem# #hero_adjectif_apres_fem#",
+    "#Pronomdef_type_hero_fem#"
   ],
-  "Pronomdef_metier_gentil_fem": [
+  "Pronomdef_type_hero_fem": [
     "La loutre",
     "La musaraigne",
     "L'étoile de mer",
@@ -172,7 +175,7 @@
     "La 👧",
     "La 👸"
   ],
-  "Pronomdef_gentil_adjectif_avant_fem": [
+  "Pronomdef_hero_adjectif_avant_fem": [
     "La gentille",
     "La petite",
     "La jolie",
@@ -213,7 +216,7 @@
     "qui voulait faire de la musique",
     "qui voulait entrer dans les services secrets"
   ],
-  "metier_fem": [
+  "metier_hero_fem": [
     "magicienne",
     "présidente",
     "avocate",
@@ -238,14 +241,14 @@
     "ministre"
   ],
   "hero_masculin_maj": [
-    "#Pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc# #gentil_adjectif_apres_masc#",
-    "#Pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc#",
-    "#Pronomdef_metier_gentil_masc# #gentil_adjectif_apres_masc#",
-    "#Pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc#",
-    "#Pronomdef_metier_gentil_masc# #gentil_adjectif_apres_masc#",
-    "#Pronomdef_metier_gentil_masc#"
+    "#Pronomdef_hero_adjectif_avant_masc# #type_hero_masc# #hero_adjectif_apres_masc#",
+    "#Pronomdef_hero_adjectif_avant_masc# #type_hero_masc#",
+    "#Pronomdef_type_hero_masc# #hero_adjectif_apres_masc#",
+    "#Pronomdef_hero_adjectif_avant_masc# #type_hero_masc#",
+    "#Pronomdef_type_hero_masc# #hero_adjectif_apres_masc#",
+    "#Pronomdef_type_hero_masc#"
   ],
-  "Pronomdef_metier_gentil_masc": [
+  "Pronomdef_type_hero_masc": [
     "Le 🦊",
     "Le 🐈",
     "Le 🐺",
@@ -259,9 +262,10 @@
     "Le dinosaure",
     "Le crocosaure",
     "Le 👦",
-    "Le 🤴"
+    "Le 🤴",
+    "Le vampire"
   ],
-  "Pronomdef_gentil_adjectif_avant_masc": [
+  "Pronomdef_hero_adjectif_avant_masc": [
     "Le gentil",
     "Le petit",
     "Le joli",
@@ -302,7 +306,7 @@
     "qui voulait faire de la musique",
     "qui voulait entrer dans les services secrets"
   ],
-  "metier_masc": [
+  "metier_hero_masc": [
     "magicien",
     "président",
     "grand",
@@ -326,14 +330,14 @@
     "ministre"
   ],
   "hero_masculin_part": [
-    "#pronompart_gentil_adjectif_avant_masc# #metier_gentil_masc# #gentil_adjectif_apres_masc#",
-    "#pronompart_gentil_adjectif_avant_masc# #metier_gentil_masc#",
-    "#pronompart_metier_gentil_masc# #gentil_adjectif_apres_masc#",
-    "#pronompart_gentil_adjectif_avant_masc# #metier_gentil_masc#",
-    "#pronompart_metier_gentil_masc# #gentil_adjectif_apres_masc#",
-    "#pronompart_metier_gentil_masc#"
+    "#pronompart_hero_adjectif_avant_masc# #type_hero_masc# #hero_adjectif_apres_masc#",
+    "#pronompart_hero_adjectif_avant_masc# #type_hero_masc#",
+    "#pronompart_type_hero_masc# #hero_adjectif_apres_masc#",
+    "#pronompart_hero_adjectif_avant_masc# #type_hero_masc#",
+    "#pronompart_type_hero_masc# #hero_adjectif_apres_masc#",
+    "#pronompart_type_hero_masc#"
   ],
-  "pronompart_metier_gentil_masc": [
+  "pronompart_type_hero_masc": [
     "du 🦊",
     "du 🐈",
     "du 🐺",
@@ -347,9 +351,10 @@
     "du dinosaure",
     "du crocosaure",
     "du 👦",
-    "du 🤴"
+    "du 🤴",
+    "du vampire"
   ],
-  "pronompart_gentil_adjectif_avant_masc": [
+  "pronompart_hero_adjectif_avant_masc": [
     "du gentil",
     "du petit",
     "du joli",
@@ -366,14 +371,14 @@
     "La cousine"
   ],
   "hero_feminin_part": [
-    "#pronompart_gentil_adjectif_avant_fem# #metier_gentil_fem# #gentil_adjectif_apres_fem#",
-    "#pronompart_gentil_adjectif_avant_fem# #metier_gentil_fem#",
-    "#pronompart_metier_gentil_fem# #gentil_adjectif_apres_fem#",
-    "#pronompart_gentil_adjectif_avant_fem# #metier_gentil_fem#",
-    "#pronompart_metier_gentil_fem# #gentil_adjectif_apres_fem#",
-    "#pronompart_metier_gentil_fem#"
+    "#pronompart_hero_adjectif_avant_fem# #type_hero_fem# #hero_adjectif_apres_fem#",
+    "#pronompart_hero_adjectif_avant_fem# #type_hero_fem#",
+    "#pronompart_type_hero_fem# #hero_adjectif_apres_fem#",
+    "#pronompart_hero_adjectif_avant_fem# #type_hero_fem#",
+    "#pronompart_type_hero_fem# #hero_adjectif_apres_fem#",
+    "#pronompart_type_hero_fem#"
   ],
-  "pronompart_metier_gentil_fem": [
+  "pronompart_type_hero_fem": [
     "de la loutre",
     "de la musaraigne",
     "de l'étoile de mer",
@@ -391,7 +396,7 @@
     "de la 👧",
     "de la 👸"
   ],
-  "pronompart_gentil_adjectif_avant_fem": [
+  "pronompart_hero_adjectif_avant_fem": [
     "de la gentille",
     "de la petite",
     "de la jolie",
@@ -509,7 +514,8 @@
     "un 🐊",
     "un ourson",
     "un dinosaure",
-    "un crocosaure"
+    "un crocosaure",
+    "un vampire"
   ],
   "mechant_lieu_complet": [
     "#mechant_lieu_complet_masculin#",
@@ -592,6 +598,99 @@
     "le lac",
     "l'hôtel de ville",
     "l'abime"
+  ],
+  "gentil_complet": [
+    "#gentil_complet_masculin#",
+    "#gentil_complet_feminin#"
+  ],
+  "gentil_complet_feminin": [
+    "#pronomdef_metier_gentil_fem#",
+    "#pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem#",
+    "#pronomdef_metier_gentil_fem# #gentil_adjectif_apres_fem#",
+    "#pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem#",
+    "#pronomdef_metier_gentil_fem# #gentil_adjectif_apres_fem#",
+    "#pronomdef_gentil_adjectif_avant_fem# #metier_gentil_fem# #gentil_adjectif_apres_fem#"
+  ],
+  "gentil_adjectif_apres_fem": [
+    "géniale",
+    "maladroite",
+    "paresseuse",
+    "cachée"
+  ],
+  "metier_gentil_fem": [
+    "magicienne",
+    "#animal_gentil_fem#"
+  ],
+  "animal_gentil_fem": [
+    "loutre",
+    "musaraigne",
+    "étoile de mer",
+    "🦄",
+    "🐞",
+    "🐜",
+    "🐭",
+    "🐝",
+    "ponette",
+    "chatte",
+    "hirondelle",
+    "belette",
+    "🐢",
+    "🐛"
+  ],
+  "pronomdef_gentil_adjectif_avant_fem": [
+    "l'incroyable",
+    "la formidable",
+    "la sage"
+  ],
+  "pronomdef_metier_gentil_fem": [
+    "la magicienne",
+    "la #animal_gentil_fem#"
+  ],
+  "gentil_complet_masculin": [
+    "#pronomdef_metier_gentil_masc#",
+    "#pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc#",
+    "#pronomdef_metier_gentil_masc# #gentil_adjectif_apres_masc#",
+    "#pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc#",
+    "#pronomdef_metier_gentil_masc# #gentil_adjectif_apres_masc#",
+    "#pronomdef_gentil_adjectif_avant_masc# #metier_gentil_masc# #gentil_adjectif_apres_masc#"
+  ],
+  "gentil_adjectif_apres_masc": [
+    "génial",
+    "maladroit",
+    "paresseux",
+    "caché"
+  ],
+  "metier_gentil_masc": [
+    "magicien",
+    "extra-terrestre",
+    "géant",
+    "#animal_gentil_masc#"
+  ],
+  "animal_gentil_masc": [
+    "🦊",
+    "🐈",
+    "🐺",
+    "🐰",
+    "🐨",
+    "🐼",
+    "🦋",
+    "👻",
+    "🐊",
+    "ourson",
+    "dinosaure",
+    "crocosaure",
+    "vampire"
+  ],
+  "pronomdef_gentil_adjectif_avant_masc": [
+    "l'incroyable",
+    "le formidable",
+    "le sage"
+  ],
+  "pronomdef_metier_gentil_masc": [
+    "le magicien",
+    "l'extra-terrestre",
+    "le géant",
+    "le #animal_gentil_masc#"
   ],
   "mechant_complet": [
     "#mechant_complet_masculin#",

@@ -1,0 +1,136 @@
+{
+  "hero_masculin_part": [
+    "#pronompart_hero_adjectif_avant_masc# #type_hero_masc# #hero_adjectif_apres_masc#",
+    "#pronompart_hero_adjectif_avant_masc# #type_hero_masc#",
+    "#pronompart_type_hero_masc# #hero_adjectif_apres_masc#",
+    "#pronompart_hero_adjectif_avant_masc# #type_hero_masc#",
+    "#pronompart_type_hero_masc# #hero_adjectif_apres_masc#",
+    "#pronompart_type_hero_masc#"
+  ],
+  "hero_feminin_part": [
+    "#pronompart_hero_adjectif_avant_fem# #type_hero_fem# #hero_adjectif_apres_fem#",
+    "#pronompart_hero_adjectif_avant_fem# #type_hero_fem#",
+    "#pronompart_type_hero_fem# #hero_adjectif_apres_fem#",
+    "#pronompart_hero_adjectif_avant_fem# #type_hero_fem#",
+    "#pronompart_type_hero_fem# #hero_adjectif_apres_fem#",
+    "#pronompart_type_hero_fem#"
+  ],
+  "hero_maj": [
+    "#hero_masculin_maj#",
+    "#hero_feminin_maj#"
+  ],
+  "hero_masculin_maj": [
+    "#Pronomdef_hero_adjectif_avant_masc# #type_hero_masc# #hero_adjectif_apres_masc#",
+    "#Pronomdef_hero_adjectif_avant_masc# #type_hero_masc#",
+    "#Pronomdef_type_hero_masc# #hero_adjectif_apres_masc#",
+    "#Pronomdef_hero_adjectif_avant_masc# #type_hero_masc#",
+    "#Pronomdef_type_hero_masc# #hero_adjectif_apres_masc#",
+    "#Pronomdef_type_hero_masc#"
+  ],
+  "hero_feminin_maj": [
+    "#Pronomdef_hero_adjectif_avant_fem# #type_hero_fem# #hero_adjectif_apres_fem#",
+    "#Pronomdef_hero_adjectif_avant_fem# #type_hero_fem#",
+    "#Pronomdef_type_hero_fem# #hero_adjectif_apres_fem#",
+    "#Pronomdef_hero_adjectif_avant_fem# #type_hero_fem#",
+    "#Pronomdef_type_hero_fem# #hero_adjectif_apres_fem#",
+    "#Pronomdef_type_hero_fem#"
+  ],
+  "hero_complet": [
+    "#hero_complet_masculin#",
+    "#hero_complet_feminin#"
+  ],
+  "hero_complet_masculin": [
+    "#pronomdef_hero_adjectif_avant_masc# #type_hero_masc# #hero_adjectif_apres_masc#",
+    "#pronomdef_hero_adjectif_avant_masc# #type_hero_masc#",
+    "#pronomdef_type_hero_masc# #hero_adjectif_apres_masc#",
+    "#pronomdef_hero_adjectif_avant_masc# #type_hero_masc#",
+    "#pronomdef_type_hero_masc# #hero_adjectif_apres_masc#",
+    "#pronomdef_type_hero_masc#"
+  ],
+  "hero_complet_feminin": [
+    "#pronomdef_hero_adjectif_avant_fem# #type_hero_fem# #hero_adjectif_apres_fem#",
+    "#pronomdef_hero_adjectif_avant_fem# #type_hero_fem#",
+    "#pronomdef_type_hero_fem# #hero_adjectif_apres_fem#",
+    "#pronomdef_hero_adjectif_avant_fem# #type_hero_fem#",
+    "#pronomdef_type_hero_fem# #hero_adjectif_apres_fem#",
+    "#pronomdef_type_hero_fem#"
+  ],
+  "hero_adjectif_avant": {
+    "*": [
+      "incroyable",
+      "formidable",
+      "adorable"
+    ],
+    "masc": [
+      "gentil",
+      "petit",
+      "joli",
+      "doux",
+      "courageux"
+    ],
+    "fem": [
+      "gentille",
+      "petite",
+      "jolie",
+      "douce",
+      "courageuse"
+    ]
+  },
+  "hero_adjectif_apres": {
+    "*": [
+      "intrépide",
+      "farouche",
+      "espiègle",
+      "nihiliste"
+    ],
+    "masc": [
+      "roux",
+      "têtu",
+      "maladroit",
+      "paresseux"
+    ],
+    "fem": [
+      "rousse",
+      "têtue",
+      "maladroite",
+      "paresseuse"
+    ]
+  },
+  "type_hero": {
+    "masc": [
+      "🦊",
+      "🐈",
+      "🐺",
+      "🐰",
+      "🐨",
+      "🐼",
+      "🦋",
+      "👻",
+      "🐊",
+      "ourson",
+      "dinosaure",
+      "crocosaure",
+      "👦",
+      "🤴",
+      "vampire"
+    ],
+    "fem": [
+      "loutre",
+      "musaraigne",
+      "étoile de mer",
+      "🦄",
+      "🐞",
+      "🐜",
+      "🐭",
+      "🐝",
+      "ponette",
+      "chatte",
+      "hirondelle",
+      "belette",
+      "🐢",
+      "🐛",
+      "👧",
+      "👸"
+    ]
+  }
+}
