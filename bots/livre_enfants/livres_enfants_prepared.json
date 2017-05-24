@@ -11,9 +11,8 @@
     "#hero_maj# et #gentil_complet_feminin# #truc_general_fem#",
     "#hero_maj# et #gentil_complet_feminin# qui voulait devenir #metier_hero_fem#",
     "#hero_maj# et #mechant_lieu_complet#",
-    "#hero_maj# qui voulait #cadeau_complet#",
-    "#hero_maj# qui vola #cadeau_complet#",
-    "#hero_maj# qui avait cassé #cadeau_complet_possessif#",
+    "#hero_maj# #verbe_cadeau# #cadeau_complet#",
+    "#hero_maj# #verbe_cadeau_possessif# #cadeau_complet_possessif#",
     "#disparu_masc# #hero_part# a disparu",
     "#disparu_fem# #hero_part# a disparue",
     "#hero_masculin_maj# qui voulait devenir #metier_hero_masc#",
@@ -273,7 +272,8 @@
     "qui fomentait un coup d'État",
     "qui voulait diriger le monde",
     "qui aimait faire la sieste",
-    "qui n'aimait pas les jeudi"
+    "qui n'aimait pas les jeudi",
+    "qui n'aimait pas Noël"
   ],
   "truc_general_masc": [
     "qui a été harcelé sur facebook",
@@ -310,7 +310,8 @@
     "qui fomentait un coup d'État",
     "qui voulait diriger le monde",
     "qui aimait faire la sieste",
-    "qui n'aimait pas les jeudi"
+    "qui n'aimait pas les jeudi",
+    "qui n'aimait pas Noël"
   ],
   "metier_hero_fem": [
     "magicienne",
@@ -454,12 +455,8 @@
     "Le 🐰"
   ],
   "cadeau_complet_possessif": [
-    "#cadeau_possessif_masc# #ajectif_cadeau_apres_masc#",
-    "#cadeau_possessif_fem# #ajectif_cadeau_apres_fem#",
-    "#cadeau_possessif_autre#"
-  ],
-  "cadeau_possessif_autre": [
-    "ses 🕶"
+    "#pronomposs_cadeau_masc# #ajectif_cadeau_apres_masc#",
+    "#pronomposs_cadeau_fem# #ajectif_cadeau_apres_fem#"
   ],
   "ajectif_cadeau_apres_fem": [
     "brillante",
@@ -475,7 +472,7 @@
     "gonflable",
     "qui disparaissait"
   ],
-  "cadeau_possessif_fem": [
+  "pronomposs_cadeau_fem": [
     "sa 🎸",
     "sa mandoline",
     "sa peluche",
@@ -496,28 +493,27 @@
     "gonflable",
     "qui disparaissait"
   ],
-  "cadeau_possessif_masc": [
+  "pronomposs_cadeau_masc": [
     "son 🎷",
     "son 🎁",
     "son légo",
     "son grille-pain",
     "son 🎻",
     "son 🥁",
-    "usonn ✈️",
+    "son ✈️",
     "son gaufrier",
-    "son tazzer"
+    "son tazzer",
+    "son 🧀"
+  ],
+  "verbe_cadeau_possessif": [
+    "qui avait cassé",
+    "qui avait perdu"
   ],
   "cadeau_complet": [
-    "#cadeau_masc# #ajectif_cadeau_apres_masc#",
-    "#cadeau_fem# #ajectif_cadeau_apres_fem#"
-  ],
-  "cadeau_fem": [
-    "une 🎸",
-    "une mandoline",
-    "une peluche",
-    "#pronomindef_animal_gentil_fem#",
-    "une 🍕",
-    "une écharpe"
+    "#pronomindef_cadeau_masc# #ajectif_cadeau_apres_masc#",
+    "#pronomindef_cadeau_fem# #ajectif_cadeau_apres_fem#",
+    "#pronomindef_animal_gentil_masc# #ajectif_cadeau_apres_masc#",
+    "#pronomindef_animal_gentil_fem# #ajectif_cadeau_apres_fem#"
   ],
   "pronomindef_animal_gentil_fem": [
     "une loutre",
@@ -535,18 +531,6 @@
     "une 🐢",
     "une 🐛"
   ],
-  "cadeau_masc": [
-    "un 🎷",
-    "un 🎁",
-    "un légo",
-    "un grille-pain",
-    "un 🎻",
-    "un 🥁",
-    "un ✈️",
-    "un gaufrier",
-    "un tazzer",
-    "#pronomindef_animal_gentil_masc#"
-  ],
   "pronomindef_animal_gentil_masc": [
     "un 🦊",
     "un 🐈",
@@ -562,6 +546,29 @@
     "un crocosaure",
     "un vampire",
     "un 🤖"
+  ],
+  "pronomindef_cadeau_fem": [
+    "une 🎸",
+    "une mandoline",
+    "une peluche",
+    "une 🍕",
+    "une écharpe"
+  ],
+  "pronomindef_cadeau_masc": [
+    "un 🎷",
+    "un 🎁",
+    "un légo",
+    "un grille-pain",
+    "un 🎻",
+    "un 🥁",
+    "un ✈️",
+    "un gaufrier",
+    "un tazzer",
+    "un 🧀"
+  ],
+  "verbe_cadeau": [
+    "qui voulait",
+    "qui vola"
   ],
   "mechant_lieu_complet": [
     "#mechant_lieu_complet_masculin#",

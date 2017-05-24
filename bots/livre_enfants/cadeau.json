@@ -1,58 +1,35 @@
 {
   "cadeau_complet": [
-    "#cadeau_masc# #ajectif_cadeau_apres_masc#",
-    "#cadeau_fem# #ajectif_cadeau_apres_fem#"
+    "#pronomindef_cadeau_masc# #ajectif_cadeau_apres_masc#",
+    "#pronomindef_cadeau_fem# #ajectif_cadeau_apres_fem#",
+    "#pronomindef_animal_gentil_masc# #ajectif_cadeau_apres_masc#",
+    "#pronomindef_animal_gentil_fem# #ajectif_cadeau_apres_fem#"
   ],
   "cadeau_complet_possessif": [
-    "#cadeau_possessif_masc# #ajectif_cadeau_apres_masc#",
-    "#cadeau_possessif_fem# #ajectif_cadeau_apres_fem#",
-    "#cadeau_possessif_autre#"
+    "#pronomposs_cadeau_masc# #ajectif_cadeau_apres_masc#",
+    "#pronomposs_cadeau_fem# #ajectif_cadeau_apres_fem#"
   ],
   "cadeau": {
     "masc": [
-      "un 🎷",
-      "un 🎁",
-      "un légo",
-      "un grille-pain",
-      "un 🎻",
-      "un 🥁",
-      "un ✈️",
-      "un gaufrier",
-      "un tazzer",
-      "#pronomindef_animal_gentil_masc#"
+      "🎷",
+      "🎁",
+      "légo",
+      "grille-pain",
+      "🎻",
+      "🥁",
+      "✈️",
+      "gaufrier",
+      "tazzer",
+      "🧀"
     ],
     "fem": [
-      "une 🎸",
-      "une mandoline",
-      "une peluche",
-      "#pronomindef_animal_gentil_fem#",
-      "une 🍕",
-      "une écharpe"
+      "🎸",
+      "mandoline",
+      "peluche",
+      "🍕",
+      "écharpe"
     ]
   },
-  "cadeau_possessif": {
-    "masc": [
-      "son 🎷",
-      "son 🎁",
-      "son légo",
-      "son grille-pain",
-      "son 🎻",
-      "son 🥁",
-      "usonn ✈️",
-      "son gaufrier",
-      "son tazzer"
-    ],
-    "fem": [
-      "sa 🎸",
-      "sa mandoline",
-      "sa peluche",
-      "sa 🍕",
-      "son écharpe"
-    ]
-  },
-  "cadeau_possessif_autre": [
-    "ses 🕶"
-  ],
   "ajectif_cadeau_apres": {
     "*": [
       "rouge",

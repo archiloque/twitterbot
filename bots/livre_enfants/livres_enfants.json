@@ -23,9 +23,8 @@
 
     "#hero_maj# et #mechant_lieu_complet#",
 
-    "#hero_maj# qui voulait #cadeau_complet#",
-    "#hero_maj# qui vola #cadeau_complet#",
-    "#hero_maj# qui avait cassé #cadeau_complet_possessif#",
+    "#hero_maj# #verbe_cadeau# #cadeau_complet#",
+    "#hero_maj# #verbe_cadeau_possessif# #cadeau_complet_possessif#",
 
     "#disparu_masc# #hero_part# a disparu",
     "#disparu_fem# #hero_part# a disparue",
@@ -41,6 +40,14 @@
   "verbe_lieu": [
     "qui voulait habiter",
     "qui habitait"
+  ],
+  "verbe_cadeau": [
+    "qui voulait",
+    "qui vola"
+  ],
+  "verbe_cadeau_possessif": [
+    "qui avait cassé",
+    "qui avait perdu"
   ],
   "disparu": {
     "masc": [
@@ -129,7 +136,8 @@
       "qui fomentait un coup d'État",
       "qui voulait diriger le monde",
       "qui aimait faire la sieste",
-      "qui n'aimait pas les jeudi"
+      "qui n'aimait pas les jeudi",
+      "qui n'aimait pas Noël"
     ],
     "masc": [
       "qui a été harcelé sur facebook"

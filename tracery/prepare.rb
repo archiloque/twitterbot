@@ -62,6 +62,7 @@ PRONOM_INDEF_PREFIX_NORMAL = 'pronomindef'
 PRONOM_INDEF_PREFIX_UP = 'Pronomindef'
 
 PRONOM_PART = 'pronompart'
+PRONOM_POSS = 'pronomposs'
 
 MASC_SUFFIX = 'masc'
 FEM_SUFFIX = 'fem'
@@ -72,7 +73,8 @@ PRONOMS = [
   PRONOM_DEF_PREFIX_UP,
   PRONOM_INDEF_PREFIX_NORMAL,
   PRONOM_INDEF_PREFIX_UP,
-  PRONOM_PART
+  PRONOM_PART,
+  PRONOM_POSS
 ]
 
 def fetch_group_content(group_name)
@@ -133,6 +135,15 @@ def fetch_group_content(group_name)
                 "de l'#{item}"
               else
                 "#{(gender == MASC_SUFFIX) ? 'du' : 'de la'} #{item}"
+              end
+            end
+          elsif found_pronom == PRONOM_POSS
+            return group_candidate.collect do |item|
+              found_vovel = VOVELS.find{|v| item.start_with?(v)}
+              if found_vovel
+                "son #{item}"
+              else
+                "#{(gender == MASC_SUFFIX) ? 'son' : 'sa'} #{item}"
               end
             end
           else
