@@ -58,11 +58,13 @@
     ],
     "masc": [
       "aigri",
-      "rabougri"
+      "rabougri",
+      "caché sous le lit"
     ],
     "fem": [
       "aigrie",
-      "rabougrie"
+      "rabougrie",
+      "cachée sous le lit"
     ]
   },
   "metier_mechant": {

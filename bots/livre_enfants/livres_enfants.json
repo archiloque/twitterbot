@@ -9,8 +9,8 @@
     "gentil.json"
   ],
   "origin": [
-    "#hero_maj# qui voulait habiter #gentil_lieu_complet#",
-    "#hero_maj# qui habitait #gentil_lieu_complet#",
+    "#hero_maj# #verbe_lieu# #gentil_lieu_complet#",
+    "#hero_maj# qui rêvait #gentil_lieu_complet_part#",
     "#hero_maj# et #hero_complet#",
     "#hero_maj# qui se maria avec #hero_complet#",
     "#hero_maj# et #mechant_complet#",
@@ -37,6 +37,10 @@
     "#hero_feminin_maj# #truc_general_fem#",
 
     "#hero_maj# s'est faché avec #hero_complet#"
+  ],
+  "verbe_lieu": [
+    "qui voulait habiter",
+    "qui habitait"
   ],
   "disparu": {
     "masc": [
@@ -95,7 +99,7 @@
       "qui n'avait pas sommeil",
       "à l'école",
       "qui avait fait pipi dans sa culotte",
-      "qui avait voté Mélanchon",
+      "qui avait voté Mélenchon",
       "qui était de mauvaise humeur",
       "qui avait raté l'avion",
       "qui était pour le travail le dimanche",
@@ -124,7 +128,8 @@
       "qui voulait rejoindre les Illuminati",
       "qui fomentait un coup d'État",
       "qui voulait diriger le monde",
-      "qui aimait faire la sieste"
+      "qui aimait faire la sieste",
+      "qui n'aimait pas les jeudi"
     ],
     "masc": [
       "qui a été harcelé sur facebook"

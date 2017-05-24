@@ -1,7 +1,7 @@
 {
   "origin": [
-    "#hero_maj# qui voulait habiter #gentil_lieu_complet#",
-    "#hero_maj# qui habitait #gentil_lieu_complet#",
+    "#hero_maj# #verbe_lieu# #gentil_lieu_complet#",
+    "#hero_maj# qui rêvait #gentil_lieu_complet_part#",
     "#hero_maj# et #hero_complet#",
     "#hero_maj# qui se maria avec #hero_complet#",
     "#hero_maj# et #mechant_complet#",
@@ -9,19 +9,18 @@
     "#hero_maj# et #gentil_complet_masculin# #truc_general_masc#",
     "#hero_maj# et #gentil_complet_masculin# qui voulait devenir #metier_hero_fem#",
     "#hero_maj# et #gentil_complet_feminin# #truc_general_fem#",
-    "#hero_maj# et #gentil_complet_feminin# qui voulait devenir #metier_hero_masc#",
+    "#hero_maj# et #gentil_complet_feminin# qui voulait devenir #metier_hero_fem#",
     "#hero_maj# et #mechant_lieu_complet#",
     "#hero_maj# qui voulait #cadeau_complet#",
     "#hero_maj# qui vola #cadeau_complet#",
     "#hero_maj# qui avait cassé #cadeau_complet_possessif#",
-    "#famille_masc# #hero_feminin_part# a disparu",
-    "#famille_fem# #hero_masculin_part# a disparue",
+    "#disparu_masc# #hero_part# a disparu",
+    "#disparu_fem# #hero_part# a disparue",
     "#hero_masculin_maj# qui voulait devenir #metier_hero_masc#",
-    "#hero_masculin_maj# #truc_general_masc#",
-    "#hero_masculin_maj# s'est faché avec #hero_complet#",
     "#hero_feminin_maj# qui voulait devenir #metier_hero_fem#",
+    "#hero_masculin_maj# #truc_general_masc#",
     "#hero_feminin_maj# #truc_general_fem#",
-    "#hero_feminin_maj# s'est fachée avec #hero_complet#"
+    "#hero_maj# s'est faché avec #hero_complet#"
   ],
   "hero_complet": [
     "#hero_complet_masculin#",
@@ -51,14 +50,15 @@
     "la 🐢",
     "la 🐛",
     "la 👧",
-    "la 👸"
+    "la 👸",
+    "la vampire"
   ],
   "hero_adjectif_apres_fem": [
     "rousse",
     "têtue",
     "maladroite",
     "paresseuse",
-    "facrceuse",
+    "farceuse",
     "intrépide",
     "farouche",
     "espiègle",
@@ -80,7 +80,8 @@
     "🐢",
     "🐛",
     "👧",
-    "👸"
+    "👸",
+    "vampire"
   ],
   "pronomdef_hero_adjectif_avant_fem": [
     "la gentille",
@@ -115,16 +116,16 @@
     "le crocosaure",
     "le 👦",
     "le 🤴",
-    "le vampire",
     "le 🤖",
-    "le mille-pattes"
+    "le mille-pattes",
+    "le vampire"
   ],
   "hero_adjectif_apres_masc": [
     "roux",
     "têtu",
     "maladroit",
     "paresseux",
-    "facrceur",
+    "farceur",
     "intrépide",
     "farouche",
     "espiègle",
@@ -145,9 +146,9 @@
     "crocosaure",
     "👦",
     "🤴",
-    "vampire",
     "🤖",
-    "mille-pattes"
+    "mille-pattes",
+    "vampire"
   ],
   "pronomdef_hero_adjectif_avant_masc": [
     "le gentil",
@@ -158,6 +159,10 @@
     "l'incroyable",
     "le formidable",
     "l'adorable"
+  ],
+  "hero_maj": [
+    "#hero_masculin_maj#",
+    "#hero_feminin_maj#"
   ],
   "hero_feminin_maj": [
     "#Pronomdef_hero_adjectif_avant_fem# #type_hero_fem# #hero_adjectif_apres_fem#",
@@ -183,7 +188,8 @@
     "La 🐢",
     "La 🐛",
     "La 👧",
-    "La 👸"
+    "La 👸",
+    "La vampire"
   ],
   "Pronomdef_hero_adjectif_avant_fem": [
     "La gentille",
@@ -195,12 +201,49 @@
     "La formidable",
     "L'adorable"
   ],
+  "hero_masculin_maj": [
+    "#Pronomdef_hero_adjectif_avant_masc# #type_hero_masc# #hero_adjectif_apres_masc#",
+    "#Pronomdef_hero_adjectif_avant_masc# #type_hero_masc#",
+    "#Pronomdef_type_hero_masc# #hero_adjectif_apres_masc#",
+    "#Pronomdef_hero_adjectif_avant_masc# #type_hero_masc#",
+    "#Pronomdef_type_hero_masc# #hero_adjectif_apres_masc#",
+    "#Pronomdef_type_hero_masc#"
+  ],
+  "Pronomdef_type_hero_masc": [
+    "Le 🦊",
+    "Le 🐈",
+    "Le 🐺",
+    "Le 🐰",
+    "Le 🐨",
+    "Le 🐼",
+    "Le 🦋",
+    "Le 👻",
+    "Le 🐊",
+    "L'ourson",
+    "Le dinosaure",
+    "Le crocosaure",
+    "Le 👦",
+    "Le 🤴",
+    "Le 🤖",
+    "Le mille-pattes",
+    "Le vampire"
+  ],
+  "Pronomdef_hero_adjectif_avant_masc": [
+    "Le gentil",
+    "Le petit",
+    "Le joli",
+    "Le doux",
+    "Le courageux",
+    "L'incroyable",
+    "Le formidable",
+    "L'adorable"
+  ],
   "truc_general_fem": [
     "qui a été harcelée sur facebook",
     "qui n'avait pas sommeil",
     "à l'école",
     "qui avait fait pipi dans sa culotte",
-    "qui avait voté Mélanchon",
+    "qui avait voté Mélenchon",
     "qui était de mauvaise humeur",
     "qui avait raté l'avion",
     "qui était pour le travail le dimanche",
@@ -227,7 +270,47 @@
     "qui voulait entrer dans les services secrets",
     "qui voulait renverser le gouvernement",
     "qui voulait rejoindre les Illuminati",
-    "qui fomentait un coup d'État"
+    "qui fomentait un coup d'État",
+    "qui voulait diriger le monde",
+    "qui aimait faire la sieste",
+    "qui n'aimait pas les jeudi"
+  ],
+  "truc_general_masc": [
+    "qui a été harcelé sur facebook",
+    "qui n'avait pas sommeil",
+    "à l'école",
+    "qui avait fait pipi dans sa culotte",
+    "qui avait voté Mélenchon",
+    "qui était de mauvaise humeur",
+    "qui avait raté l'avion",
+    "qui était pour le travail le dimanche",
+    "qui trainait sur Twitter",
+    "qui voulait manger des frites",
+    "qui avait mangé sa grand-mère",
+    "qui voulait apprendre le web-design",
+    "qui avait perdu son téléphone",
+    "qui avait épuisé son forfait Internet",
+    "qui trollait sur Internet",
+    "qui aimait les gif animées",
+    "qui avait trop regardé la TV",
+    "qui voulait monter sa startup",
+    "qui voulait lever du capital-risque",
+    "qui voulait organiser une messe noire",
+    "qui avait vendu son âme",
+    "qui avait lancé une OPA",
+    "qui voulait passer l'aggrégation",
+    "qui voulait entrer dans la fonction publique",
+    "qui voulait se marier",
+    "qui voulait échapper au fisc",
+    "qui avait oublié de déclarer son site à la CNIL",
+    "qui voulait faire de la musique",
+    "qui voulait entrer dans les services secrets",
+    "qui voulait renverser le gouvernement",
+    "qui voulait rejoindre les Illuminati",
+    "qui fomentait un coup d'État",
+    "qui voulait diriger le monde",
+    "qui aimait faire la sieste",
+    "qui n'aimait pas les jeudi"
   ],
   "metier_hero_fem": [
     "magicienne",
@@ -253,77 +336,6 @@
     "pilote",
     "ministre"
   ],
-  "hero_masculin_maj": [
-    "#Pronomdef_hero_adjectif_avant_masc# #type_hero_masc# #hero_adjectif_apres_masc#",
-    "#Pronomdef_hero_adjectif_avant_masc# #type_hero_masc#",
-    "#Pronomdef_type_hero_masc# #hero_adjectif_apres_masc#",
-    "#Pronomdef_hero_adjectif_avant_masc# #type_hero_masc#",
-    "#Pronomdef_type_hero_masc# #hero_adjectif_apres_masc#",
-    "#Pronomdef_type_hero_masc#"
-  ],
-  "Pronomdef_type_hero_masc": [
-    "Le 🦊",
-    "Le 🐈",
-    "Le 🐺",
-    "Le 🐰",
-    "Le 🐨",
-    "Le 🐼",
-    "Le 🦋",
-    "Le 👻",
-    "Le 🐊",
-    "L'ourson",
-    "Le dinosaure",
-    "Le crocosaure",
-    "Le 👦",
-    "Le 🤴",
-    "Le vampire",
-    "Le 🤖",
-    "Le mille-pattes"
-  ],
-  "Pronomdef_hero_adjectif_avant_masc": [
-    "Le gentil",
-    "Le petit",
-    "Le joli",
-    "Le doux",
-    "Le courageux",
-    "L'incroyable",
-    "Le formidable",
-    "L'adorable"
-  ],
-  "truc_general_masc": [
-    "qui a été harcelé sur facebook",
-    "qui n'avait pas sommeil",
-    "à l'école",
-    "qui avait fait pipi dans sa culotte",
-    "qui avait voté Mélanchon",
-    "qui était de mauvaise humeur",
-    "qui avait raté l'avion",
-    "qui était pour le travail le dimanche",
-    "qui trainait sur Twitter",
-    "qui voulait manger des frites",
-    "qui avait mangé sa grand-mère",
-    "qui voulait apprendre le web-design",
-    "qui avait perdu son téléphone",
-    "qui avait épuisé son forfait Internet",
-    "qui trollait sur Internet",
-    "qui aimait les gif animées",
-    "qui avait trop regardé la TV",
-    "qui voulait monter sa startup",
-    "qui voulait lever du capital-risque",
-    "qui voulait organiser une messe noire",
-    "qui avait vendu son âme",
-    "qui avait lancé une OPA",
-    "qui voulait passer l'aggrégation",
-    "qui voulait entrer dans la fonction publique",
-    "qui voulait se marier",
-    "qui voulait échapper au fisc",
-    "qui avait oublié de déclarer son site à la CNIL",
-    "qui voulait faire de la musique",
-    "qui voulait entrer dans les services secrets",
-    "qui voulait renverser le gouvernement",
-    "qui voulait rejoindre les Illuminati",
-    "qui fomentait un coup d'État"
-  ],
   "metier_hero_masc": [
     "magicien",
     "président",
@@ -347,48 +359,9 @@
     "pilote",
     "ministre"
   ],
-  "hero_masculin_part": [
-    "#pronompart_hero_adjectif_avant_masc# #type_hero_masc# #hero_adjectif_apres_masc#",
-    "#pronompart_hero_adjectif_avant_masc# #type_hero_masc#",
-    "#pronompart_type_hero_masc# #hero_adjectif_apres_masc#",
-    "#pronompart_hero_adjectif_avant_masc# #type_hero_masc#",
-    "#pronompart_type_hero_masc# #hero_adjectif_apres_masc#",
-    "#pronompart_type_hero_masc#"
-  ],
-  "pronompart_type_hero_masc": [
-    "du 🦊",
-    "du 🐈",
-    "du 🐺",
-    "du 🐰",
-    "du 🐨",
-    "du 🐼",
-    "du 🦋",
-    "du 👻",
-    "du 🐊",
-    "de l'ourson",
-    "du dinosaure",
-    "du crocosaure",
-    "du 👦",
-    "du 🤴",
-    "du vampire",
-    "du 🤖",
-    "du mille-pattes"
-  ],
-  "pronompart_hero_adjectif_avant_masc": [
-    "du gentil",
-    "du petit",
-    "du joli",
-    "du doux",
-    "du courageux",
-    "de l'incroyable",
-    "du formidable",
-    "de l'adorable"
-  ],
-  "famille_fem": [
-    "La maman",
-    "La grand-mère",
-    "La voisine",
-    "La cousine"
+  "hero_part": [
+    "#hero_masculin_part#",
+    "#hero_feminin_part#"
   ],
   "hero_feminin_part": [
     "#pronompart_hero_adjectif_avant_fem# #type_hero_fem# #hero_adjectif_apres_fem#",
@@ -414,7 +387,8 @@
     "de la 🐢",
     "de la 🐛",
     "de la 👧",
-    "de la 👸"
+    "de la 👸",
+    "de la vampire"
   ],
   "pronompart_hero_adjectif_avant_fem": [
     "de la gentille",
@@ -426,11 +400,58 @@
     "de la formidable",
     "de l'adorable"
   ],
-  "famille_masc": [
+  "hero_masculin_part": [
+    "#pronompart_hero_adjectif_avant_masc# #type_hero_masc# #hero_adjectif_apres_masc#",
+    "#pronompart_hero_adjectif_avant_masc# #type_hero_masc#",
+    "#pronompart_type_hero_masc# #hero_adjectif_apres_masc#",
+    "#pronompart_hero_adjectif_avant_masc# #type_hero_masc#",
+    "#pronompart_type_hero_masc# #hero_adjectif_apres_masc#",
+    "#pronompart_type_hero_masc#"
+  ],
+  "pronompart_type_hero_masc": [
+    "du 🦊",
+    "du 🐈",
+    "du 🐺",
+    "du 🐰",
+    "du 🐨",
+    "du 🐼",
+    "du 🦋",
+    "du 👻",
+    "du 🐊",
+    "de l'ourson",
+    "du dinosaure",
+    "du crocosaure",
+    "du 👦",
+    "du 🤴",
+    "du 🤖",
+    "du mille-pattes",
+    "du vampire"
+  ],
+  "pronompart_hero_adjectif_avant_masc": [
+    "du gentil",
+    "du petit",
+    "du joli",
+    "du doux",
+    "du courageux",
+    "de l'incroyable",
+    "du formidable",
+    "de l'adorable"
+  ],
+  "disparu_fem": [
+    "La maman",
+    "La grand-mère",
+    "La voisine",
+    "La cousine",
+    "La chienne"
+  ],
+  "disparu_masc": [
     "Le papa",
     "Le grand-père",
     "Le voisin",
-    "Le cousin"
+    "Le cousin",
+    "Le 🐈",
+    "Le chien",
+    "Le 🐰"
   ],
   "cadeau_complet_possessif": [
     "#cadeau_possessif_masc# #ajectif_cadeau_apres_masc#",
@@ -485,10 +506,6 @@
     "usonn ✈️",
     "son gaufrier",
     "son tazzer"
-  ],
-  "hero_maj": [
-    "#hero_masculin_maj#",
-    "#hero_feminin_maj#"
   ],
   "cadeau_complet": [
     "#cadeau_masc# #ajectif_cadeau_apres_masc#",
@@ -641,12 +658,13 @@
     "maladroite",
     "paresseuse",
     "cachée",
-    "qui disparaissait"
+    "pyromane"
   ],
   "metier_gentil_fem": [
     "magicienne",
     "#animal_gentil_fem#",
-    "sociologue"
+    "sociologue",
+    "vampire"
   ],
   "animal_gentil_fem": [
     "loutre",
@@ -673,7 +691,8 @@
   "pronomdef_metier_gentil_fem": [
     "la magicienne",
     "la #animal_gentil_fem#",
-    "la sociologue"
+    "la sociologue",
+    "la vampire"
   ],
   "gentil_complet_masculin": [
     "#pronomdef_metier_gentil_masc#",
@@ -689,14 +708,15 @@
     "paresseux",
     "caché",
     "chantant",
-    "qui disparaissait"
+    "pyromane"
   ],
   "metier_gentil_masc": [
     "magicien",
     "extra-terrestre",
     "géant",
     "#animal_gentil_masc#",
-    "sociologue"
+    "sociologue",
+    "vampire"
   ],
   "animal_gentil_masc": [
     "🦊",
@@ -725,7 +745,8 @@
     "l'extra-terrestre",
     "le géant",
     "le #animal_gentil_masc#",
-    "le sociologue"
+    "le sociologue",
+    "le vampire"
   ],
   "gentil_complet": [
     "#gentil_complet_masculin#",
@@ -746,6 +767,7 @@
   "mechant_adjectif_apres_fem": [
     "aigrie",
     "rabougrie",
+    "cachée sous le lit",
     "raciste",
     "réactionnaire",
     "nihiliste",
@@ -813,6 +835,7 @@
   "mechant_adjectif_apres_masc": [
     "aigri",
     "rabougri",
+    "caché sous le lit",
     "raciste",
     "réactionnaire",
     "nihiliste",
@@ -881,6 +904,55 @@
     "le sataniste",
     "le mécène"
   ],
+  "gentil_lieu_complet_part": [
+    "#pronompart_adjectif_gentil_lieu_masc# #gentil_lieu_masc#",
+    "#pronompart_adjectif_gentil_lieu_fem# #gentil_lieu_fem#",
+    "#pronompart_gentil_lieu_masc#",
+    "#pronompart_gentil_lieu_fem#"
+  ],
+  "pronompart_gentil_lieu_fem": [
+    "de la ⛰️",
+    "de la 🏔️",
+    "de la forêt",
+    "de la ⛺",
+    "de la 🚀",
+    "de la ☄"
+  ],
+  "pronompart_gentil_lieu_masc": [
+    "de l'igloo",
+    "du 🌋",
+    "du 🏜",
+    "du ⛵",
+    "du 🐋",
+    "du ☃"
+  ],
+  "gentil_lieu_fem": [
+    "⛰️",
+    "🏔️",
+    "forêt",
+    "⛺",
+    "🚀",
+    "☄"
+  ],
+  "pronompart_adjectif_gentil_lieu_fem": [
+    "de la grande",
+    "de la petite",
+    "de la lointaine",
+    "de la vieille"
+  ],
+  "gentil_lieu_masc": [
+    "igloo",
+    "🌋",
+    "🏜",
+    "⛵",
+    "🐋",
+    "☃"
+  ],
+  "pronompart_adjectif_gentil_lieu_masc": [
+    "du grand",
+    "du petit",
+    "du lointain"
+  ],
   "gentil_lieu_complet": [
     "#gentil_lieu_autre#",
     "#pronomindef_adjectif_gentil_lieu_masc# #gentil_lieu_masc#",
@@ -908,27 +980,11 @@
     "le 🐋",
     "le ☃"
   ],
-  "gentil_lieu_fem": [
-    "⛰️",
-    "🏔️",
-    "forêt",
-    "⛺",
-    "🚀",
-    "☄"
-  ],
   "pronomdef_adjectif_gentil_lieu_fem": [
     "la grande",
     "la petite",
     "la lointaine",
     "la vieille"
-  ],
-  "gentil_lieu_masc": [
-    "igloo",
-    "🌋",
-    "🏜",
-    "⛵",
-    "🐋",
-    "☃"
   ],
   "pronomdef_adjectif_gentil_lieu_masc": [
     "le grand",
@@ -973,5 +1029,9 @@
     "sur une île",
     "dans un brocoli",
     "dans un moulin à vent"
+  ],
+  "verbe_lieu": [
+    "qui voulait habiter",
+    "qui habitait"
   ]
 }

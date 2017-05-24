@@ -1,4 +1,10 @@
 {
+  "gentil_lieu_complet_part": [
+    "#pronompart_adjectif_gentil_lieu_masc# #gentil_lieu_masc#",
+    "#pronompart_adjectif_gentil_lieu_fem# #gentil_lieu_fem#",
+    "#pronompart_gentil_lieu_masc#",
+    "#pronompart_gentil_lieu_fem#"
+  ],
   "gentil_lieu_complet": [
     "#gentil_lieu_autre#",
     "#pronomindef_adjectif_gentil_lieu_masc# #gentil_lieu_masc#",
