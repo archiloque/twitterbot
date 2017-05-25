@@ -34,7 +34,8 @@
   },
   "gentil_adjectif_apres": {
     "*": [
-      "pyromane"
+      "pyromane",
+      "anarchiste"
     ],
     "masc": [
       "génial",

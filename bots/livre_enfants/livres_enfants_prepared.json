@@ -61,7 +61,8 @@
     "intrépide",
     "farouche",
     "espiègle",
-    "nihiliste"
+    "nihiliste",
+    "anarchiste"
   ],
   "type_hero_fem": [
     "loutre",
@@ -128,7 +129,8 @@
     "intrépide",
     "farouche",
     "espiègle",
-    "nihiliste"
+    "nihiliste",
+    "anarchiste"
   ],
   "type_hero_masc": [
     "🦊",
@@ -272,6 +274,7 @@
     "qui fomentait un coup d'État",
     "qui voulait diriger le monde",
     "qui aimait faire la sieste",
+    "qui n'aimait pas faire la sieste",
     "qui n'aimait pas les jeudi",
     "qui n'aimait pas Noël"
   ],
@@ -310,6 +313,7 @@
     "qui fomentait un coup d'État",
     "qui voulait diriger le monde",
     "qui aimait faire la sieste",
+    "qui n'aimait pas faire la sieste",
     "qui n'aimait pas les jeudi",
     "qui n'aimait pas Noël"
   ],
@@ -665,7 +669,8 @@
     "maladroite",
     "paresseuse",
     "cachée",
-    "pyromane"
+    "pyromane",
+    "anarchiste"
   ],
   "metier_gentil_fem": [
     "magicienne",
@@ -715,7 +720,8 @@
     "paresseux",
     "caché",
     "chantant",
-    "pyromane"
+    "pyromane",
+    "anarchiste"
   ],
   "metier_gentil_masc": [
     "magicien",
