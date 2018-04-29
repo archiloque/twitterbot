@@ -10,18 +10,21 @@
     "Annonce officielle : #politique_idiote_nom_masc# sera appliqué #moment#.",
     "Annonce officielle : #politique_idiote_nom_fem# sera appliquée #moment#.",
     "#animaux_domestiques_defini.capitalize# savent depuis longtemps #decouverte#.",
-    "En atterissant sur une nouvelle planète, on découvre #animaux_domestiques_indefini#.",
-    "En atterissant sur une nouvelle planète, on découvre #animaux_domestiques_indefini# #qualificatif_objets_bizarres#.",
-    "En atterissant sur une nouvelle planète, on découvre #objets_bizarres#.",
-    "En atterissant sur une nouvelle planète, on découvre #objets_bizarres# #qualificatif_objets_bizarres#.",
-    "En atterissant sur une nouvelle planète, on découvre #plantations#.",
-    "En atterissant sur une nouvelle planète, on découvre #plantations# #qualificatif_objets_bizarres#.",
+    "En atterrissant sur une nouvelle planète, on découvre #decouverte_planete#.",
     "Ces derniers temps, #personne_officielle_masc# rêve qu'il habite #lieu_perdu#.",
     "Ces derniers temps, #personne_officielle_fem# rêve qu'elle habite #lieu_perdu#.",
     "Ces derniers temps, #personne_officielle# entend les murmures #grand_ancien#.",
     "Ces derniers temps, #personne_indefini# entend les murmures #grand_ancien#.",
     "Un plan secret vise à faire #souverain# #pays_preposition#.",
     "Un plan secret vise à faire #souverain# #pays_preposition# grâce à des #objets_bizarres# #qualificatif_objets_bizarres#."
+  ],
+  "decouverte_planete": [
+    "#animaux_domestiques_indefini#",
+    "#animaux_domestiques_indefini# #qualificatif_objets_bizarres#",
+    "#objets_bizarres#",
+    "#objets_bizarres# #qualificatif_objets_bizarres#",
+    "#plantations#",
+    "#plantations# #qualificatif_objets_bizarres#"
   ],
   "souverain": [
     "d'#personne_indefini_masc# le nouveau #souverain_masc#",
@@ -33,7 +36,7 @@
   ],
   "personne_indefini_masc": [
     "un homme",
-    "un accousticien",
+    "un acousticien",
     "un campeur",
     "un chaudronnier",
     "un cuisinier",
@@ -45,12 +48,12 @@
   ],
   "personne_indefini_fem": [
     "une femme",
-    "un accousticien",
+    "une acousticienne",
     "une campeuse",
     "une chaudronnière",
     "une cuisinière",
     "une générale",
-    "une patissière",
+    "une pâtissière",
     "une scénariste de série",
     "une géologue",
     "une artiste"
@@ -62,7 +65,7 @@
   "personne_officielle_masc": [
     "un ministre",
     "un député",
-    "un prefét",
+    "un préfet",
     "un garde champêtre",
     "un magicien",
     "un chanteur oublié",
@@ -71,7 +74,7 @@
   "personne_officielle_fem": [
     "une ministre",
     "une député",
-    "une préfètes",
+    "une préfète",
     "une garde champêtre",
     "une magicienne",
     "une chanteuse oubliée",
@@ -94,8 +97,8 @@
     "un thread de mail",
     "Wikipedia",
     "une plage de galets sans fin",
-    "une pièce immence au sol couvert d'oreillers",
-    "un cimetierre",
+    "une pièce immense au sol couvert d'oreillers",
+    "un cimetière",
     "un plan de métro",
     "une boutique en ligne"
   ],
@@ -104,7 +107,7 @@
     "que #animaux_domestiques_defini# savent parler #langue#",
     "où vivent les dragons",
     "pourquoi les chats dorment autant",
-    "pourquoi les chatouillent chatouillent",
+    "pourquoi les chatouilles chatouillent",
     "pourquoi les monstres se cachent sous les lits",
     "le mystère de la mort de #roi_de_france#",
     "où disparaissent les chaussettes"
@@ -112,15 +115,15 @@
   "lieu_decouverte": [
     "la cave d'une vieille maison",
     "un vieux livre dont vous êtes le héros",
-    "un cimetierre",
+    "un cimetière",
     "un dictionnaire des synonymes",
-    "un receuil de poèmes",
+    "un recueil de poèmes",
     "une citée tout en carton",
     "ses rêves",
-    "un parking désafecté"
+    "un parking désaffecté"
   ],
   "secret": [
-    "le secret de l'atlantide",
+    "le secret de l'Atlantide",
     "le secret des dauphins",
     "le mystère des grandes oreilles"
   ],
@@ -159,7 +162,7 @@
     "les fraises",
     "les fraise des bois",
     "les framboises",
-    "les fruit de la passion",
+    "les fruits de la passion",
     "les groseilles",
     "les kakis",
     "les kiwis",
@@ -189,14 +192,14 @@
     "les tomates"
   ],
   "plats": [
-    "les gauffres",
-    "le gateau au chocolat",
-    "les crèpes",
+    "les gaufres",
+    "le gâteau au chocolat",
+    "les crêpes",
     "les sandwichs"
   ],
   "politique_idiote_nom_masc": [
-    "le réglement limitant la taille des giraffes",
-    "le réglement sur la couleur #animaux_domestiques_indefini#"
+    "le règlement limitant la taille des giraffes",
+    "le règlement sur la couleur #animaux_domestiques_indefini#"
   ],
   "politique_idiote_nom_fem": [
     "l'interdiction de brosser les chats",
@@ -207,7 +210,7 @@
     "les jours de pluie",
     "le #jour_de_la_semaine# #moment_journee#",
     "les #jour_de_la_semaine#s #type_journee#",
-    "les années bisextiles",
+    "les années bissextiles",
     "en cas de vent",
     "les jours de grand vent",
     "les nuits sans lune"
@@ -236,7 +239,9 @@
     "matin",
     "après-midi",
     "soir",
-    "midi"
+    "midi",
+    "pendant l'heure du goûter",
+    "pendant l'heure de la sieste"
   ],
   "animaux_domestiques_indefini": [
     "des chiens",
@@ -258,7 +263,7 @@
     "les chats",
     "les souris",
     "les furets",
-    "les chèves",
+    "les chèvres",
     "les lamas",
     "les rennes",
     "les hamsters",
@@ -281,7 +286,7 @@
     "la géologie",
     "la magie",
     "la zoologie",
-    "la philosphie",
+    "la philosophie",
     "la sociologie",
     "la philologie"
   ],
@@ -322,10 +327,10 @@
     "des Tamagotchis",
     "des trapézistes",
     "des montagnes de verres à moutarde",
-    "des chateaux de sable",
+    "des châteaux de sable",
     "des post-its",
     "des feutres verts",
-    "d'immences plages de sable translucides",
+    "d'immenses plages de sable translucides",
     "des orbes flottants",
     "des livres de philosophie gnostique",
     "de prix littéraires",
