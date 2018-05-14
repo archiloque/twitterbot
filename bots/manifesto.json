@@ -1,0 +1,103 @@
+{
+  "origin": [
+    "Manifesto for #agile# #soft#\n#individuals.capitalize# and #interactions# over #processes# and #tools#\n#working.capitalize# #software# over #comprehensive# #documentation#\n#customer.capitalize# #collaboration# over #contract# #negotiation#\n#responding.capitalize# #change# over #following# #plan#"
+  ],
+  "agile": [
+    "Agile",
+    "Argile",
+    "Fallible",
+    "State of the Art",
+    "Best of Breed",
+    "Coach-Centric"
+  ],
+  "soft":[
+    "Software Development",
+    "Full-Throttle Coaching",
+    "White Men Authority",
+    "Micromanagement",
+    "Stuctureless"
+  ],
+
+  "individuals": [
+    "individuals",
+    "omnious gestalt",
+    "hive mind",
+    "echo chamber",
+    "buzzwords"
+  ],
+  "interactions": [
+    "interactions",
+    "cursing",
+    "backstabbing",
+    "burn-down charts",
+    "yellow notes"
+  ],
+  "processes": [
+    "processes",
+    "structure"
+  ],
+  "tools": [
+    "tools",
+    "JIRA",
+    "reflexion"
+  ],
+
+  "working": [
+    "working",
+    "failing"
+  ],
+  "software": [
+    "software",
+    "ball of mud",
+    "sea of tears"
+  ],
+  "comprehensive": [
+    "comprehensive",
+    "omnious",
+    "factious",
+    "structured"
+  ],
+  "documentation": [
+    "documentation",
+    "nightmares",
+    "ticket management"
+  ],
+
+  "customer": [
+    "customer",
+    "victim"
+  ],
+  "collaboration": [
+    "collaboration",
+    "battle royale",
+    "preasuring"
+  ],
+  "contract": [
+    "contract",
+    "rational"
+  ],
+  "negotiation": [
+    "negotiation",
+    "eye-pocking"
+  ],
+
+  "responding": [
+    "responding to",
+    "ondulating to",
+    "ignoring",
+    "embracing"
+  ],
+  "change": [
+    "change",
+    "chaos",
+    "pain"
+  ],
+  "following": [
+    "following"
+  ],
+  "plan": [
+    "a plan",
+    "the omnious spreadsheet",
+    "a cursed parchment"
+  ]
+}

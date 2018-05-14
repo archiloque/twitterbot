@@ -1,22 +1,35 @@
 {
   "origin": [
-    "#personne_indefini.capitalize# se perd dans #lieu_perdu# et découvre #decouverte#.",
-    "#personne_indefini.capitalize# découvre #decouverte#.",
-    "#personne_indefini.capitalize# découvre #decouverte# et décide de consacrer sa vie #vocation#.",
-    "#personne_indefini.capitalize# découvre #decouverte# dans #lieu_decouverte#.",
-    "#personne_indefini.capitalize# découvre que #secret# se trouve #endroit_invention#.",
-    "#personne_indefini.capitalize# décide de consacrer sa vie #vocation#.",
+    "#personne_indefini.capitalize# #decouverte_phrase#.",
     "#personne_officielle.capitalize# décide que la solution aux problèmes du pays est #politique_idiote_verbe#.",
     "Annonce officielle : #politique_idiote_nom_masc# sera appliqué #moment#.",
     "Annonce officielle : #politique_idiote_nom_fem# sera appliquée #moment#.",
     "#animaux_domestiques_defini.capitalize# savent depuis longtemps #decouverte#.",
     "En atterrissant sur une nouvelle planète, on découvre #decouverte_planete#.",
-    "Ces derniers temps, #personne_officielle_masc# rêve qu'il habite #lieu_perdu#.",
-    "Ces derniers temps, #personne_officielle_fem# rêve qu'elle habite #lieu_perdu#.",
-    "Ces derniers temps, #personne_officielle# entend les murmures #grand_ancien#.",
-    "Ces derniers temps, #personne_indefini# entend les murmures #grand_ancien#.",
-    "Un plan secret vise à faire #souverain# #pays_preposition#.",
-    "Un plan secret vise à faire #souverain# #pays_preposition# grâce à des #objets_bizarres# #qualificatif_objets_bizarres#."
+    
+    "#temporalité.capitalize# #personne_officielle_masc# rêve qu'il habite #lieu_perdu#.",
+    "#temporalité.capitalize# #personne_officielle_fem# rêve qu'elle habite #lieu_perdu#.",
+
+    "#temporalité.capitalize# #personne_officielle# entend #phrase_entend#.",
+    "#temporalité.capitalize# #personne_indefini# entend #phrase_entend#.",
+    
+    "#plan_secret.capitalize# vise à faire #souverain# #pays_preposition#.",
+    "#plan_secret.capitalize# vise à faire #souverain# #pays_preposition# grâce à #objets_bizarres# #qualificatif_objets_bizarres#.",
+    
+    "#personne_indefini.capitalize# #pressentiment_verbe# #pressentiment#."
+  ],
+  "phrase_entend": [
+    "entend les murmures #grand_ancien#",
+    "entend des gratements d'ongles",
+    "des rires semblant venir de nulle part",
+    "un grondement lointain"
+  ],
+  "temporalité": [
+    "ces derniers temps",
+    "depuis une semaine",
+    "depuis son anniversaire",
+    "depuis les dernières élections",
+    "depuis le coucher du soleil"
   ],
   "decouverte_planete": [
     "#animaux_domestiques_indefini#",
@@ -25,6 +38,14 @@
     "#objets_bizarres# #qualificatif_objets_bizarres#",
     "#plantations#",
     "#plantations# #qualificatif_objets_bizarres#"
+  ],
+  "decouverte_phrase": [
+    "découvre #decouverte#",
+    "découvre #decouverte# et décide de consacrer sa vie #vocation#",
+    "découvre #decouverte# dans #lieu_decouverte#",
+    "découvre que #secret# se trouve #endroit_invention#",
+    "se perd dans #lieu_perdu# et découvre #decouverte#",
+    "décide de consacrer sa vie #vocation#"
   ],
   "souverain": [
     "d'#personne_indefini_masc# le nouveau #souverain_masc#",
@@ -44,7 +65,10 @@
     "un patissier",
     "un scénariste de série",
     "un géologue",
-    "un artiste"
+    "un artiste",
+    "un journaliste",
+    "un architecte",
+    "un retraité"
   ],
   "personne_indefini_fem": [
     "une femme",
@@ -56,7 +80,10 @@
     "une pâtissière",
     "une scénariste de série",
     "une géologue",
-    "une artiste"
+    "une artiste",
+    "une journaliste",
+    "une architecte",
+    "une retraitée"
   ],
   "personne_officielle": [
     "#personne_officielle_masc#",
@@ -100,7 +127,12 @@
     "une pièce immense au sol couvert d'oreillers",
     "un cimetière",
     "un plan de métro",
-    "une boutique en ligne"
+    "une boutique en ligne",
+    "une équation différentielle",
+    "une comptine pour enfant",
+    "un sous-sol",
+    "les rêves de son voisin",
+    "les rêves de sa voisine"
   ],
   "decouverte": [
     "d'où part le chemin vers la lune",
@@ -109,7 +141,7 @@
     "pourquoi les chats dorment autant",
     "pourquoi les chatouilles chatouillent",
     "pourquoi les monstres se cachent sous les lits",
-    "le mystère de la mort de #roi_de_france#",
+    "les raisons cachées de la mort de #roi_de_france#",
     "où disparaissent les chaussettes"
   ],
   "lieu_decouverte": [
@@ -120,7 +152,8 @@
     "un recueil de poèmes",
     "une citée tout en carton",
     "ses rêves",
-    "un parking désaffecté"
+    "un parking désaffecté",
+    "une vieille église"
   ],
   "secret": [
     "le secret de l'Atlantide",
@@ -195,7 +228,11 @@
     "les gaufres",
     "le gâteau au chocolat",
     "les crêpes",
-    "les sandwichs"
+    "les sandwichs",
+    "l'osso bucco",
+    "la confiture",
+    "les madeleines",
+    "le café au lait"
   ],
   "politique_idiote_nom_masc": [
     "le règlement limitant la taille des giraffes",
@@ -243,6 +280,13 @@
     "pendant l'heure du goûter",
     "pendant l'heure de la sieste"
   ],
+  "moments_journee": [
+    "les matins",
+    "les après-midis",
+    "les soirs",
+    "pendant l'heure du goûter",
+    "pendant l'heure de la sieste"
+  ],
   "animaux_domestiques_indefini": [
     "des chiens",
     "des chats",
@@ -256,7 +300,8 @@
     "des poulpes",
     "des marmottes",
     "des oiseaux",
-    "des doudous"
+    "des doudous",
+    "des chargeurs de téléphone"
   ],
   "animaux_domestiques_defini": [
     "les chiens",
@@ -280,7 +325,8 @@
     "aux #domaine_feminin_pluriel# #adjectif_domaine_feminin_pluriel#",
     "à photographier #animaux_domestiques_indefini#",
     "à dominer le monde",
-    "à troller sur des forums"
+    "à troller sur des forums",
+    "à se moquer du monde"
   ],
   "domaine_feminin": [
     "la géologie",
@@ -307,7 +353,8 @@
     "gnostique",
     "circulaire",
     "maudite",
-    "jetable"
+    "jetable",
+    "agile"
   ],
   "adjectif_domaine_feminin_pluriel": [
     "extrêmes",
@@ -320,7 +367,8 @@
     "gnostiques",
     "circulaires",
     "maudites",
-    "jetables"
+    "jetables",
+    "agiles"
   ],
   "objets_bizarres": [
     "des éponges gratantes",
@@ -342,14 +390,18 @@
     "des dents",
     "des tubes de dentifrices",
     "des salières",
-    "des étendoirs à linge"
+    "des étendoirs à linge",
+    "des yeux flottant dans le ciel"
   ],
   "qualificatif_objets_bizarres": [
     "qui bougent quand on ne les regarde pas",
     "qui chantent la nuit",
     "qui changent de couleur au soleil",
     "qui chantent les nuits de pleine lune",
-    "qui ronronnent"
+    "qui ronronnent",
+    "convertibles",
+    "téléscopiques",
+    "à poils longs"
   ],
   "plantations": [
     "des champs de céleri",
@@ -360,7 +412,12 @@
     "des ibiscus",
     "des champignons de plusieurs mètres de haut",
     "des vieux oliviers",
-    "des pommiers aux formes bizarres"
+    "des pommiers aux formes bizarres",
+    "des oreillettes bluetooth",
+    "des rognures d'ongles",
+    "des jouets pour chat",
+    "des colliers de nouilles",
+    "des poils de chat"
   ],
   "roi_de_france": [
     "Clovis Ier",
@@ -467,7 +524,10 @@
   "pays_preposition": [
     "du Danemark",
     "de la Belgique",
-    "de France"
+    "de France",
+    "d'Andorre",
+    "du Kremlin-Bicêtre",
+    "du 16ème arrondissement"
   ],
   "grand_ancien": [
     "d'Abholos",
@@ -636,7 +696,7 @@
     "de la Noirceur des Étoiles",
     "de la Chose-Nuage",
     "de l'Habitant du Golfe",
-    "lu Dieu Vert",
+    "du Dieu Vert",
     "de l'Hydre",
     "du Brouillard sans Nom",
     "du Vers qui Ronge dans la Nuit",
@@ -698,6 +758,26 @@
     "les oreillers",
     "les commentaires",
     "les buvards",
-    "les peignes"
+    "les peignes",
+    "les post-its",
+    "les agrafeuses"
+  ],
+  "pressentiment_verbe": [
+    "a l'impression",
+    "a le pressentiment",
+    "se doute"
+  ],
+  "pressentiment": [
+    "que quelqu'un l'observe",
+    "que la catastrophe est imminente",
+    "que quelque cloches pendant #moments_journee#",
+    "qu'on lui cache des choses",
+    "qu'il va se passer quelque chose"
+  ],
+  "plan_secret": [
+    "un plan secret",
+    "une conspiration",
+    "une machination",
+    "un complot"
   ]
 }
