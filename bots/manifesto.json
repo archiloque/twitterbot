@@ -1,6 +1,12 @@
 {
   "origin": [
-    "Manifesto for #agile# #soft#\n#individuals.capitalize# and #interactions# over #processes# and #tools#\n#working.capitalize# #software# over #comprehensive# #documentation#\n#customer.capitalize# #collaboration# over #contract# #negotiation#\n#responding.capitalize# #change# over #following# #plan#"
+    "#manifesto# for #agile# #soft#\n#individuals.capitalize# and #interactions# over #processes# and #tools#\n#working.capitalize# #software# over #comprehensive# #documentation#\n#customer.capitalize# #collaboration# over #contract# #negotiation#\n#responding.capitalize# #change# over #following# #plan#"
+  ],
+  "manifesto": [
+    "Manifesto",
+    "Prophecy",
+    "Sales Pitch",
+    "Elevator Pitch"
   ],
   "agile": [
     "Agile",
@@ -8,14 +14,18 @@
     "Fallible",
     "State of the Art",
     "Best of Breed",
-    "Coach-Centric"
+    "Coach-Centric",
+    "Gullible",
+    "Buzzwordy",
+    "Name-Dropping Centric"
   ],
   "soft":[
     "Software Development",
     "Full-Throttle Coaching",
     "White Men Authority",
     "Micromanagement",
-    "Stuctureless"
+    "Tyranny of Stuctureless",
+    "Code Scribling"
   ],
 
   "individuals": [
@@ -34,12 +44,14 @@
   ],
   "processes": [
     "processes",
-    "structure"
+    "structure",
+    "coherent action"
   ],
   "tools": [
     "tools",
     "JIRA",
-    "reflexion"
+    "reflexion",
+    "organized work"
   ],
 
   "working": [
@@ -70,7 +82,8 @@
   "collaboration": [
     "collaboration",
     "battle royale",
-    "preasuring"
+    "preasuring",
+    "shaming"
   ],
   "contract": [
     "contract",
@@ -90,10 +103,12 @@
   "change": [
     "change",
     "chaos",
-    "pain"
+    "pain",
+    "reality"
   ],
   "following": [
-    "following"
+    "following",
+    "dodging"
   ],
   "plan": [
     "a plan",
