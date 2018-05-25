@@ -132,7 +132,12 @@
     "une comptine pour enfant",
     "un sous-sol",
     "les rêves de son voisin",
-    "les rêves de sa voisine"
+    "les rêves de sa voisine",
+    "les toilettes d'une fête pas terrible",
+    "le rayon céréales d'un supermarché",
+    "un séminaire d'entreprise",
+    "une séance de team-building",
+    "la main invisible du marché"
   ],
   "decouverte": [
     "d'où part le chemin vers la lune",
@@ -392,7 +397,11 @@
     "des salières",
     "des étendoirs à linge",
     "des yeux flottant dans le ciel",
-    "des cubes gelatineux"
+    "des cubes gelatineux",
+    "des enfants portant des masques",
+    "des chaussettes solitaires",
+    "des dépliants pour des restaurants de sushi",
+    "des mains invisibles du marché"
   ],
   "qualificatif_objets_bizarres": [
     "qui bougent quand on ne les regarde pas",
@@ -402,7 +411,8 @@
     "qui ronronnent",
     "convertibles",
     "téléscopiques",
-    "à poils longs"
+    "à poils longs",
+    "qui inspirent confiance"
   ],
   "plantations": [
     "des champs de céleri",
@@ -761,7 +771,8 @@
     "les buvards",
     "les peignes",
     "les post-its",
-    "les agrafeuses"
+    "les agrafeuses",
+    "les pantoufles à mémoire de forme"
   ],
   "pressentiment_verbe": [
     "a l'impression",
@@ -779,6 +790,8 @@
     "un plan secret",
     "une conspiration",
     "une machination",
-    "un complot"
+    "un complot",
+    "un culte",
+    "un amendement mystérieux"
   ]
 }
