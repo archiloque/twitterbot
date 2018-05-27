@@ -183,6 +183,14 @@ rw "\tgraph [rankdir=LR];"
 current_group_index = 0
 fragments_groups_to_id = {}
 
+def format_number(number)
+  left, right = number.to_s.split('.'.freeze)
+  left.gsub!(/(\d)(?=(\d\d\d)+(?!\d))/) do |digit_to_delimit|
+    "#{digit_to_delimit}."
+  end
+  [left, right].compact.join
+end
+
 # Declare the rules
 fragments_groups.each_pair do |fragment_group_name, fragment_group|
   fragments_groups_to_id[fragment_group_name] = current_group_index
@@ -190,7 +198,7 @@ fragments_groups.each_pair do |fragment_group_name, fragment_group|
     if rule.calculate(fragments_groups) == 1
       rw "\trule_#{current_group_index}_#{rule_index}[label=\"#{rule.original_value}\"];"
     else
-      rw "\trule_#{current_group_index}_#{rule_index}[label=\"#{rule.original_value} #{rule.calculate(fragments_groups)}\"];"
+      rw "\trule_#{current_group_index}_#{rule_index}[label=\"#{rule.original_value} #{format_number(rule.calculate(fragments_groups))}\"];"
     end
   end
   current_group_index+= 1
@@ -202,7 +210,7 @@ rw ''
 fragments_groups.each_pair do |fragment_group_name, fragment_group|
   current_group_index = fragments_groups_to_id[fragment_group_name]
   rw "\tsubgraph cluster_#{current_group_index} {"
-  rw "\t\tlabel=\"#{fragment_group_name} #{fragment_group.calculate(fragments_groups)}\";"
+  rw "\t\tlabel=\"#{fragment_group_name} #{format_number(fragment_group.calculate(fragments_groups))}\";"
   fragment_group.rules.each_with_index do |rule, rule_index|
     rw "\t\trule_#{current_group_index}_#{rule_index};"
   end
@@ -228,22 +236,6 @@ fragments_groups.each_pair do |fragment_group_name, fragment_group|
   rw ''
 end
 
-# Declare the groups
-#fragments_groups.each_pair do |fragment_group_name, fragment_group|
-#  fragments_groups_to_id[fragment_group_name] = current_group_index
-#  rw "\tgroup_#{current_group_index} [label=\"#{fragment_group_name} #{fragment_group.calculate(fragments_groups)}\"];"
-#  current_group_index+= 1
-#end
-
 rw ''
-
-# Declare the links
-#fragments_groups.values.each do |fragment_group|
-#  fragment_group_id = fragments_groups_to_id[fragment_group.name]
-#  fragment_group.dependencies.keys.each do |dependency|
-#    dependency_id = fragments_groups_to_id[dependency]
-#    rw "\tgroup_#{fragment_group_id} -> group_#{dependency_id};"
-#  end
-#end
 
 rw '}'

@@ -177,10 +177,18 @@ fragments_groups_to_id = {}
 rw 'digraph tracery {'
 rw "\tgraph [rankdir=LR];"
 
+def format_number(number)
+  left, right = number.to_s.split('.'.freeze)
+  left.gsub!(/(\d)(?=(\d\d\d)+(?!\d))/) do |digit_to_delimit|
+    "#{digit_to_delimit}."
+  end
+  [left, right].compact.join
+end
+
 # Declare the groups
 fragments_groups.each_pair do |fragment_group_name, fragment_group|
   fragments_groups_to_id[fragment_group_name] = current_group_index
-  rw "\tgroup_#{current_group_index} [label=\"#{fragment_group_name} #{fragment_group.posssibilities}\"];"
+  rw "\tgroup_#{current_group_index} [label=\"#{fragment_group_name} #{format_number(fragment_group.posssibilities)}\"];"
   current_group_index+= 1
 end
 

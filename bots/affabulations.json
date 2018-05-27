@@ -2,10 +2,9 @@
   "origin": [
     "#personne_indefini.capitalize# #decouverte_phrase#.",
     "#personne_officielle.capitalize# décide que la solution aux problèmes du pays est #politique_idiote_verbe#.",
-    "Annonce officielle : #politique_idiote_nom_masc# sera appliqué #moment#.",
-    "Annonce officielle : #politique_idiote_nom_fem# sera appliquée #moment#.",
+    "Annonce officielle : #politique_idiote#.",
     "#animaux_domestiques_defini.capitalize# savent depuis longtemps #decouverte#.",
-    "En atterrissant sur une nouvelle planète, on découvre #decouverte_planete#.",
+    "#info_decouverte# #decouverte_planete#.",
     
     "#temporalité.capitalize# #personne_officielle_masc# rêve qu'il habite #lieu_perdu#.",
     "#temporalité.capitalize# #personne_officielle_fem# rêve qu'elle habite #lieu_perdu#.",
@@ -18,9 +17,14 @@
     
     "#personne_indefini.capitalize# #pressentiment_verbe# #pressentiment#."
   ],
+  "info_decouverte": [
+    "En atterrissant sur une nouvelle planète, on découvre",
+    "En photographiant un astéroïde, on découvre",
+    "Sur la face cachée de la lune, on découvre"
+  ],
   "phrase_entend": [
     "entend les murmures #grand_ancien#",
-    "entend des gratements d'ongles",
+    "entend des grattements  d'ongles",
     "des rires semblant venir de nulle part",
     "un grondement lointain"
   ],
@@ -29,7 +33,11 @@
     "depuis une semaine",
     "depuis son anniversaire",
     "depuis les dernières élections",
-    "depuis le coucher du soleil"
+    "depuis le coucher du soleil",
+    "depuis les élections",
+    "quand il pleut",
+    "les jours de brouillard",
+    "les jours de grand vent"
   ],
   "decouverte_planete": [
     "#animaux_domestiques_indefini#",
@@ -49,11 +57,22 @@
   ],
   "souverain": [
     "d'#personne_indefini_masc# le nouveau #souverain_masc#",
-    "d'#personne_indefini_fem# la nouvelle #souverain_fem#"
+    "d'#personne_indefini_fem# la nouvelle #souverain_fem#",
+    "#monstre_masc# le nouveau #souverain_masc#",
+    "#monstre_fem# la nouvelle #souverain_fem#",
+    "#grand_ancien# le nouveau #souverain_masc#"
   ],
   "personne_indefini": [
     "#personne_indefini_masc#",
     "#personne_indefini_fem#"
+  ],
+  "monstre_masc": [
+    "d'un monolithe",
+    "d'un cyclope"
+  ],
+  "monstre_fem": [
+    "d'une hydre monstrueuse",
+    "d'une manticore"
   ],
   "personne_indefini_masc": [
     "un homme",
@@ -62,13 +81,14 @@
     "un chaudronnier",
     "un cuisinier",
     "un général",
-    "un patissier",
+    "un pâtissier",
     "un scénariste de série",
     "un géologue",
     "un artiste",
     "un journaliste",
     "un architecte",
-    "un retraité"
+    "un retraité",
+    "un pizzaiolo"
   ],
   "personne_indefini_fem": [
     "une femme",
@@ -83,7 +103,8 @@
     "une artiste",
     "une journaliste",
     "une architecte",
-    "une retraitée"
+    "une retraitée",
+    "une pizzaiola"
   ],
   "personne_officielle": [
     "#personne_officielle_masc#",
@@ -96,7 +117,9 @@
     "un garde champêtre",
     "un magicien",
     "un chanteur oublié",
-    "un magistrat"
+    "un magistrat",
+    "un membre des services secrets",
+    "un embassadeur"
   ],
   "personne_officielle_fem": [
     "une ministre",
@@ -105,7 +128,10 @@
     "une garde champêtre",
     "une magicienne",
     "une chanteuse oubliée",
-    "une magistrate"
+    "une magistrate",
+    "une personne officielle",
+    "une membre des services secrets",
+    "une embassadrice"
   ],
   "lieu_perdu": [
     "une grande forêt",
@@ -239,8 +265,12 @@
     "les madeleines",
     "le café au lait"
   ],
+  "politique_idiote": [
+    "#politique_idiote_nom_masc# sera appliqué #moment#",
+    "#politique_idiote_nom_fem# sera appliquée #moment#"
+  ],
   "politique_idiote_nom_masc": [
-    "le règlement limitant la taille des giraffes",
+    "le règlement limitant la taille des girafes",
     "le règlement sur la couleur #animaux_domestiques_indefini#"
   ],
   "politique_idiote_nom_fem": [
@@ -290,7 +320,8 @@
     "les après-midis",
     "les soirs",
     "pendant l'heure du goûter",
-    "pendant l'heure de la sieste"
+    "pendant l'heure de la sieste",
+    "les après-midi brumeux"
   ],
   "animaux_domestiques_indefini": [
     "des chiens",
@@ -397,7 +428,7 @@
     "des salières",
     "des étendoirs à linge",
     "des yeux flottant dans le ciel",
-    "des cubes gelatineux",
+    "des cubes gélatineux",
     "des enfants portant des masques",
     "des chaussettes solitaires",
     "des dépliants pour des restaurants de sushi",
@@ -410,7 +441,7 @@
     "qui chantent les nuits de pleine lune",
     "qui ronronnent",
     "convertibles",
-    "téléscopiques",
+    "télescopiques",
     "à poils longs",
     "qui inspirent confiance"
   ],
@@ -524,13 +555,17 @@
     "roi",
     "empereur",
     "suzerain",
-    "tuteur"
+    "tuteur",
+    "souverain secret",
+    "grand inquisiteur"
   ],
   "souverain_fem": [
     "reine",
     "impératrice",
     "suzeraine",
-    "tutrice"
+    "tutrice",
+    "souveraine secrète",
+    "grande inquisitrice"
   ],
   "pays_preposition": [
     "du Danemark",
@@ -772,17 +807,25 @@
     "les peignes",
     "les post-its",
     "les agrafeuses",
-    "les pantoufles à mémoire de forme"
+    "les pantoufles à mémoire de forme",
+    "les tongs",
+    "les cache-oreilles",
+    "les ampoules qui changent de couleur"
   ],
   "pressentiment_verbe": [
     "a l'impression",
     "a le pressentiment",
-    "se doute"
+    "se doute",
+    "se doute bien",
+    "sait bien",
+    "a le sombre pressentiment",
+    "a entendu dire",
+    "aurait préféré ne pas apprendre"
   ],
   "pressentiment": [
     "que quelqu'un l'observe",
     "que la catastrophe est imminente",
-    "que quelque cloches pendant #moments_journee#",
+    "que quelque cloche pendant #moments_journee#",
     "qu'on lui cache des choses",
     "qu'il va se passer quelque chose"
   ],
@@ -792,6 +835,7 @@
     "une machination",
     "un complot",
     "un culte",
-    "un amendement mystérieux"
+    "un amendement mystérieux",
+    "une directive européenne secrète"
   ]
 }
