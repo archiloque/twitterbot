@@ -110,6 +110,10 @@ class RulesGroup
     @rules = []
   end
 
+  def leaf?
+    @posssibilities == rules.length
+  end
+
   def calculate(fragments_groups)
     if @posssibilities == 0
       rules.each do |rule|
@@ -194,11 +198,15 @@ end
 # Declare the rules
 fragments_groups.each_pair do |fragment_group_name, fragment_group|
   fragments_groups_to_id[fragment_group_name] = current_group_index
-  fragment_group.rules.each_with_index do |rule, rule_index|
-    if rule.calculate(fragments_groups) == 1
-      rw "\trule_#{current_group_index}_#{rule_index}[label=\"#{rule.original_value}\"];"
-    else
-      rw "\trule_#{current_group_index}_#{rule_index}[label=\"#{rule.original_value} #{format_number(rule.calculate(fragments_groups))}\"];"
+  if fragment_group.leaf?
+    rw "\trule_#{current_group_index} [label=\"#{fragment_group_name} #{format_number(fragment_group.calculate(fragments_groups))}\"];"
+  else
+    fragment_group.rules.each_with_index do |rule, rule_index|
+      if rule.calculate(fragments_groups) == 1
+        rw "\trule_#{current_group_index}_#{rule_index}[label=\"#{rule.original_value}\"];"
+      else
+        rw "\trule_#{current_group_index}_#{rule_index}[label=\"#{rule.original_value} #{format_number(rule.calculate(fragments_groups))}\"];"
+      end
     end
   end
   current_group_index+= 1
@@ -208,15 +216,17 @@ rw ''
 
 # Declare the groups
 fragments_groups.each_pair do |fragment_group_name, fragment_group|
-  current_group_index = fragments_groups_to_id[fragment_group_name]
-  rw "\tsubgraph cluster_#{current_group_index} {"
-  rw "\t\tlabel=\"#{fragment_group_name} #{format_number(fragment_group.calculate(fragments_groups))}\";"
-  fragment_group.rules.each_with_index do |rule, rule_index|
-    rw "\t\trule_#{current_group_index}_#{rule_index};"
+  unless fragment_group.leaf?
+    current_group_index = fragments_groups_to_id[fragment_group_name]
+    rw "\tsubgraph cluster_#{current_group_index} {"
+    rw "\t\tlabel=\"#{fragment_group_name} #{format_number(fragment_group.calculate(fragments_groups))}\";"
+    fragment_group.rules.each_with_index do |rule, rule_index|
+      rw "\t\trule_#{current_group_index}_#{rule_index};"
+    end
+    rw "\t}"
+    current_group_index+= 1
+    rw ''
   end
-  rw "\t}"
-  current_group_index+= 1
-  rw ''
 end
 
 rw ''
@@ -228,7 +238,11 @@ fragments_groups.each_pair do |fragment_group_name, fragment_group|
   fragment_group.rules.each_with_index do |rule, rule_index|
     rule.fragments_replacements.each do |fragments_replacement|
       replacement_group_id = fragments_groups_to_id[fragments_replacement.to_group_name]
-      rw "\trule_#{current_group_index}_#{rule_index} -> rule_#{replacement_group_id}_0 [lhead=cluster_#{replacement_group_id}];"
+      if fragments_groups[fragments_replacement.to_group_name].leaf?
+        rw "\trule_#{current_group_index}_#{rule_index} -> rule_#{replacement_group_id};"
+      else
+        rw "\trule_#{current_group_index}_#{rule_index} -> rule_#{replacement_group_id}_0 [lhead=cluster_#{replacement_group_id}];"
+      end
     end
     rw ''
   end
@@ -237,5 +251,4 @@ fragments_groups.each_pair do |fragment_group_name, fragment_group|
 end
 
 rw ''
-
 rw '}'
