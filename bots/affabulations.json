@@ -9,24 +9,32 @@
     "#temporalité.capitalize# #personne_officielle_masc# rêve qu'il habite #lieu_perdu#.",
     "#temporalité.capitalize# #personne_officielle_fem# rêve qu'elle habite #lieu_perdu#.",
 
-    "#temporalité.capitalize# #personne_officielle# entend #phrase_entend#.",
-    "#temporalité.capitalize# #personne_indefini# entend #phrase_entend#.",
+    "#temporalité.capitalize# #personne_officielle# entend #phrase_entend# #moment#.",
+    "#temporalité.capitalize# #personne_indefini# entend #phrase_entend# #moment#.",
     
     "#plan_secret.capitalize# vise à faire #souverain# #pays_preposition#.",
     "#plan_secret.capitalize# vise à faire #souverain# #pays_preposition# grâce à #objets_bizarres# #qualificatif_objets_bizarres#.",
     
-    "#personne_indefini.capitalize# #pressentiment_verbe# #pressentiment#."
+    "#personne_indefini.capitalize# #pressentiment_verbe# #pressentiment#.",
+    "#personne_indefini.capitalize# termine sa collection de #objets_divers#."
   ],
   "info_decouverte": [
     "En atterrissant sur une nouvelle planète, on découvre",
     "En photographiant un astéroïde, on découvre",
-    "Sur la face cachée de la lune, on découvre"
+    "Sur la face cachée de la lune, on découvre",
+    "En déchiffrant un très ancien manuscrit, on découvre"
   ],
   "phrase_entend": [
-    "entend les murmures #grand_ancien#",
-    "entend des grattements  d'ongles",
+    "les murmures #grand_ancien#",
+    "des grattements d'ongles",
     "des rires semblant venir de nulle part",
-    "un grondement lointain"
+    "un grondement lointain",
+    "des marmottements indistincts",
+    "des listes de chiffres",
+    "une voix étouffée lire des règlements européens",
+    "des choeurs d'enfant chanter des mélopées interdites",
+    "des craquements secs",
+    "comme un bruit de sable qui s'écoule"
   ],
   "temporalité": [
     "ces derniers temps",
@@ -37,7 +45,8 @@
     "depuis les élections",
     "quand il pleut",
     "les jours de brouillard",
-    "les jours de grand vent"
+    "les jours de grand vent",
+    "les nuits sans lune"
   ],
   "decouverte_planete": [
     "#animaux_domestiques_indefini#",
@@ -45,7 +54,10 @@
     "#objets_bizarres#",
     "#objets_bizarres# #qualificatif_objets_bizarres#",
     "#plantations#",
-    "#plantations# #qualificatif_objets_bizarres#"
+    "#plantations# #qualificatif_objets_bizarres#",
+    "des arbres qui bougent même quand il n'y a pas de vent",
+    "des #objets_divers# #matière#",
+    "des #objets_divers#"
   ],
   "decouverte_phrase": [
     "découvre #decouverte#",
@@ -60,7 +72,16 @@
     "d'#personne_indefini_fem# la nouvelle #souverain_fem#",
     "#monstre_masc# le nouveau #souverain_masc#",
     "#monstre_fem# la nouvelle #souverain_fem#",
-    "#grand_ancien# le nouveau #souverain_masc#"
+    "#grand_ancien# le nouveau #souverain_masc#",
+    "#souverain_bizarre_masc# le nouveau #souverain_masc#",
+    "#souverain_bizarre_fem# la nouvelle #souverain_fem#"
+  ],
+  "souverain_bizarre_masc": [
+    "d'un groupe de corbeaux"
+  ],
+  "souverain_bizarre_fem": [
+    "d'une famille de loutres",
+    "d'une entité maléfique"
   ],
   "personne_indefini": [
     "#personne_indefini_masc#",
@@ -124,7 +145,8 @@
     "un magistrat",
     "un membre des services secrets",
     "un embassadeur",
-    "un exorciste"
+    "un exorciste",
+    "un conseiller municipal"
   ],
   "personne_officielle_fem": [
     "une ministre",
@@ -137,7 +159,8 @@
     "une personne officielle",
     "une membre des services secrets",
     "une embassadrice",
-    "une exorciste"
+    "une exorciste",
+    "une conseillère municipale"
   ],
   "lieu_perdu": [
     "une grande forêt",
@@ -169,7 +192,12 @@
     "le rayon céréales d'un supermarché",
     "un séminaire d'entreprise",
     "une séance de team-building",
-    "la main invisible du marché"
+    "une forêt de #objets_divers# #matière#",
+    "une forêt de #objets_divers#",
+    "dans une boutiques de #objets_divers#",
+    "une transformation digitale",
+    "une feuille Excel",
+    "un plan de mise en confirmité RGPD"
   ],
   "decouverte": [
     "d'où part le chemin vers la lune",
@@ -179,7 +207,8 @@
     "pourquoi les chatouilles chatouillent",
     "pourquoi les monstres se cachent sous les lits",
     "les raisons cachées de la mort de #roi_de_france#",
-    "où disparaissent les chaussettes"
+    "où disparaissent les chaussettes",
+    "pourquoi les gens n'osent plus se mordre en public"
   ],
   "lieu_decouverte": [
     "la cave d'une vieille maison",
@@ -188,19 +217,22 @@
     "un dictionnaire des synonymes",
     "un recueil de poèmes",
     "une citée tout en carton",
-    "ses rêves",
+    "un rêve",
     "un parking désaffecté",
-    "une vieille église"
+    "une vieille église",
+    "un plan de transformation digitale"
   ],
   "secret": [
     "le secret de l'Atlantide",
     "le secret des dauphins",
-    "le mystère des grandes oreilles"
+    "le mystère des grandes oreilles",
+    "la grande énigme des loutres"
   ],
   "endroit_invention": [
     "dans le ronronnement des chats",
     "dans la confiture d'orange",
-    "sous le frigo"
+    "sous le frigo",
+    "dans le tiroir où va ce qui ne va pas ailleurs"
   ],
   "politique_idiote_verbe": [
     "d'interdire #fruits#",
@@ -209,10 +241,12 @@
     "d'interdire les #jour_de_la_semaine#",
     "d'interdire #plats#",
     "d'interdire #plats# les #jour_de_la_semaine#",
+    "d'interdire les #formes_geométriques_indefinis#",
     "de réglementer la longueur des oreilles #animaux_domestiques_indefini#",
     "d'interdire #objets_pluriels_definis#",
     "d'interdire #objets_pluriels_definis# les #jour_de_la_semaine#",
-    "de faire pousser des #plantations#"
+    "de faire pousser des #plantations#",
+    "d'interdire l'utilisation du mot «digital»"
   ],
   "fruits": [
     "les abricot",
@@ -290,11 +324,11 @@
     "le #jour_de_la_semaine# #moment_journee#",
     "les #jour_de_la_semaine#s #type_journee#",
     "les années bissextiles",
-    "en cas de vent",
     "les jours de grand vent",
     "les nuits sans lune",
     "les jours de fatigue",
-    "les nuits où les chats se battent"
+    "les nuits où les chats se battent",
+    "les nuits où les frigos font des bruits bizarres"
   ],
   "jour_de_la_semaine": [
     "lundi",
@@ -325,14 +359,6 @@
     "pendant l'heure du goûter",
     "pendant l'heure de la sieste"
   ],
-  "moments_journee": [
-    "les matins",
-    "les après-midis",
-    "les soirs",
-    "pendant l'heure du goûter",
-    "pendant l'heure de la sieste",
-    "les après-midi brumeux"
-  ],
   "animaux_domestiques_indefini": [
     "des chiens",
     "des chats",
@@ -347,7 +373,8 @@
     "des marmottes",
     "des oiseaux",
     "des doudous",
-    "des chargeurs de téléphone"
+    "des chargeurs de téléphone",
+    "des crocosaures"
   ],
   "animaux_domestiques_defini": [
     "les chiens",
@@ -441,9 +468,12 @@
     "des cubes gélatineux",
     "des enfants portant des masques",
     "des chaussettes solitaires",
+    "des taies d'oreillers solitaires",
     "des dépliants pour des restaurants de sushi",
     "des mains invisibles du marché",
-    "des tubes de dentifrice presque vides "
+    "des tubes de dentifrice presque vides",
+    "de la pâte brisée",
+    "des monstres d'histoires pour enfants"
   ],
   "qualificatif_objets_bizarres": [
     "qui bougent quand on ne les regarde pas",
@@ -470,7 +500,8 @@
     "des rognures d'ongles",
     "des jouets pour chat",
     "des colliers de nouilles",
-    "des poils de chat"
+    "des poils de chat",
+    "des orchidées"
   ],
   "roi_de_france": [
     "Clovis Ier",
@@ -826,7 +857,12 @@
     "les cache-oreilles",
     "les ampoules qui changent de couleur",
     "les publications de doctrine de cyberdéfense",
-    "les biographies complaisantes de personnes publiques"
+    "les biographies complaisantes de personnes publiques",
+    "les résidences d'auteurs",
+    "les résidences d'auteures",
+    "les marque-page",
+    "les onglets de navigateurs ouverts depuis plus d'une semaine",
+    "les séances de team-building"
   ],
   "pressentiment_verbe": [
     "a l'impression",
@@ -841,9 +877,11 @@
   "pressentiment": [
     "que quelqu'un l'observe",
     "que la catastrophe est imminente",
-    "que quelque cloche pendant #moments_journee#",
+    "que quelque cloche",
     "qu'on lui cache des choses",
-    "qu'il va se passer quelque chose"
+    "qu'il va se passer quelque chose",
+    "que tout ça va mal finir",
+    "que ça va bientôt commencer"
   ],
   "plan_secret": [
     "un plan secret",
@@ -853,5 +891,23 @@
     "un culte",
     "un amendement mystérieux",
     "une directive européenne secrète"
+  ],
+  "objets_divers": [
+    "cubes",
+    "spères",
+    "cylindres",
+    "pyramides",
+    "dodécaèdres",
+    "rhombicuboctaèdres",
+    "triacontaèdre rhombiques",
+    "ventilateurs",
+    "timbres",
+    "photos de chatons"
+  ],
+  "matière": [
+    "en bois",
+    "en métal",
+    "en verre",
+    "en cuivre"
   ]
 }
