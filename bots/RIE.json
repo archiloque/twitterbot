@@ -1,0 +1,239 @@
+{
+  "origin": [
+    "#entree_##plat_.capitalize##dessert_##evenement_special_#",
+    "#entree_##plat_.capitalize##dessert_##evenement_special_#",
+    "#entree_##plat_.capitalize##dessert_##evenement_special_#",
+    "#entree_##plat_.capitalize##dessert_##evenement_special_#",
+    "#repas_special.capitalize#"
+  ],
+  "repas_special": [
+    "vous allez au Kebab avec les stagiaires",
+    "vous allez à la pizzeria que personne n'aime vraiment"
+  ],
+  "entree_": [
+   "#entree.capitalize#\n",
+   "#entree.capitalize#\n",
+   ""
+  ],
+  "dessert_": [
+    "\n#dessert.capitalize#",
+    "\n#dessert.capitalize#",
+    "\n#dessert.capitalize# #special_dessert#",
+    ""
+  ],
+  "evenement_special_": [
+    "\n#evenement_special.capitalize#",
+    ""
+  ],
+   "entree": [
+    "macédoine de légumes",
+    "salade de #legume_entree#",
+    "salade de #legume_entree# #accompagnement_entree#",
+    "gazpacho de #legume_entree#",
+    "gazpacho de #legume_entree# et #legume_entree#",
+    "nems",
+    "nems de #legume_entree#",
+    "rollmops",
+    "paté en croûte",
+    "harengs aux pommes",
+    "sardines",
+    "salade de gésiers"
+  ],
+  "plat_": [
+    "#plat#",
+    "#plat#",
+    "#plat#",
+    "#plat# #special_plat#"
+  ],
+  "plat": [
+    "#debut_plat# #accompagnement_plat#",
+    "#debut_plat#",
+    "#pates# #accompagnement_pates#",
+    "assiette de mezze",
+    "tomates farcies",
+    "hachi parmentier"
+  ],
+  "preparation_viande": [
+    "wok",
+    "assiette",
+    "cocotte",
+    "bowl",
+    "brochette",
+    "émincé",
+    "sauté",
+    "mijoté",
+    "nuggets",
+    "burger",
+    "marinade",
+    "carpaccio",
+    "choucroute"
+  ],
+  "dessert": [
+    "crême brulée",
+    "tiramisù",
+    "#fruit_masc#",
+    "#fruit_fem#",
+    "#fruit_masc# #accompagnement_fruit_masc#",
+    "#fruit_fem# #accompagnement_fruit_fem#",
+    "tartelette aux fruits rouges",
+    "tarte au citron",
+    "banana split"
+  ],
+  "evenement_special": [
+    "votre fourchette est sale",
+    "votre verre est sale",
+    "la fontaine à eau est toujours aussi lente",
+    "vous déjeuner avec les collègues qui ne parlent que de football",
+    "vous écoutez les conversations de la table d'à côté",
+    "le plat est froid",
+    "vous renversez votre verre d'eau sur votre plateau",
+    "votre #voisin_e# vous propose de vous lire les lignes de la main",
+    "quelqu'un fait tomber son plateau et ça permet de meubler la conversation",
+    "les personnes d'à côté de plaignent de la difficulté de trouver des ressources qualifiées",
+    "vous croyez avoir reconnu quelqu'un en attendant votre plat mais vous n'en êtes pas certain donc vous avez préféré faire comme si de rien n'était",
+    "quelqu'un a volé les salières",
+    "vous déjeunez avec le collègue qui prend tous les jours un steak haché à point avec de la mayonnaise",
+    "vous n'avez pas vraiment faim",
+    "vous auriez bien pris autre chose mais la queue était trop longue",
+    "vous êtes arrivé en retard et vous n'aviez plus le choix",
+    "vous passez  à la caisse à 11h53 est aurez donc un café gratuit",
+    "la personne avant vous avait oublié son badge",
+    "vous avez oublié votre badge",
+    "votre #voisin_e# à chemise blanche a pris un plat en sauce",
+    "votre #voisin_e# se plaint d'un audit, vous songez à vous éloigner dès fois que ça soit contagieux",
+    "l'entrée du restaurant est encombrée par les stands de la semaine de l'innovation",
+    "vous essayez de payer avec votre passe Navigo",
+    "la personne devant vous dans la file essaie de payer avec son passe Navigo",
+    "C'est la semaine mexicaine",
+    "Vous déjeunez avec le collègue qui aime raconter des blagues",
+    "Vous déjeunez avec la collègue qui aime raconter des blagues"
+  ],
+  "voisin_e": [
+    "voisin",
+    "voisine"
+  ],
+  "legume_entree": [
+    "cornichon",
+    "tomate",
+    "choux rouge",
+    "frisée",
+    "céleri",
+    "gorgonzola",
+    "concombre",
+    "champignons",
+    "avocat"
+  ],
+  "accompagnement_entree": [
+    "et croutons",
+    "et sardines",
+    "et lardons",
+    "et œufs mimosa",
+    "et sardines",
+    "et jambon espagnol",
+    "aux raisins secs",
+    "à l'orange",
+    "en gelée",
+    "aux figues",
+    "aux crevettes",
+    "et œuf dur",
+    "mayonnaise"
+  ],
+  "special_dessert": [
+    "façon omelette norvégienne",
+    "du chef",
+    "grand-mère",
+    "à la thaï",
+    "façon calzone",
+    "façon kouglof",
+    "mystère"
+  ],
+  "special_plat": [
+    "du chef",
+    "grand-mère",
+    "à la thaï",
+    "façon calzone",
+    "à la pirate",
+    "façon bistrot",
+    "à la provençale",
+    "à la diable"
+  ],
+  "pates": [
+    "farfalles",
+    "fusillis",
+    "gnocchis",
+    "maccheronis",
+    "radiatores",
+    "pennes",
+    "raviolis",
+    "spaghettonis",
+    "spätzle",
+    "tagliatelles"
+  ],
+  "accompagnement_pates": [
+    "sauce tomate",
+    "au fromage",
+    "carbonara",
+    "paysannes"
+  ],
+  "debut_plat": [
+    "#preparation_viande# #viande_d#",
+    "#viande#"
+  ],
+  "accompagnement_plat": [
+    "#accompagnement_pates#",
+    "berbère",
+    "façon thaï",
+    "à l'italienne",
+    "à la marocaine",
+    "à la russe",
+    "et pommes dauphines",
+    "et pomme de terre sautées",
+    "et courges",
+    "et tomates",
+    "et choux rouge"
+  ],
+  "viande": [
+    "gigot d'agneau",
+    "manchons de canard",
+    "côtes de porc",
+    "escalope de dinde",
+    "tofu",
+    "poulet",
+    "autruche",
+    "bœuf"
+  ],
+  "viande_d": [
+    "de gigot d'agneau",
+    "de manchons de canard",
+    "de côtes de porc",
+    "d'escalope de dinde",
+    "de tofu",
+    "de poulet",
+    "d'autruche",
+    "de bœuf"
+  ],
+  "fruit_masc": [
+    "ananas",
+    "melons"
+  ],
+  "fruit_fem": [
+    "pommes",
+    "poires",
+    "cerises"
+  ],
+  "accompagnement_fruit_masc": [
+    "et crème anglaise",
+    "au chocolat",
+    "en cubes",
+    "en meringue",
+    "flambés"
+   ],
+  "accompagnement_fruit_fem": [
+    "et crème anglaise",
+    "au chocolat",
+    "en cubes",
+    "en meringue",
+    "flambées"
+  ]
+
+}

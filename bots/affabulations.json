@@ -197,7 +197,11 @@
     "dans une boutiques de #objets_divers#",
     "une transformation digitale",
     "une feuille Excel",
-    "un plan de mise en confirmité RGPD"
+    "un plan de mise en confirmité RGPD",
+    "un nid géant",
+    "une caverne cyclopéenne",
+    "une compilation de musique des années 80",
+    "une compilation de musique des années 90"
   ],
   "decouverte": [
     "d'où part le chemin vers la lune",
@@ -232,7 +236,8 @@
     "dans le ronronnement des chats",
     "dans la confiture d'orange",
     "sous le frigo",
-    "dans le tiroir où va ce qui ne va pas ailleurs"
+    "dans le tiroir où va ce qui ne va pas ailleurs",
+    "coicncé sous le canapé-lit"
   ],
   "politique_idiote_verbe": [
     "d'interdire #fruits#",
@@ -311,7 +316,8 @@
   ],
   "politique_idiote_nom_masc": [
     "le règlement limitant la taille des girafes",
-    "le règlement sur la couleur #animaux_domestiques_indefini#"
+    "le règlement sur la couleur #animaux_domestiques_indefini#",
+    "le règlement limitant les heures de ronronnements des chats"
   ],
   "politique_idiote_nom_fem": [
     "l'interdiction de brosser les chats",
@@ -328,7 +334,9 @@
     "les nuits sans lune",
     "les jours de fatigue",
     "les nuits où les chats se battent",
-    "les nuits où les frigos font des bruits bizarres"
+    "les nuits où les frigos font des bruits bizarres",
+    "les jours où on se cogne partout",
+    "les jours où les chaussettes se cachent"
   ],
   "jour_de_la_semaine": [
     "lundi",

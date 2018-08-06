@@ -5,7 +5,7 @@ require 'json'
 # Draw a dependencies schema in Dot format
 # https://en.wikipedia.org/wiki/DOT_(graph_description_language)
 # Usage : 
-# dependencies_schema.rb your_tracery_bot.json > your_tracery_bot.gv
+# dependencies_schema_short.rb your_tracery_bot.json > your_tracery_bot.gv
 # dot -Tsvg your_tracery_bot.gv -o your_tracery_bot.svg
 
 if ARGV.length != 1
@@ -141,7 +141,7 @@ end
 
 parsed_file.each_pair do |current_group_name, current_group_values|
   current_rules_group = get_or_create_rules_group(fragments_groups, current_group_name, true)
-  current_group_values.each do |value|
+  current_group_values.uniq.sort.each do |value|
     rule = Rule.new(value)
     rule.fragments_replacements.each do |fragment_replacement|
       replacement_name = fragment_replacement.to_group_name
