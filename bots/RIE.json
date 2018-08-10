@@ -13,6 +13,7 @@
   "entree_": [
    "#entree.capitalize#\n",
    "#entree.capitalize#\n",
+   "#entree.capitalize#\n",
    ""
   ],
   "dessert_": [
@@ -23,21 +24,29 @@
   ],
   "evenement_special_": [
     "\n#evenement_special.capitalize#",
+    "",
+    "",
     ""
   ],
    "entree": [
     "macédoine de légumes",
-    "salade de #legume_entree#",
-    "salade de #legume_entree# #accompagnement_entree#",
-    "gazpacho de #legume_entree#",
-    "gazpacho de #legume_entree# et #legume_entree#",
+    "#type_entree# #legume_entree_d#",
+    "#type_entree# #legume_entree_d# #accompagnement_entree#",
     "nems",
-    "nems de #legume_entree#",
     "rollmops",
     "paté en croûte",
     "harengs aux pommes",
     "sardines",
     "salade de gésiers"
+  ],
+  "type_entree": [
+    "salade",
+    "gazpacho",
+    "tortilla",
+    "raviolles",
+    "beignets",
+    "nems",
+    "tourte"
   ],
   "plat_": [
     "#plat#",
@@ -46,6 +55,7 @@
     "#plat# #special_plat#"
   ],
   "plat": [
+    "#debut_plat# #accompagnement_plat#",
     "#debut_plat# #accompagnement_plat#",
     "#debut_plat#",
     "#pates# #accompagnement_pates#",
@@ -66,7 +76,8 @@
     "burger",
     "marinade",
     "carpaccio",
-    "choucroute"
+    "choucroute",
+    "cassolette"
   ],
   "dessert": [
     "crême brulée",
@@ -75,13 +86,15 @@
     "#fruit_fem#",
     "#fruit_masc# #accompagnement_fruit_masc#",
     "#fruit_fem# #accompagnement_fruit_fem#",
-    "tartelette aux fruits rouges",
-    "tarte au citron",
+    "tartelette #fruit_a#",
+    "tarte #fruit_a#",
+    "tarte #fruit_a# #accompagnement_tarte#",
     "banana split"
   ],
   "evenement_special": [
     "votre fourchette est sale",
     "votre verre est sale",
+    "vous avez oubliez de prendre une cuiller pour le dessert",
     "la fontaine à eau est toujours aussi lente",
     "vous déjeuner avec les collègues qui ne parlent que de football",
     "vous écoutez les conversations de la table d'à côté",
@@ -104,24 +117,25 @@
     "l'entrée du restaurant est encombrée par les stands de la semaine de l'innovation",
     "vous essayez de payer avec votre passe Navigo",
     "la personne devant vous dans la file essaie de payer avec son passe Navigo",
-    "C'est la semaine mexicaine",
-    "Vous déjeunez avec le collègue qui aime raconter des blagues",
-    "Vous déjeunez avec la collègue qui aime raconter des blagues"
+    "c'est la semaine mexicaine et le restaurant est décoré",
+    "vous déjeunez avec le collègue qui aime raconter des blagues",
+    "vous déjeunez avec la collègue qui aime raconter des blagues"
   ],
   "voisin_e": [
     "voisin",
     "voisine"
   ],
-  "legume_entree": [
-    "cornichon",
-    "tomate",
-    "choux rouge",
-    "frisée",
-    "céleri",
-    "gorgonzola",
-    "concombre",
-    "champignons",
-    "avocat"
+  "legume_entree_d": [
+    "d'avocat",
+    "de céleri",
+    "de champignons",
+    "de choux rouge",
+    "de concombre",
+    "de cornichons",
+    "d'endives",
+    "de frisée",
+    "de gorgonzola",
+    "de tomate"
   ],
   "accompagnement_entree": [
     "et croutons",
@@ -136,7 +150,14 @@
     "aux figues",
     "aux crevettes",
     "et œuf dur",
-    "mayonnaise"
+    "mayonnaise",
+    "au surimi",
+    "aux mini-crevettes",
+    "au guacamole",
+    "mozarella",
+    "au bleu",
+    "au noix",
+    "en beignet"
   ],
   "special_dessert": [
     "façon omelette norvégienne",
@@ -145,7 +166,10 @@
     "à la thaï",
     "façon calzone",
     "façon kouglof",
-    "mystère"
+    "mystère",
+    "à la russe",
+    "façon brownie",
+    "façon crèpe"
   ],
   "special_plat": [
     "du chef",
@@ -155,15 +179,19 @@
     "à la pirate",
     "façon bistrot",
     "à la provençale",
-    "à la diable"
+    "à la diable",
+    "façon crèpe",
+    "à la bretonne",
+    "sauce béarnaise"
   ],
   "pates": [
     "farfalles",
     "fusillis",
     "gnocchis",
+    "lasagnes",
     "maccheronis",
-    "radiatores",
     "pennes",
+    "radiatores",
     "raviolis",
     "spaghettonis",
     "spätzle",
@@ -173,7 +201,13 @@
     "sauce tomate",
     "au fromage",
     "carbonara",
-    "paysannes"
+    "paysannes",
+    "trois fromages",
+    "au pesto",
+    "aux noix",
+    "aux petits poids",
+    "arabiata",
+    "sauce champignon"
   ],
   "debut_plat": [
     "#preparation_viande# #viande_d#",
@@ -190,7 +224,9 @@
     "et pomme de terre sautées",
     "et courges",
     "et tomates",
-    "et choux rouge"
+    "et choux rouge",
+    "riz gluant",
+    "aux légumes sautés"
   ],
   "viande": [
     "gigot d'agneau",
@@ -200,7 +236,13 @@
     "tofu",
     "poulet",
     "autruche",
-    "bœuf"
+    "bœuf",
+    "aiguillettes de poulet",
+    "steak tartare",
+    "œuf cocottes",
+    "steak haché",
+    "cuisse de poulet",
+    "langue de bœuf"
   ],
   "viande_d": [
     "de gigot d'agneau",
@@ -210,16 +252,29 @@
     "de tofu",
     "de poulet",
     "d'autruche",
-    "de bœuf"
+    "de bœuf",
+    "d'aiguillettes de poulet",
+    "de steak haché",
+    "de cuisse de poulet",
+    "de langue de bœuf"
   ],
   "fruit_masc": [
     "ananas",
-    "melons"
+    "melon"
   ],
   "fruit_fem": [
     "pommes",
     "poires",
     "cerises"
+  ],
+  "fruit_a": [
+    "à l'ananas",
+    "au melon",
+    "aux pommes",
+    "aux poires",
+    "aux cerises",
+    "au citron",
+    "aux fruits rouges"
   ],
   "accompagnement_fruit_masc": [
     "et crème anglaise",
@@ -234,6 +289,12 @@
     "en cubes",
     "en meringue",
     "flambées"
+  ],
+  "accompagnement_tarte": [
+    "tatin",
+    "flambée",
+    "crème vanille",
+    "à la crème fouétée",
+    "meringuée"
   ]
-
 }

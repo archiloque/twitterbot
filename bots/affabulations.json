@@ -46,7 +46,8 @@
     "quand il pleut",
     "les jours de brouillard",
     "les jours de grand vent",
-    "les nuits sans lune"
+    "les nuits sans lune",
+    "depuis jeudi"
   ],
   "decouverte_planete": [
     "#animaux_domestiques_indefini#",
@@ -608,7 +609,9 @@
     "tuteur",
     "souverain secret",
     "grand inquisiteur",
-    "régent"
+    "chambellan",
+    "régent",
+    "grand cyclope"
   ],
   "souverain_fem": [
     "reine",
@@ -617,7 +620,9 @@
     "tutrice",
     "souveraine secrète",
     "grande inquisitrice",
-    "régente"
+    "régente",
+    "chambellane",
+    "grande cyclope"
   ],
   "pays_preposition": [
     "du Danemark",
@@ -626,7 +631,9 @@
     "d'Andorre",
     "du Kremlin-Bicêtre",
     "du 16ème arrondissement",
-    "de l’Empire austro-hongrois"
+    "de l’Empire austro-hongrois",
+    "de Bretagne",
+    "des piscines municipales"
   ],
   "grand_ancien": [
     "d'Abholos",
@@ -889,7 +896,9 @@
     "qu'on lui cache des choses",
     "qu'il va se passer quelque chose",
     "que tout ça va mal finir",
-    "que ça va bientôt commencer"
+    "que ça va bientôt commencer",
+    "que son chat fait partie d'une conspiration",
+    "qu'on l'observe"
   ],
   "plan_secret": [
     "un plan secret",
@@ -898,7 +907,8 @@
     "un complot",
     "un culte",
     "un amendement mystérieux",
-    "une directive européenne secrète"
+    "une directive européenne secrète",
+    "une loi secrète"
   ],
   "objets_divers": [
     "cubes",
