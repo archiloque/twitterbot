@@ -77,7 +77,10 @@
     "marinade",
     "carpaccio",
     "choucroute",
-    "cassolette"
+    "cassolette",
+    "couscous",
+    "tajine",
+    "marinade"
   ],
   "dessert": [
     "crême brulée",
@@ -226,7 +229,10 @@
     "et tomates",
     "et choux rouge",
     "riz gluant",
-    "aux légumes sautés"
+    "aux légumes du soleil",
+    "et galettes de pomme de terre",
+    "et pommes vapeurs",
+    "aux choux-fleurs"
   ],
   "viande": [
     "gigot d'agneau",
